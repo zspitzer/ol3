@@ -282,3 +282,26 @@ ol.getUid = function(obj) {
  * @private
  */
 ol.uidCounter_ = 0;
+
+
+/**
+ * Creates parent objects for the given name if they don't exist.  For example,
+ * ol.provide('ol.foo.bam.Bar') will create ol.foo.bam if it doesn't already
+ * exist.
+ * @param {string} name A dot delimited name.
+ */
+ol.provide = function(name) {
+  var parts = name.split('.');
+  var length = parts.length;
+  if (length < 2 || parts[0] !== 'ol') {
+    throw new Error('ol.provide only works for ol.* names');
+  }
+  var object = ol;
+  for (var i = 1; i < length - 1; ++i) {
+    var property = parts[i];
+    if (!object[property]) {
+      object[property] = {};
+    }
+    object = object[property];
+  }
+};
