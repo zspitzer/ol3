@@ -1,4 +1,4 @@
-goog.provide('ol.geom.flat.segments');
+ol.provide('ol.geom.flat.segments');
 
 
 /**

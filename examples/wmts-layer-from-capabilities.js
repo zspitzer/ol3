@@ -1,9 +1,9 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.WMTSCapabilities');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.OSM');
-goog.require('ol.source.WMTS');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.WMTSCapabilities');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.OSM');
+ol.require('ol.source.WMTS');
 
 var parser = new ol.format.WMTSCapabilities();
 var map;

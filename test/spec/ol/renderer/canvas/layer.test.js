@@ -1,9 +1,9 @@
-goog.provide('ol.test.renderer.canvas.Layer');
+ol.provide('ol.test.renderer.canvas.Layer');
 
-goog.require('ol.transform');
-goog.require('ol.layer.Image');
-goog.require('ol.renderer.Map');
-goog.require('ol.renderer.canvas.Layer');
+ol.require('ol.transform');
+ol.require('ol.layer.Image');
+ol.require('ol.renderer.Map');
+ol.require('ol.renderer.canvas.Layer');
 
 
 describe('ol.renderer.canvas.Layer', function() {

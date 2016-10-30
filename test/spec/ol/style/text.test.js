@@ -1,7 +1,7 @@
-goog.provide('ol.test.style.Text');
+ol.provide('ol.test.style.Text');
 
-goog.require('ol.style.Fill');
-goog.require('ol.style.Text');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Text');
 
 
 describe('ol.style.Text', function() {

@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.reverse');
+ol.provide('ol.test.geom.flat.reverse');
 
-goog.require('ol.geom.flat.reverse');
+ol.require('ol.geom.flat.reverse');
 
 
 describe('ol.geom.flat.reverse', function() {

@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.inflate');
+ol.provide('ol.test.geom.flat.inflate');
 
-goog.require('ol.geom.flat.inflate');
+ol.require('ol.geom.flat.inflate');
 
 
 describe('ol.geom.flat.inflate', function() {

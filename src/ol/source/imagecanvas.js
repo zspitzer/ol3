@@ -1,9 +1,9 @@
-goog.provide('ol.source.ImageCanvas');
+ol.provide('ol.source.ImageCanvas');
 
-goog.require('ol');
-goog.require('ol.ImageCanvas');
-goog.require('ol.extent');
-goog.require('ol.source.Image');
+ol.require('ol');
+ol.require('ol.ImageCanvas');
+ol.require('ol.extent');
+ol.require('ol.source.Image');
 
 
 /**

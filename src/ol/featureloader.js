@@ -1,9 +1,9 @@
-goog.provide('ol.featureloader');
+ol.provide('ol.featureloader');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.format.FormatType');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.format.FormatType');
+ol.require('ol.xml');
 
 
 /**

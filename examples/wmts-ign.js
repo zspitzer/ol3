@@ -1,12 +1,12 @@
-goog.require('ol.Attribution');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.extent');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.source.WMTS');
-goog.require('ol.tilegrid.WMTS');
+ol.require('ol.Attribution');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control');
+ol.require('ol.extent');
+ol.require('ol.layer.Tile');
+ol.require('ol.proj');
+ol.require('ol.source.WMTS');
+ol.require('ol.tilegrid.WMTS');
 
 
 var map = new ol.Map({

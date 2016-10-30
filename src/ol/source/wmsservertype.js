@@ -1,4 +1,4 @@
-goog.provide('ol.source.WMSServerType');
+ol.provide('ol.source.WMSServerType');
 
 
 /**

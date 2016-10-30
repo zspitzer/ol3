@@ -1,11 +1,11 @@
 // NOCOMPILE
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Image');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.source.BingMaps');
-goog.require('ol.source.Raster');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Image');
+ol.require('ol.layer.Tile');
+ol.require('ol.proj');
+ol.require('ol.source.BingMaps');
+ol.require('ol.source.Raster');
 
 function growRegion(inputs, data) {
   var image = inputs[0];

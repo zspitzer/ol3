@@ -1,20 +1,20 @@
-goog.provide('ol.test.renderer.vector');
+ol.provide('ol.test.renderer.vector');
 
-goog.require('ol');
-goog.require('ol.events');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.render.canvas.ReplayGroup');
-goog.require('ol.renderer.vector');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Icon');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
-goog.require('ol.Feature');
+ol.require('ol');
+ol.require('ol.events');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.render.canvas.ReplayGroup');
+ol.require('ol.renderer.vector');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Icon');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
+ol.require('ol.Feature');
 
 
 describe('ol.renderer.vector', function() {

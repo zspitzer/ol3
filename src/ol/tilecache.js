@@ -1,7 +1,7 @@
-goog.provide('ol.TileCache');
+ol.provide('ol.TileCache');
 
-goog.require('ol');
-goog.require('ol.structs.LRUCache');
+ol.require('ol');
+ol.require('ol.structs.LRUCache');
 
 
 /**

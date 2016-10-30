@@ -1,6 +1,6 @@
-goog.provide('ol.format.filter.Filter');
+ol.provide('ol.format.filter.Filter');
 
-goog.require('ol');
+ol.require('ol');
 
 
 /**

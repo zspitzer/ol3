@@ -1,6 +1,6 @@
-goog.provide('ol.test.format.WMTSCapabilities');
+ol.provide('ol.test.format.WMTSCapabilities');
 
-goog.require('ol.format.WMTSCapabilities');
+ol.require('ol.format.WMTSCapabilities');
 
 
 describe('ol.format.WMTSCapabilities', function() {

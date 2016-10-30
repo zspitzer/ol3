@@ -1,18 +1,18 @@
 // FIXME add typedef for stack state objects
-goog.provide('ol.format.OSMXML');
+ol.provide('ol.format.OSMXML');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.Feature');
-goog.require('ol.format.Feature');
-goog.require('ol.format.XMLFeature');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.obj');
-goog.require('ol.proj');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.Feature');
+ol.require('ol.format.Feature');
+ol.require('ol.format.XMLFeature');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.obj');
+ol.require('ol.proj');
+ol.require('ol.xml');
 
 
 /**

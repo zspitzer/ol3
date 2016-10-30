@@ -1,13 +1,13 @@
-goog.provide('ol.source.Image');
+ol.provide('ol.source.Image');
 
-goog.require('ol');
-goog.require('ol.Image');
-goog.require('ol.array');
-goog.require('ol.events.Event');
-goog.require('ol.extent');
-goog.require('ol.proj');
-goog.require('ol.reproj.Image');
-goog.require('ol.source.Source');
+ol.require('ol');
+ol.require('ol.Image');
+ol.require('ol.array');
+ol.require('ol.events.Event');
+ol.require('ol.extent');
+ol.require('ol.proj');
+ol.require('ol.reproj.Image');
+ol.require('ol.source.Source');
 
 
 /**

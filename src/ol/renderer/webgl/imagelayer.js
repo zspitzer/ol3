@@ -1,16 +1,16 @@
-goog.provide('ol.renderer.webgl.ImageLayer');
+ol.provide('ol.renderer.webgl.ImageLayer');
 
-goog.require('ol');
-goog.require('ol.View');
-goog.require('ol.dom');
-goog.require('ol.extent');
-goog.require('ol.functions');
-goog.require('ol.proj');
-goog.require('ol.renderer.webgl.Layer');
-goog.require('ol.source.ImageVector');
-goog.require('ol.transform');
-goog.require('ol.webgl');
-goog.require('ol.webgl.Context');
+ol.require('ol');
+ol.require('ol.View');
+ol.require('ol.dom');
+ol.require('ol.extent');
+ol.require('ol.functions');
+ol.require('ol.proj');
+ol.require('ol.renderer.webgl.Layer');
+ol.require('ol.source.ImageVector');
+ol.require('ol.transform');
+ol.require('ol.webgl');
+ol.require('ol.webgl.Context');
 
 
 /**

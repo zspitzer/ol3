@@ -1,8 +1,8 @@
-goog.provide('ol.render.canvas.ImageReplay');
+ol.provide('ol.render.canvas.ImageReplay');
 
-goog.require('ol');
-goog.require('ol.render.canvas.Instruction');
-goog.require('ol.render.canvas.Replay');
+ol.require('ol');
+ol.require('ol.render.canvas.Instruction');
+ol.require('ol.render.canvas.Replay');
 
 
 /**

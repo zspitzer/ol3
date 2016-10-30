@@ -1,11 +1,11 @@
-goog.provide('ol.test.rendering.reproj.Image');
+ol.provide('ol.test.rendering.reproj.Image');
 
-goog.require('ol.events');
-goog.require('ol.proj');
-goog.require('ol.proj.EPSG3857');
-goog.require('ol.reproj.Image');
-goog.require('ol.source.ImageStatic');
-goog.require('ol.tilegrid');
+ol.require('ol.events');
+ol.require('ol.proj');
+ol.require('ol.proj.EPSG3857');
+ol.require('ol.reproj.Image');
+ol.require('ol.source.ImageStatic');
+ol.require('ol.tilegrid');
 
 
 describe('ol.rendering.reproj.Image', function() {

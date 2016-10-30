@@ -1,22 +1,22 @@
 // TODO: serialize dataProjection as crs member when writing
 // see https://github.com/openlayers/ol3/issues/2078
 
-goog.provide('ol.format.GeoJSON');
+ol.provide('ol.format.GeoJSON');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.Feature');
-goog.require('ol.format.Feature');
-goog.require('ol.format.JSONFeature');
-goog.require('ol.geom.GeometryCollection');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.obj');
-goog.require('ol.proj');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.Feature');
+ol.require('ol.format.Feature');
+ol.require('ol.format.JSONFeature');
+ol.require('ol.geom.GeometryCollection');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.obj');
+ol.require('ol.proj');
 
 
 /**

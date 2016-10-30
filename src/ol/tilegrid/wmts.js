@@ -1,8 +1,8 @@
-goog.provide('ol.tilegrid.WMTS');
+ol.provide('ol.tilegrid.WMTS');
 
-goog.require('ol');
-goog.require('ol.proj');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol');
+ol.require('ol.proj');
+ol.require('ol.tilegrid.TileGrid');
 
 
 /**

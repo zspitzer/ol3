@@ -1,10 +1,10 @@
-goog.provide('ol.test.TileQueue');
+ol.provide('ol.test.TileQueue');
 
-goog.require('ol.ImageTile');
-goog.require('ol.Tile');
-goog.require('ol.TileQueue');
-goog.require('ol.source.Image');
-goog.require('ol.structs.PriorityQueue');
+ol.require('ol.ImageTile');
+ol.require('ol.Tile');
+ol.require('ol.TileQueue');
+ol.require('ol.source.Image');
+ol.require('ol.structs.PriorityQueue');
 
 
 describe('ol.TileQueue', function() {

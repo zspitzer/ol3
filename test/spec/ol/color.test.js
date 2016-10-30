@@ -1,6 +1,6 @@
-goog.provide('ol.test.color');
+ol.provide('ol.test.color');
 
-goog.require('ol.color');
+ol.require('ol.color');
 
 
 describe('ol.color', function() {

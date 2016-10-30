@@ -1,6 +1,6 @@
-goog.provide('ol.format.XML');
+ol.provide('ol.format.XML');
 
-goog.require('ol.xml');
+ol.require('ol.xml');
 
 
 /**

@@ -1,10 +1,10 @@
-goog.provide('ol.layer.VectorTile');
+ol.provide('ol.layer.VectorTile');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.obj');
 
 
 /**

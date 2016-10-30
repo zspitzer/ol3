@@ -1,6 +1,6 @@
-goog.provide('ol.sphere.WGS84');
+ol.provide('ol.sphere.WGS84');
 
-goog.require('ol.Sphere');
+ol.require('ol.Sphere');
 
 
 /**

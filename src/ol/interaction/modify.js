@@ -1,25 +1,25 @@
-goog.provide('ol.interaction.Modify');
+ol.provide('ol.interaction.Modify');
 
-goog.require('ol');
-goog.require('ol.Collection');
-goog.require('ol.Feature');
-goog.require('ol.MapBrowserEvent.EventType');
-goog.require('ol.MapBrowserPointerEvent');
-goog.require('ol.View');
-goog.require('ol.array');
-goog.require('ol.coordinate');
-goog.require('ol.events');
-goog.require('ol.events.Event');
-goog.require('ol.events.EventType');
-goog.require('ol.events.condition');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.Point');
-goog.require('ol.interaction.Pointer');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.Vector');
-goog.require('ol.structs.RBush');
-goog.require('ol.style.Style');
+ol.require('ol');
+ol.require('ol.Collection');
+ol.require('ol.Feature');
+ol.require('ol.MapBrowserEvent.EventType');
+ol.require('ol.MapBrowserPointerEvent');
+ol.require('ol.View');
+ol.require('ol.array');
+ol.require('ol.coordinate');
+ol.require('ol.events');
+ol.require('ol.events.Event');
+ol.require('ol.events.EventType');
+ol.require('ol.events.condition');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.Point');
+ol.require('ol.interaction.Pointer');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.Vector');
+ol.require('ol.structs.RBush');
+ol.require('ol.style.Style');
 
 
 /**

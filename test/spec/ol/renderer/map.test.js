@@ -1,8 +1,8 @@
-goog.provide('ol.test.renderer.Map');
+ol.provide('ol.test.renderer.Map');
 
-goog.require('ol.Disposable');
-goog.require('ol.Map');
-goog.require('ol.renderer.Map');
+ol.require('ol.Disposable');
+ol.require('ol.Map');
+ol.require('ol.renderer.Map');
 
 
 describe('ol.renderer.Map', function() {

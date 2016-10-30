@@ -1,13 +1,13 @@
-goog.provide('ol.test.source.TileSource');
+ol.provide('ol.test.source.TileSource');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.TileRange');
-goog.require('ol.proj');
-goog.require('ol.proj.Projection');
-goog.require('ol.source.Source');
-goog.require('ol.source.Tile');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.TileRange');
+ol.require('ol.proj');
+ol.require('ol.proj.Projection');
+ol.require('ol.source.Source');
+ol.require('ol.source.Tile');
+ol.require('ol.tilegrid.TileGrid');
 
 
 describe('ol.source.Tile', function() {

@@ -1,10 +1,10 @@
-goog.provide('ol.test.format.OSMXML');
+ol.provide('ol.test.format.OSMXML');
 
-goog.require('ol.Feature');
-goog.require('ol.format.OSMXML');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.LineString');
-goog.require('ol.proj');
+ol.require('ol.Feature');
+ol.require('ol.format.OSMXML');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.LineString');
+ol.require('ol.proj');
 
 
 describe('ol.format.OSMXML', function() {

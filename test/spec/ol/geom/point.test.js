@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.Point');
+ol.provide('ol.test.geom.Point');
 
-goog.require('ol.geom.Point');
+ol.require('ol.geom.Point');
 
 
 describe('ol.geom.Point', function() {

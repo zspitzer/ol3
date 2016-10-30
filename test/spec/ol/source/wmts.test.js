@@ -1,10 +1,10 @@
-goog.provide('ol.test.source.WMTS');
+ol.provide('ol.test.source.WMTS');
 
-goog.require('ol.format.WMTSCapabilities');
-goog.require('ol.proj');
-goog.require('ol.proj.Projection');
-goog.require('ol.tilegrid.WMTS');
-goog.require('ol.source.WMTS');
+ol.require('ol.format.WMTSCapabilities');
+ol.require('ol.proj');
+ol.require('ol.proj.Projection');
+ol.require('ol.tilegrid.WMTS');
+ol.require('ol.source.WMTS');
 
 
 describe('ol.source.WMTS', function() {

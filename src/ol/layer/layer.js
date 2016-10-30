@@ -1,14 +1,14 @@
-goog.provide('ol.layer.Layer');
+ol.provide('ol.layer.Layer');
 
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol');
-goog.require('ol.Object');
-goog.require('ol.layer.Base');
-goog.require('ol.layer.LayerProperty');
-goog.require('ol.obj');
-goog.require('ol.render.Event');
-goog.require('ol.source.State');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol');
+ol.require('ol.Object');
+ol.require('ol.layer.Base');
+ol.require('ol.layer.LayerProperty');
+ol.require('ol.obj');
+ol.require('ol.render.Event');
+ol.require('ol.source.State');
 
 
 /**

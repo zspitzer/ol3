@@ -1,14 +1,14 @@
 // FIXME should handle all geo-referenced data, not just vector data
 
-goog.provide('ol.interaction.DragAndDrop');
+ol.provide('ol.interaction.DragAndDrop');
 
-goog.require('ol');
-goog.require('ol.functions');
-goog.require('ol.events');
-goog.require('ol.events.Event');
-goog.require('ol.events.EventType');
-goog.require('ol.interaction.Interaction');
-goog.require('ol.proj');
+ol.require('ol');
+ol.require('ol.functions');
+ol.require('ol.events');
+ol.require('ol.events.Event');
+ol.require('ol.events.EventType');
+ol.require('ol.interaction.Interaction');
+ol.require('ol.proj');
 
 
 /**

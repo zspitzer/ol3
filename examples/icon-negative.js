@@ -1,14 +1,14 @@
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.geom.Point');
-goog.require('ol.interaction.Select');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.Stamen');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Icon');
-goog.require('ol.style.Style');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.geom.Point');
+ol.require('ol.interaction.Select');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.Stamen');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Icon');
+ol.require('ol.style.Style');
 
 
 function createStyle(src, img) {

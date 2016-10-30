@@ -1,7 +1,7 @@
-goog.provide('ol.color');
+ol.provide('ol.color');
 
-goog.require('ol.asserts');
-goog.require('ol.math');
+ol.require('ol.asserts');
+ol.require('ol.math');
 
 
 /**

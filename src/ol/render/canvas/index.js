@@ -1,4 +1,4 @@
-goog.provide('ol.render.canvas');
+ol.provide('ol.render.canvas');
 
 
 /**

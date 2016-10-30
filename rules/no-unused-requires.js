@@ -5,17 +5,17 @@ const util = require('./util');
 exports.rule = {
   meta: {
     docs: {
-      description: 'disallow unused goog.require() calls'
+      description: 'disallow unused ol.require() calls'
     },
     fixable: 'code'
   },
 
   create: function(context) {
 
-    // a lookup of goog.require() nodes by argument
+    // a lookup of ol.require() nodes by argument
     const requireStatements = {};
 
-    // used names from member expressions that match the goog.require() arg
+    // used names from member expressions that match the ol.require() arg
     const usedNames = {};
 
     return {

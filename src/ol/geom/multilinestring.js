@@ -1,18 +1,18 @@
-goog.provide('ol.geom.MultiLineString');
+ol.provide('ol.geom.MultiLineString');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.SimpleGeometry');
-goog.require('ol.geom.flat.closest');
-goog.require('ol.geom.flat.deflate');
-goog.require('ol.geom.flat.inflate');
-goog.require('ol.geom.flat.interpolate');
-goog.require('ol.geom.flat.intersectsextent');
-goog.require('ol.geom.flat.simplify');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.SimpleGeometry');
+ol.require('ol.geom.flat.closest');
+ol.require('ol.geom.flat.deflate');
+ol.require('ol.geom.flat.inflate');
+ol.require('ol.geom.flat.interpolate');
+ol.require('ol.geom.flat.intersectsextent');
+ol.require('ol.geom.flat.simplify');
 
 
 /**

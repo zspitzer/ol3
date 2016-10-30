@@ -44,7 +44,7 @@ function getExternalModules() {
  */
 function wrapModule(mod, callback) {
   var wrap = function(code) {
-    return 'goog.provide(\'ol.ext.' + mod.name + '\');\n' +
+    return 'ol.provide(\'ol.ext.' + mod.name + '\');\n' +
         '/** @typedef {function(*)} */\n' +
         'ol.ext.' + mod.name + ';\n' +
         '(function() {\n' +

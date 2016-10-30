@@ -1,7 +1,7 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Image');
-goog.require('ol.source.ImageMapGuide');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Image');
+ol.require('ol.source.ImageMapGuide');
 
 var mdf = 'Library://Samples/Sheboygan/Maps/Sheboygan.MapDefinition';
 var agentUrl =

@@ -1,11 +1,11 @@
-goog.provide('ol.interaction.DragZoom');
+ol.provide('ol.interaction.DragZoom');
 
-goog.require('ol');
-goog.require('ol.animation');
-goog.require('ol.easing');
-goog.require('ol.events.condition');
-goog.require('ol.extent');
-goog.require('ol.interaction.DragBox');
+ol.require('ol');
+ol.require('ol.animation');
+ol.require('ol.easing');
+ol.require('ol.events.condition');
+ol.require('ol.extent');
+ol.require('ol.interaction.DragBox');
 
 
 /**

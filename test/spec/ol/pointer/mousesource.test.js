@@ -1,10 +1,10 @@
-goog.provide('ol.test.pointer.MouseSource');
+ol.provide('ol.test.pointer.MouseSource');
 
-goog.require('ol.events');
-goog.require('ol.events.EventTarget');
-goog.require('ol.has');
-goog.require('ol.pointer.PointerEventHandler');
-goog.require('ol.pointer.TouchSource');
+ol.require('ol.events');
+ol.require('ol.events.EventTarget');
+ol.require('ol.has');
+ol.require('ol.pointer.PointerEventHandler');
+ol.require('ol.pointer.TouchSource');
 
 
 describe('ol.pointer.MouseSource', function() {

@@ -1,16 +1,16 @@
 // FIXME handle geolocation not supported
 
-goog.provide('ol.Geolocation');
+ol.provide('ol.Geolocation');
 
-goog.require('ol');
-goog.require('ol.Object');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.geom.Polygon');
-goog.require('ol.has');
-goog.require('ol.math');
-goog.require('ol.proj');
-goog.require('ol.sphere.WGS84');
+ol.require('ol');
+ol.require('ol.Object');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.geom.Polygon');
+ol.require('ol.has');
+ol.require('ol.math');
+ol.require('ol.proj');
+ol.require('ol.sphere.WGS84');
 
 
 /**

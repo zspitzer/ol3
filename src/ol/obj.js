@@ -1,4 +1,4 @@
-goog.provide('ol.obj');
+ol.provide('ol.obj');
 
 
 /**

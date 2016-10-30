@@ -1,11 +1,11 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.extent');
-goog.require('ol.layer.Image');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.source.ImageStatic');
-goog.require('ol.source.OSM');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.extent');
+ol.require('ol.layer.Image');
+ol.require('ol.layer.Tile');
+ol.require('ol.proj');
+ol.require('ol.source.ImageStatic');
+ol.require('ol.source.OSM');
 
 
 proj4.defs('EPSG:27700', '+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 ' +

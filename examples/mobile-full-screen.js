@@ -1,8 +1,8 @@
-goog.require('ol.Geolocation');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.BingMaps');
+ol.require('ol.Geolocation');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.BingMaps');
 
 
 var view = new ol.View({

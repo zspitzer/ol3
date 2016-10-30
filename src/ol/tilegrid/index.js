@@ -1,14 +1,14 @@
-goog.provide('ol.tilegrid');
+ol.provide('ol.tilegrid');
 
-goog.require('ol');
-goog.require('ol.size');
-goog.require('ol.extent');
-goog.require('ol.extent.Corner');
-goog.require('ol.obj');
-goog.require('ol.proj');
-goog.require('ol.proj.METERS_PER_UNIT');
-goog.require('ol.proj.Units');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol');
+ol.require('ol.size');
+ol.require('ol.extent');
+ol.require('ol.extent.Corner');
+ol.require('ol.obj');
+ol.require('ol.proj');
+ol.require('ol.proj.METERS_PER_UNIT');
+ol.require('ol.proj.Units');
+ol.require('ol.tilegrid.TileGrid');
 
 
 /**

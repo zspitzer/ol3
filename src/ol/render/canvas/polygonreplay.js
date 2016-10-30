@@ -1,13 +1,13 @@
-goog.provide('ol.render.canvas.PolygonReplay');
+ol.provide('ol.render.canvas.PolygonReplay');
 
-goog.require('ol');
-goog.require('ol.color');
-goog.require('ol.colorlike');
-goog.require('ol.extent');
-goog.require('ol.geom.flat.simplify');
-goog.require('ol.render.canvas');
-goog.require('ol.render.canvas.Instruction');
-goog.require('ol.render.canvas.Replay');
+ol.require('ol');
+ol.require('ol.color');
+ol.require('ol.colorlike');
+ol.require('ol.extent');
+ol.require('ol.geom.flat.simplify');
+ol.require('ol.render.canvas');
+ol.require('ol.render.canvas.Instruction');
+ol.require('ol.render.canvas.Replay');
 
 
 /**

@@ -1,8 +1,8 @@
-goog.provide('ol.format.Feature');
+ol.provide('ol.format.Feature');
 
-goog.require('ol.geom.Geometry');
-goog.require('ol.obj');
-goog.require('ol.proj');
+ol.require('ol.geom.Geometry');
+ol.require('ol.obj');
+ol.require('ol.proj');
 
 
 /**

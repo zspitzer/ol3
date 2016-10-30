@@ -1,9 +1,9 @@
-goog.provide('ol.geom.flat.intersectsextent');
+ol.provide('ol.geom.flat.intersectsextent');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.geom.flat.contains');
-goog.require('ol.geom.flat.segments');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.geom.flat.contains');
+ol.require('ol.geom.flat.segments');
 
 
 /**

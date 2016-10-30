@@ -1,11 +1,11 @@
-goog.provide('ol.test.layer.Layer');
+ol.provide('ol.test.layer.Layer');
 
-goog.require('ol');
-goog.require('ol.Map');
-goog.require('ol.layer.Layer');
-goog.require('ol.proj');
-goog.require('ol.render.Event');
-goog.require('ol.source.Source');
+ol.require('ol');
+ol.require('ol.Map');
+ol.require('ol.layer.Layer');
+ol.require('ol.proj');
+ol.require('ol.render.Event');
+ol.require('ol.source.Source');
 
 
 describe('ol.layer.Layer', function() {

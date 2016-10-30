@@ -1,12 +1,12 @@
-goog.provide('ol.test.style.Style');
+ol.provide('ol.test.style.Style');
 
-goog.require('ol.Feature');
-goog.require('ol.geom.Point');
-goog.require('ol.style.Style');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Text');
+ol.require('ol.Feature');
+ol.require('ol.geom.Point');
+ol.require('ol.style.Style');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Text');
 
 
 describe('ol.style.Style', function() {

@@ -1,8 +1,8 @@
-goog.provide('ol.Tile');
+ol.provide('ol.Tile');
 
-goog.require('ol');
-goog.require('ol.events.EventTarget');
-goog.require('ol.events.EventType');
+ol.require('ol');
+ol.require('ol.events.EventTarget');
+ol.require('ol.events.EventType');
 
 
 /**

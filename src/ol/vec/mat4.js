@@ -1,4 +1,4 @@
-goog.provide('ol.vec.Mat4');
+ol.provide('ol.vec.Mat4');
 
 
 /**

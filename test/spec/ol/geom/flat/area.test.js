@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.area');
+ol.provide('ol.test.geom.flat.area');
 
-goog.require('ol.geom.flat.area');
+ol.require('ol.geom.flat.area');
 
 describe('ol.geom.flat.area', function() {
 

@@ -1,9 +1,9 @@
-goog.provide('ol.structs.RBush');
+ol.provide('ol.structs.RBush');
 
-goog.require('ol');
-goog.require('ol.ext.rbush');
-goog.require('ol.extent');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.ext.rbush');
+ol.require('ol.extent');
+ol.require('ol.obj');
 
 
 /**

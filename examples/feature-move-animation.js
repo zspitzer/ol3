@@ -1,17 +1,17 @@
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.Polyline');
-goog.require('ol.geom.Point');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.BingMaps');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Icon');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.Polyline');
+ol.require('ol.geom.Point');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.BingMaps');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Icon');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
 
 // This long string is placed here due to jsFiddle limitations.
 // It is usually loaded with AJAX.

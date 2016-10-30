@@ -1,7 +1,7 @@
-goog.provide('ol.style.Text');
+ol.provide('ol.style.Text');
 
 
-goog.require('ol.style.Fill');
+ol.require('ol.style.Fill');
 
 
 /**

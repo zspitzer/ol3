@@ -1,9 +1,9 @@
-goog.provide('ol.test.proj');
+ol.provide('ol.test.proj');
 
-goog.require('ol.proj');
-goog.require('ol.proj.EPSG4326');
-goog.require('ol.proj.Projection');
-goog.require('ol.proj.common');
+ol.require('ol.proj');
+ol.require('ol.proj.EPSG4326');
+ol.require('ol.proj.Projection');
+ol.require('ol.proj.common');
 
 
 describe('ol.proj', function() {

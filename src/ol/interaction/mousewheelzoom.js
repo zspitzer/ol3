@@ -1,10 +1,10 @@
-goog.provide('ol.interaction.MouseWheelZoom');
+ol.provide('ol.interaction.MouseWheelZoom');
 
-goog.require('ol');
-goog.require('ol.events.EventType');
-goog.require('ol.has');
-goog.require('ol.interaction.Interaction');
-goog.require('ol.math');
+ol.require('ol');
+ol.require('ol.events.EventType');
+ol.require('ol.has');
+ol.require('ol.interaction.Interaction');
+ol.require('ol.math');
 
 
 /**

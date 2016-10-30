@@ -18,7 +18,7 @@ var templatesDir = path.join(__dirname, '..', 'config', 'examples');
 
 /**
  * Returns an array of names that are explicitly required inside the source
- * by calling `goog.require('ol.…')`.  Only returns `ol.` prefixed names.
+ * by calling `ol.require('ol.…')`.  Only returns `ol.` prefixed names.
  *
  * @param {string} src The JavaScript sourcecode to search for goog.require.
  * @returns {Array.<string>} An array of `ol.*` names.

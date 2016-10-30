@@ -1,15 +1,15 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.extent');
-goog.require('ol.format.WMTSCapabilities');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.source.OSM');
-goog.require('ol.source.TileImage');
-goog.require('ol.source.TileWMS');
-goog.require('ol.source.WMTS');
-goog.require('ol.source.XYZ');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.extent');
+ol.require('ol.format.WMTSCapabilities');
+ol.require('ol.layer.Tile');
+ol.require('ol.proj');
+ol.require('ol.source.OSM');
+ol.require('ol.source.TileImage');
+ol.require('ol.source.TileWMS');
+ol.require('ol.source.WMTS');
+ol.require('ol.source.XYZ');
+ol.require('ol.tilegrid.TileGrid');
 
 
 proj4.defs('EPSG:27700', '+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 ' +

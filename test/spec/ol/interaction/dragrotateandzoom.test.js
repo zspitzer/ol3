@@ -1,6 +1,6 @@
-goog.provide('ol.test.interaction.DragRotateAndZoom');
+ol.provide('ol.test.interaction.DragRotateAndZoom');
 
-goog.require('ol.interaction.DragRotateAndZoom');
+ol.require('ol.interaction.DragRotateAndZoom');
 
 describe('ol.interaction.DragRotateAndZoom', function() {
 

@@ -1,12 +1,12 @@
-goog.provide('ol.renderer.canvas.Layer');
+ol.provide('ol.renderer.canvas.Layer');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.render.Event');
-goog.require('ol.render.canvas');
-goog.require('ol.render.canvas.Immediate');
-goog.require('ol.renderer.Layer');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.render.Event');
+ol.require('ol.render.canvas');
+ol.require('ol.render.canvas.Immediate');
+ol.require('ol.renderer.Layer');
+ol.require('ol.transform');
 
 
 /**

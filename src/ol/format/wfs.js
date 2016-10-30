@@ -1,16 +1,16 @@
-goog.provide('ol.format.WFS');
+ol.provide('ol.format.WFS');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.format.GML3');
-goog.require('ol.format.GMLBase');
-goog.require('ol.format.filter');
-goog.require('ol.format.XMLFeature');
-goog.require('ol.format.XSD');
-goog.require('ol.geom.Geometry');
-goog.require('ol.obj');
-goog.require('ol.proj');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.format.GML3');
+ol.require('ol.format.GMLBase');
+ol.require('ol.format.filter');
+ol.require('ol.format.XMLFeature');
+ol.require('ol.format.XSD');
+ol.require('ol.geom.Geometry');
+ol.require('ol.obj');
+ol.require('ol.proj');
+ol.require('ol.xml');
 
 
 /**

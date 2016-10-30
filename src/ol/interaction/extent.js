@@ -1,19 +1,19 @@
-goog.provide('ol.interaction.Extent');
+ol.provide('ol.interaction.Extent');
 
-goog.require('ol');
-goog.require('ol.Feature');
-goog.require('ol.MapBrowserEvent.EventType');
-goog.require('ol.MapBrowserPointerEvent');
-goog.require('ol.coordinate');
-goog.require('ol.events.Event');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.interaction.Pointer');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Style');
+ol.require('ol');
+ol.require('ol.Feature');
+ol.require('ol.MapBrowserEvent.EventType');
+ol.require('ol.MapBrowserPointerEvent');
+ol.require('ol.coordinate');
+ol.require('ol.events.Event');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.interaction.Pointer');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Style');
 
 
 /**

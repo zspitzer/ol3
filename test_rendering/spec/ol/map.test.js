@@ -1,11 +1,11 @@
-goog.provide('ol.test.rendering.Map');
+ol.provide('ol.test.rendering.Map');
 
-goog.require('ol.Feature');
-goog.require('ol.geom.Point');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.Vector');
+ol.require('ol.Feature');
+ol.require('ol.geom.Point');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.Vector');
 
 
 describe('ol.rendering.Map', function() {

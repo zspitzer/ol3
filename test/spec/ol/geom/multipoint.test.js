@@ -1,8 +1,8 @@
-goog.provide('ol.test.geom.MultiPoint');
+ol.provide('ol.test.geom.MultiPoint');
 
-goog.require('ol.extent');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.Point');
+ol.require('ol.extent');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.Point');
 
 
 describe('ol.geom.MultiPoint', function() {

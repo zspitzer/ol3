@@ -1,12 +1,12 @@
-goog.provide('ol.style.IconImage');
+ol.provide('ol.style.IconImage');
 
-goog.require('ol');
-goog.require('ol.dom');
-goog.require('ol.events');
-goog.require('ol.events.EventTarget');
-goog.require('ol.events.EventType');
-goog.require('ol.Image');
-goog.require('ol.style');
+ol.require('ol');
+ol.require('ol.dom');
+ol.require('ol.events');
+ol.require('ol.events.EventTarget');
+ol.require('ol.events.EventType');
+ol.require('ol.Image');
+ol.require('ol.style');
 
 
 /**

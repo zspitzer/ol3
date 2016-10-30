@@ -1,7 +1,7 @@
-goog.provide('ol.test.geom.LineString');
+ol.provide('ol.test.geom.LineString');
 
-goog.require('ol.extent');
-goog.require('ol.geom.LineString');
+ol.require('ol.extent');
+ol.require('ol.geom.LineString');
 
 
 describe('ol.geom.LineString', function() {

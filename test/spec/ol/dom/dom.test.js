@@ -1,6 +1,6 @@
-goog.provide('ol.test.dom');
+ol.provide('ol.test.dom');
 
-goog.require('ol.dom');
+ol.require('ol.dom');
 
 describe('ol.dom', function() {
 

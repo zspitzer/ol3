@@ -28,12 +28,12 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-goog.provide('ol.pointer.TouchSource');
+ol.provide('ol.pointer.TouchSource');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.pointer.EventSource');
-goog.require('ol.pointer.MouseSource');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.pointer.EventSource');
+ol.require('ol.pointer.MouseSource');
 
 
 /**

@@ -1,4 +1,4 @@
-goog.provide('ol.geom.flat.length');
+ol.provide('ol.geom.flat.length');
 
 
 /**

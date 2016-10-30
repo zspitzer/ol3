@@ -1,9 +1,9 @@
-goog.provide('ol.test.style.RegularShape');
+ol.provide('ol.test.style.RegularShape');
 
-goog.require('ol.style.AtlasManager');
-goog.require('ol.style.RegularShape');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
+ol.require('ol.style.AtlasManager');
+ol.require('ol.style.RegularShape');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
 
 
 describe('ol.style.RegularShape', function() {

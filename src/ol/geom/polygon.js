@@ -1,23 +1,23 @@
-goog.provide('ol.geom.Polygon');
+ol.provide('ol.geom.Polygon');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.LinearRing');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.SimpleGeometry');
-goog.require('ol.geom.flat.area');
-goog.require('ol.geom.flat.closest');
-goog.require('ol.geom.flat.contains');
-goog.require('ol.geom.flat.deflate');
-goog.require('ol.geom.flat.inflate');
-goog.require('ol.geom.flat.interiorpoint');
-goog.require('ol.geom.flat.intersectsextent');
-goog.require('ol.geom.flat.orient');
-goog.require('ol.geom.flat.simplify');
-goog.require('ol.math');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.LinearRing');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.SimpleGeometry');
+ol.require('ol.geom.flat.area');
+ol.require('ol.geom.flat.closest');
+ol.require('ol.geom.flat.contains');
+ol.require('ol.geom.flat.deflate');
+ol.require('ol.geom.flat.inflate');
+ol.require('ol.geom.flat.interiorpoint');
+ol.require('ol.geom.flat.intersectsextent');
+ol.require('ol.geom.flat.orient');
+ol.require('ol.geom.flat.simplify');
+ol.require('ol.math');
 
 
 /**

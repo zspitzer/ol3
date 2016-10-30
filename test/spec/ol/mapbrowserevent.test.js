@@ -1,9 +1,9 @@
-goog.provide('ol.test.MapBrowserEventHandler');
+ol.provide('ol.test.MapBrowserEventHandler');
 
-goog.require('ol.events');
-goog.require('ol.Map');
-goog.require('ol.MapBrowserEventHandler');
-goog.require('ol.pointer.PointerEvent');
+ol.require('ol.events');
+ol.require('ol.Map');
+ol.require('ol.MapBrowserEventHandler');
+ol.require('ol.pointer.PointerEvent');
 
 
 describe('ol.MapBrowserEventHandler', function() {

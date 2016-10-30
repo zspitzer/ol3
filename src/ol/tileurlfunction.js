@@ -1,9 +1,9 @@
-goog.provide('ol.TileUrlFunction');
+ol.provide('ol.TileUrlFunction');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.math');
-goog.require('ol.tilecoord');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.math');
+ol.require('ol.tilecoord');
 
 
 /**

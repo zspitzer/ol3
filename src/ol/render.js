@@ -1,8 +1,8 @@
-goog.provide('ol.render');
+ol.provide('ol.render');
 
-goog.require('ol.has');
-goog.require('ol.transform');
-goog.require('ol.render.canvas.Immediate');
+ol.require('ol.has');
+ol.require('ol.transform');
+ol.require('ol.render.canvas.Immediate');
 
 
 /**

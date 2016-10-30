@@ -1,10 +1,10 @@
-goog.provide('ol.control.Control');
+ol.provide('ol.control.Control');
 
-goog.require('ol.events');
-goog.require('ol');
-goog.require('ol.MapEvent');
-goog.require('ol.Object');
-goog.require('ol.dom');
+ol.require('ol.events');
+ol.require('ol');
+ol.require('ol.MapEvent');
+ol.require('ol.Object');
+ol.require('ol.dom');
 
 
 /**

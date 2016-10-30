@@ -1,29 +1,29 @@
 // FIXME check against gl.getParameter(webgl.MAX_TEXTURE_SIZE)
 
-goog.provide('ol.renderer.webgl.Map');
+ol.provide('ol.renderer.webgl.Map');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.css');
-goog.require('ol.dom');
-goog.require('ol.events');
-goog.require('ol.layer.Image');
-goog.require('ol.layer.Layer');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.render.Event');
-goog.require('ol.render.webgl.Immediate');
-goog.require('ol.renderer.Map');
-goog.require('ol.renderer.Type');
-goog.require('ol.renderer.webgl.ImageLayer');
-goog.require('ol.renderer.webgl.TileLayer');
-goog.require('ol.renderer.webgl.VectorLayer');
-goog.require('ol.source.State');
-goog.require('ol.structs.LRUCache');
-goog.require('ol.structs.PriorityQueue');
-goog.require('ol.webgl');
-goog.require('ol.webgl.Context');
-goog.require('ol.webgl.ContextEventType');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.css');
+ol.require('ol.dom');
+ol.require('ol.events');
+ol.require('ol.layer.Image');
+ol.require('ol.layer.Layer');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.render.Event');
+ol.require('ol.render.webgl.Immediate');
+ol.require('ol.renderer.Map');
+ol.require('ol.renderer.Type');
+ol.require('ol.renderer.webgl.ImageLayer');
+ol.require('ol.renderer.webgl.TileLayer');
+ol.require('ol.renderer.webgl.VectorLayer');
+ol.require('ol.source.State');
+ol.require('ol.structs.LRUCache');
+ol.require('ol.structs.PriorityQueue');
+ol.require('ol.webgl');
+ol.require('ol.webgl.Context');
+ol.require('ol.webgl.ContextEventType');
 
 
 /**

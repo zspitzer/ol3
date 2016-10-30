@@ -1,10 +1,10 @@
-goog.provide('ol.test.source.VectorTile');
+ol.provide('ol.test.source.VectorTile');
 
-goog.require('ol.VectorTile');
-goog.require('ol.format.MVT');
-goog.require('ol.proj');
-goog.require('ol.source.VectorTile');
-goog.require('ol.tilegrid');
+ol.require('ol.VectorTile');
+ol.require('ol.format.MVT');
+ol.require('ol.proj');
+ol.require('ol.source.VectorTile');
+ol.require('ol.tilegrid');
 
 
 describe('ol.source.VectorTile', function() {

@@ -1,9 +1,9 @@
-goog.require('ol.Map');
-goog.require('ol.Overlay');
-goog.require('ol.View');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.TileJSON');
-goog.require('ol.source.TileUTFGrid');
+ol.require('ol.Map');
+ol.require('ol.Overlay');
+ol.require('ol.View');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.TileJSON');
+ol.require('ol.source.TileUTFGrid');
 
 var key = 'pk.eyJ1IjoiYWhvY2V2YXIiLCJhIjoiRk1kMWZaSSJ9.E5BkluenyWQMsBLsuByrmg';
 

@@ -1,14 +1,14 @@
-goog.require('ol.Attribution');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.TopoJSON');
-goog.require('ol.layer.VectorTile');
-goog.require('ol.proj');
-goog.require('ol.source.VectorTile');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
-goog.require('ol.tilegrid');
+ol.require('ol.Attribution');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.TopoJSON');
+ol.require('ol.layer.VectorTile');
+ol.require('ol.proj');
+ol.require('ol.source.VectorTile');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
+ol.require('ol.tilegrid');
 
 
 var key = 'vector-tiles-5eJz6JX';

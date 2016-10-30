@@ -1,10 +1,10 @@
-goog.require('ol.Graticule');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.GeoJSON');
-goog.require('ol.layer.Vector');
-goog.require('ol.proj.Projection');
-goog.require('ol.source.Vector');
+ol.require('ol.Graticule');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.GeoJSON');
+ol.require('ol.layer.Vector');
+ol.require('ol.proj.Projection');
+ol.require('ol.source.Vector');
 
 
 proj4.defs('ESRI:53009', '+proj=moll +lon_0=0 +x_0=0 +y_0=0 +a=6371000 ' +

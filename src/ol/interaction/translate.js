@@ -1,10 +1,10 @@
-goog.provide('ol.interaction.Translate');
+ol.provide('ol.interaction.Translate');
 
-goog.require('ol');
-goog.require('ol.events.Event');
-goog.require('ol.functions');
-goog.require('ol.array');
-goog.require('ol.interaction.Pointer');
+ol.require('ol');
+ol.require('ol.events.Event');
+ol.require('ol.functions');
+ol.require('ol.array');
+ol.require('ol.interaction.Pointer');
 
 
 /**

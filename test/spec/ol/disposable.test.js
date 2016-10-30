@@ -1,6 +1,6 @@
-goog.provide('ol.test.Disposable');
+ol.provide('ol.test.Disposable');
 
-goog.require('ol.Disposable');
+ol.require('ol.Disposable');
 
 
 describe('ol.Disposable', function() {

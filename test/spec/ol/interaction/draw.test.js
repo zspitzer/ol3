@@ -1,23 +1,23 @@
-goog.provide('ol.test.interaction.Draw');
+ol.provide('ol.test.interaction.Draw');
 
-goog.require('ol.array');
-goog.require('ol.events');
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.MapBrowserPointerEvent');
-goog.require('ol.View');
-goog.require('ol.geom.Circle');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.interaction.Draw');
-goog.require('ol.interaction.Interaction');
-goog.require('ol.layer.Vector');
-goog.require('ol.pointer.PointerEvent');
-goog.require('ol.source.Vector');
+ol.require('ol.array');
+ol.require('ol.events');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.MapBrowserPointerEvent');
+ol.require('ol.View');
+ol.require('ol.geom.Circle');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.interaction.Draw');
+ol.require('ol.interaction.Interaction');
+ol.require('ol.layer.Vector');
+ol.require('ol.pointer.PointerEvent');
+ol.require('ol.source.Vector');
 
 
 describe('ol.interaction.Draw', function() {

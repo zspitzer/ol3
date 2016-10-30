@@ -1,4 +1,4 @@
-goog.provide('ol.render.VectorContext');
+ol.provide('ol.render.VectorContext');
 
 
 /**

@@ -1,16 +1,16 @@
-goog.provide('ol.format.Polyline');
+ol.provide('ol.format.Polyline');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.Feature');
-goog.require('ol.format.Feature');
-goog.require('ol.format.TextFeature');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.SimpleGeometry');
-goog.require('ol.geom.flat.flip');
-goog.require('ol.geom.flat.inflate');
-goog.require('ol.proj');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.Feature');
+ol.require('ol.format.Feature');
+ol.require('ol.format.TextFeature');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.SimpleGeometry');
+ol.require('ol.geom.flat.flip');
+ol.require('ol.geom.flat.inflate');
+ol.require('ol.proj');
 
 
 /**

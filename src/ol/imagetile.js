@@ -1,9 +1,9 @@
-goog.provide('ol.ImageTile');
+ol.provide('ol.ImageTile');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
 
 
 /**

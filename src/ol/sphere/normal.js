@@ -1,6 +1,6 @@
-goog.provide('ol.sphere.NORMAL');
+ol.provide('ol.sphere.NORMAL');
 
-goog.require('ol.Sphere');
+ol.require('ol.Sphere');
 
 
 /**

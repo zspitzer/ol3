@@ -1,13 +1,13 @@
 // FIXME should listen on appropriate pane, once it is defined
 
-goog.provide('ol.control.MousePosition');
+ol.provide('ol.control.MousePosition');
 
-goog.require('ol');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.Object');
-goog.require('ol.control.Control');
-goog.require('ol.proj');
+ol.require('ol');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.Object');
+ol.require('ol.control.Control');
+ol.require('ol.proj');
 
 
 /**

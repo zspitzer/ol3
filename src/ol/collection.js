@@ -3,11 +3,11 @@
  * @see https://developers.google.com/maps/documentation/javascript/reference
  */
 
-goog.provide('ol.Collection');
+ol.provide('ol.Collection');
 
-goog.require('ol');
-goog.require('ol.events.Event');
-goog.require('ol.Object');
+ol.require('ol');
+ol.require('ol.events.Event');
+ol.require('ol.Object');
 
 
 /**

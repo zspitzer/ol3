@@ -1,15 +1,15 @@
-goog.provide('ol.source.ImageVector');
+ol.provide('ol.source.ImageVector');
 
-goog.require('ol');
-goog.require('ol.dom');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.render.canvas.ReplayGroup');
-goog.require('ol.renderer.vector');
-goog.require('ol.source.ImageCanvas');
-goog.require('ol.style.Style');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.dom');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.render.canvas.ReplayGroup');
+ol.require('ol.renderer.vector');
+ol.require('ol.source.ImageCanvas');
+ol.require('ol.style.Style');
+ol.require('ol.transform');
 
 
 /**

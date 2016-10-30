@@ -1,7 +1,7 @@
-goog.provide('ol.format.filter.Bbox');
+ol.provide('ol.format.filter.Bbox');
 
-goog.require('ol');
-goog.require('ol.format.filter.Filter');
+ol.require('ol');
+ol.require('ol.format.filter.Filter');
 
 
 /**

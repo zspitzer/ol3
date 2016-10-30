@@ -1,6 +1,6 @@
-goog.provide('ol.test.vec.Mat4');
+ol.provide('ol.test.vec.Mat4');
 
-goog.require('ol.vec.Mat4');
+ol.require('ol.vec.Mat4');
 
 
 describe('ol.vec.Mat4', function() {

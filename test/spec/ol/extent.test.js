@@ -1,7 +1,7 @@
-goog.provide('ol.test.extent');
+ol.provide('ol.test.extent');
 
-goog.require('ol.extent');
-goog.require('ol.proj');
+ol.require('ol.extent');
+ol.require('ol.proj');
 
 
 describe('ol.extent', function() {

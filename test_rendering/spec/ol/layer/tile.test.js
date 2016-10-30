@@ -1,18 +1,18 @@
-goog.provide('ol.test.rendering.layer.Tile');
+ol.provide('ol.test.rendering.layer.Tile');
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.extent');
-goog.require('ol.geom.Point');
-goog.require('ol.layer.Tile');
-goog.require('ol.obj');
-goog.require('ol.proj');
-goog.require('ol.source.TileImage');
-goog.require('ol.source.XYZ');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.extent');
+ol.require('ol.geom.Point');
+ol.require('ol.layer.Tile');
+ol.require('ol.obj');
+ol.require('ol.proj');
+ol.require('ol.source.TileImage');
+ol.require('ol.source.XYZ');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
+ol.require('ol.tilegrid.TileGrid');
 
 
 describe('ol.rendering.layer.Tile', function() {

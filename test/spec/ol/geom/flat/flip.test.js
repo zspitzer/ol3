@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.flip');
+ol.provide('ol.test.geom.flat.flip');
 
-goog.require('ol.geom.flat.flip');
+ol.require('ol.geom.flat.flip');
 
 
 describe('ol.geom.flat.flip', function() {

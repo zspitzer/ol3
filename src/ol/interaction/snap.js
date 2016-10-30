@@ -1,18 +1,18 @@
-goog.provide('ol.interaction.Snap');
+ol.provide('ol.interaction.Snap');
 
-goog.require('ol');
-goog.require('ol.Collection');
-goog.require('ol.Object');
-goog.require('ol.Observable');
-goog.require('ol.coordinate');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.interaction.Pointer');
-goog.require('ol.functions');
-goog.require('ol.obj');
-goog.require('ol.source.Vector');
-goog.require('ol.structs.RBush');
+ol.require('ol');
+ol.require('ol.Collection');
+ol.require('ol.Object');
+ol.require('ol.Observable');
+ol.require('ol.coordinate');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.interaction.Pointer');
+ol.require('ol.functions');
+ol.require('ol.obj');
+ol.require('ol.source.Vector');
+ol.require('ol.structs.RBush');
 
 
 /**

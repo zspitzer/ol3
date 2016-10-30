@@ -5,7 +5,7 @@ const util = require('./util');
 exports.rule = {
   meta: {
     docs: {
-      description: 'disallow multiple goog.provide() calls'
+      description: 'disallow multiple ol.provide() calls'
     }
   },
 
@@ -17,7 +17,7 @@ exports.rule = {
         if (util.isProvideStatement(statement)) {
           if (hasProvide) {
             const name = statement.expression.arguments[0].value;
-            context.report(statement, `Extra goog.provide('${name}')`);
+            context.report(statement, `Extra ol.provide('${name}')`);
           } else {
             hasProvide = true;
           }

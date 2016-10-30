@@ -1,15 +1,15 @@
-goog.provide('ol.MapBrowserEvent');
-goog.provide('ol.MapBrowserEvent.EventType');
-goog.provide('ol.MapBrowserEventHandler');
-goog.provide('ol.MapBrowserPointerEvent');
+ol.provide('ol.MapBrowserEvent');
+ol.provide('ol.MapBrowserEvent.EventType');
+ol.provide('ol.MapBrowserEventHandler');
+ol.provide('ol.MapBrowserPointerEvent');
 
-goog.require('ol');
-goog.require('ol.MapEvent');
-goog.require('ol.events');
-goog.require('ol.events.EventTarget');
-goog.require('ol.events.EventType');
-goog.require('ol.pointer.EventType');
-goog.require('ol.pointer.PointerEventHandler');
+ol.require('ol');
+ol.require('ol.MapEvent');
+ol.require('ol.events');
+ol.require('ol.events.EventTarget');
+ol.require('ol.events.EventType');
+ol.require('ol.pointer.EventType');
+ol.require('ol.pointer.PointerEventHandler');
 
 
 /**

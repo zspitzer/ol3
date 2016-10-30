@@ -1,15 +1,15 @@
-goog.provide('ol.source.TileImage');
+ol.provide('ol.source.TileImage');
 
-goog.require('ol');
-goog.require('ol.ImageTile');
-goog.require('ol.Tile');
-goog.require('ol.TileCache');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.proj');
-goog.require('ol.reproj.Tile');
-goog.require('ol.source.UrlTile');
-goog.require('ol.tilegrid');
+ol.require('ol');
+ol.require('ol.ImageTile');
+ol.require('ol.Tile');
+ol.require('ol.TileCache');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.proj');
+ol.require('ol.reproj.Tile');
+ol.require('ol.source.UrlTile');
+ol.require('ol.tilegrid');
 
 
 /**

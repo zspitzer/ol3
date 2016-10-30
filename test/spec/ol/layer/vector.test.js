@@ -1,9 +1,9 @@
-goog.provide('ol.test.layer.Vector');
+ol.provide('ol.test.layer.Vector');
 
-goog.require('ol.layer.Layer');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Style');
+ol.require('ol.layer.Layer');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Style');
 
 
 describe('ol.layer.Vector', function() {

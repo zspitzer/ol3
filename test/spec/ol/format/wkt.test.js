@@ -1,9 +1,9 @@
-goog.provide('ol.test.format.WKT');
+ol.provide('ol.test.format.WKT');
 
-goog.require('ol.Feature');
-goog.require('ol.geom.Point');
-goog.require('ol.format.WKT');
-goog.require('ol.proj');
+ol.require('ol.Feature');
+ol.require('ol.geom.Point');
+ol.require('ol.format.WKT');
+ol.require('ol.proj');
 
 
 describe('ol.format.WKT', function() {

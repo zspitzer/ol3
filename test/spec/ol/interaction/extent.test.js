@@ -1,10 +1,10 @@
-goog.provide('ol.test.interaction.Extent');
+ol.provide('ol.test.interaction.Extent');
 
-goog.require('ol.Map');
-goog.require('ol.MapBrowserPointerEvent');
-goog.require('ol.View');
-goog.require('ol.interaction.Extent');
-goog.require('ol.pointer.PointerEvent');
+ol.require('ol.Map');
+ol.require('ol.MapBrowserPointerEvent');
+ol.require('ol.View');
+ol.require('ol.interaction.Extent');
+ol.require('ol.pointer.PointerEvent');
 
 describe('ol.interaction.Extent', function() {
 

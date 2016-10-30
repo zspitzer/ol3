@@ -1,13 +1,13 @@
-goog.provide('ol.test.source.RasterSource');
+ol.provide('ol.test.source.RasterSource');
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Image');
-goog.require('ol.proj.Projection');
-goog.require('ol.source.ImageStatic');
-goog.require('ol.source.Raster');
-goog.require('ol.source.Source');
-goog.require('ol.source.Tile');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Image');
+ol.require('ol.proj.Projection');
+ol.require('ol.source.ImageStatic');
+ol.require('ol.source.Raster');
+ol.require('ol.source.Source');
+ol.require('ol.source.Tile');
 
 
 var red = 'data:image/gif;base64,R0lGODlhAQABAPAAAP8AAP///yH5BAAAAAAALAAAAAA' +

@@ -28,19 +28,19 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-goog.provide('ol.pointer.PointerEventHandler');
+ol.provide('ol.pointer.PointerEventHandler');
 
-goog.require('ol');
-goog.require('ol.events');
-goog.require('ol.events.EventTarget');
+ol.require('ol');
+ol.require('ol.events');
+ol.require('ol.events.EventTarget');
 
-goog.require('ol.has');
-goog.require('ol.pointer.EventType');
-goog.require('ol.pointer.MouseSource');
-goog.require('ol.pointer.MsSource');
-goog.require('ol.pointer.NativeSource');
-goog.require('ol.pointer.PointerEvent');
-goog.require('ol.pointer.TouchSource');
+ol.require('ol.has');
+ol.require('ol.pointer.EventType');
+ol.require('ol.pointer.MouseSource');
+ol.require('ol.pointer.MsSource');
+ol.require('ol.pointer.NativeSource');
+ol.require('ol.pointer.PointerEvent');
+ol.require('ol.pointer.TouchSource');
 
 
 /**

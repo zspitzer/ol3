@@ -1,16 +1,16 @@
-goog.provide('ol.layer.Group');
+ol.provide('ol.layer.Group');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.Collection');
-goog.require('ol.Object');
-goog.require('ol.ObjectEventType');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.layer.Base');
-goog.require('ol.obj');
-goog.require('ol.source.State');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.Collection');
+ol.require('ol.Object');
+ol.require('ol.ObjectEventType');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.layer.Base');
+ol.require('ol.obj');
+ol.require('ol.source.State');
 
 
 /**

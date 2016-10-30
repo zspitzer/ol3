@@ -1,6 +1,6 @@
-goog.provide('ol.render.replay');
+ol.provide('ol.render.replay');
 
-goog.require('ol.render.ReplayType');
+ol.require('ol.render.ReplayType');
 
 
 /**

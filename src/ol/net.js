@@ -1,6 +1,6 @@
-goog.provide('ol.net');
+ol.provide('ol.net');
 
-goog.require('ol');
+ol.require('ol');
 
 
 /**

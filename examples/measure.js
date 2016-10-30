@@ -1,20 +1,20 @@
-goog.require('ol.Map');
-goog.require('ol.Observable');
-goog.require('ol.Overlay');
-goog.require('ol.Sphere');
-goog.require('ol.View');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.Polygon');
-goog.require('ol.interaction.Draw');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.proj');
-goog.require('ol.source.OSM');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
+ol.require('ol.Map');
+ol.require('ol.Observable');
+ol.require('ol.Overlay');
+ol.require('ol.Sphere');
+ol.require('ol.View');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.Polygon');
+ol.require('ol.interaction.Draw');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.proj');
+ol.require('ol.source.OSM');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
 
 
 var wgs84Sphere = new ol.Sphere(6378137);

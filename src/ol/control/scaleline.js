@@ -1,13 +1,13 @@
-goog.provide('ol.control.ScaleLine');
+ol.provide('ol.control.ScaleLine');
 
-goog.require('ol');
-goog.require('ol.Object');
-goog.require('ol.asserts');
-goog.require('ol.control.Control');
-goog.require('ol.css');
-goog.require('ol.events');
-goog.require('ol.proj.METERS_PER_UNIT');
-goog.require('ol.proj.Units');
+ol.require('ol');
+ol.require('ol.Object');
+ol.require('ol.asserts');
+ol.require('ol.control.Control');
+ol.require('ol.css');
+ol.require('ol.events');
+ol.require('ol.proj.METERS_PER_UNIT');
+ol.require('ol.proj.Units');
 
 
 /**

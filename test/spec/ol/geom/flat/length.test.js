@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.length');
+ol.provide('ol.test.geom.flat.length');
 
-goog.require('ol.geom.flat.length');
+ol.require('ol.geom.flat.length');
 
 
 describe('ol.geom.flat.length', function() {

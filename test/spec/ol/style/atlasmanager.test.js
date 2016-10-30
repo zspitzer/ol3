@@ -1,7 +1,7 @@
-goog.provide('ol.test.style.AtlasManager');
+ol.provide('ol.test.style.AtlasManager');
 
-goog.require('ol.style.Atlas');
-goog.require('ol.style.AtlasManager');
+ol.require('ol.style.Atlas');
+ol.require('ol.style.AtlasManager');
 
 
 describe('ol.style.Atlas', function() {

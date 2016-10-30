@@ -1,4 +1,4 @@
-goog.provide('ol.render.canvas.Instruction');
+ol.provide('ol.render.canvas.Instruction');
 
 /**
  * @enum {number}

@@ -1,14 +1,14 @@
-goog.provide('ol.renderer.Map');
+ol.provide('ol.renderer.Map');
 
-goog.require('ol');
-goog.require('ol.Disposable');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.functions');
-goog.require('ol.layer.Layer');
-goog.require('ol.style');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.Disposable');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.functions');
+ol.require('ol.layer.Layer');
+ol.require('ol.style');
+ol.require('ol.transform');
 
 
 /**

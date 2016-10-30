@@ -31,7 +31,7 @@ process.argv.forEach(function(val, index, array) {
 
     if (--numFiles === 0) {
       Object.keys(requires).sort().forEach(function(key) {
-        process.stdout.write('goog.require(\'' + key + '\');\n');
+        process.stdout.write('ol.require(\'' + key + '\');\n');
       });
     }
 

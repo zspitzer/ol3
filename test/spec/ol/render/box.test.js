@@ -1,10 +1,10 @@
-goog.provide('ol.test.render.Box');
+ol.provide('ol.test.render.Box');
 
-goog.require('ol.Disposable');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.geom.Polygon');
-goog.require('ol.render.Box');
+ol.require('ol.Disposable');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.geom.Polygon');
+ol.require('ol.render.Box');
 
 
 describe('ol.render.Box', function() {

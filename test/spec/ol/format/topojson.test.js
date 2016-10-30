@@ -1,11 +1,11 @@
-goog.provide('ol.test.format.TopoJSON');
+ol.provide('ol.test.format.TopoJSON');
 
-goog.require('ol.Feature');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Polygon');
-goog.require('ol.format.Feature');
-goog.require('ol.proj');
-goog.require('ol.format.TopoJSON');
+ol.require('ol.Feature');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Polygon');
+ol.require('ol.format.Feature');
+ol.require('ol.proj');
+ol.require('ol.format.TopoJSON');
 
 var aruba = {
   type: 'Topology',

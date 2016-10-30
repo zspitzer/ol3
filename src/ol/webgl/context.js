@@ -1,12 +1,12 @@
-goog.provide('ol.webgl.Context');
+ol.provide('ol.webgl.Context');
 
-goog.require('ol');
-goog.require('ol.Disposable');
-goog.require('ol.array');
-goog.require('ol.events');
-goog.require('ol.obj');
-goog.require('ol.webgl');
-goog.require('ol.webgl.ContextEventType');
+ol.require('ol');
+ol.require('ol.Disposable');
+ol.require('ol.array');
+ol.require('ol.events');
+ol.require('ol.obj');
+ol.require('ol.webgl');
+ol.require('ol.webgl.ContextEventType');
 
 
 /**

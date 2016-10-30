@@ -1,11 +1,11 @@
-goog.provide('ol.test.renderer.webgl.ImageLayer');
+ol.provide('ol.test.renderer.webgl.ImageLayer');
 
-goog.require('ol.transform');
-goog.require('ol.Map');
-goog.require('ol.proj.common');
-goog.require('ol.layer.Image');
-goog.require('ol.source.Image');
-goog.require('ol.renderer.webgl.ImageLayer');
+ol.require('ol.transform');
+ol.require('ol.Map');
+ol.require('ol.proj.common');
+ol.require('ol.layer.Image');
+ol.require('ol.source.Image');
+ol.require('ol.renderer.webgl.ImageLayer');
 
 
 describe('ol.renderer.webgl.ImageLayer', function() {

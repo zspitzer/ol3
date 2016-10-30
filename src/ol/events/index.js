@@ -1,6 +1,6 @@
-goog.provide('ol.events');
+ol.provide('ol.events');
 
-goog.require('ol.obj');
+ol.require('ol.obj');
 
 
 /**

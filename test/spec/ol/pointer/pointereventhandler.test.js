@@ -1,11 +1,11 @@
-goog.provide('ol.test.pointer.PointerEventHandler');
+ol.provide('ol.test.pointer.PointerEventHandler');
 
-goog.require('ol.events');
-goog.require('ol.events.EventTarget');
-goog.require('ol.has');
-goog.require('ol.pointer.MouseSource');
-goog.require('ol.pointer.PointerEvent');
-goog.require('ol.pointer.PointerEventHandler');
+ol.require('ol.events');
+ol.require('ol.events.EventTarget');
+ol.require('ol.has');
+ol.require('ol.pointer.MouseSource');
+ol.require('ol.pointer.PointerEvent');
+ol.require('ol.pointer.PointerEventHandler');
 
 
 describe('ol.pointer.PointerEventHandler', function() {

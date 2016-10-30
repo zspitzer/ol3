@@ -1,10 +1,10 @@
-goog.provide('ol.interaction.PinchZoom');
+ol.provide('ol.interaction.PinchZoom');
 
-goog.require('ol');
-goog.require('ol.View');
-goog.require('ol.functions');
-goog.require('ol.interaction.Interaction');
-goog.require('ol.interaction.Pointer');
+ol.require('ol');
+ol.require('ol.View');
+ol.require('ol.functions');
+ol.require('ol.interaction.Interaction');
+ol.require('ol.interaction.Pointer');
 
 
 /**

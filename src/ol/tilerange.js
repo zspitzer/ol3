@@ -1,4 +1,4 @@
-goog.provide('ol.TileRange');
+ol.provide('ol.TileRange');
 
 
 /**

@@ -1,10 +1,10 @@
-goog.require('ol.Map');
-goog.require('ol.Overlay');
-goog.require('ol.View');
-goog.require('ol.coordinate');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.source.TileJSON');
+ol.require('ol.Map');
+ol.require('ol.Overlay');
+ol.require('ol.View');
+ol.require('ol.coordinate');
+ol.require('ol.layer.Tile');
+ol.require('ol.proj');
+ol.require('ol.source.TileJSON');
 
 
 /**

@@ -1,8 +1,8 @@
-goog.provide('ol.test.source.TileJSON');
+ol.provide('ol.test.source.TileJSON');
 
-goog.require('ol.source.Source');
-goog.require('ol.source.TileJSON');
-goog.require('ol.Observable');
+ol.require('ol.source.Source');
+ol.require('ol.source.TileJSON');
+ol.require('ol.Observable');
 
 
 describe('ol.source.TileJSON', function() {

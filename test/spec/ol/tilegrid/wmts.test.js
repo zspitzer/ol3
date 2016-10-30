@@ -1,7 +1,7 @@
-goog.provide('ol.test.tilegrid.WMTS');
+ol.provide('ol.test.tilegrid.WMTS');
 
-goog.require('ol.format.WMTSCapabilities');
-goog.require('ol.tilegrid.WMTS');
+ol.require('ol.format.WMTSCapabilities');
+ol.require('ol.tilegrid.WMTS');
 
 
 describe('ol.tilegrid.WMTS', function() {

@@ -1,9 +1,9 @@
-goog.provide('ol.test.Feature');
+ol.provide('ol.test.Feature');
 
-goog.require('ol.Feature');
-goog.require('ol.geom.Point');
-goog.require('ol.obj');
-goog.require('ol.style.Style');
+ol.require('ol.Feature');
+ol.require('ol.geom.Point');
+ol.require('ol.obj');
+ol.require('ol.style.Style');
 
 
 describe('ol.Feature', function() {

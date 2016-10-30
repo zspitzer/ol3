@@ -1,21 +1,21 @@
-goog.provide('ol.format.filter');
+ol.provide('ol.format.filter');
 
-goog.require('ol');
-goog.require('ol.format.filter.And');
-goog.require('ol.format.filter.Bbox');
-goog.require('ol.format.filter.EqualTo');
-goog.require('ol.format.filter.GreaterThan');
-goog.require('ol.format.filter.GreaterThanOrEqualTo');
-goog.require('ol.format.filter.Intersects');
-goog.require('ol.format.filter.IsBetween');
-goog.require('ol.format.filter.IsLike');
-goog.require('ol.format.filter.IsNull');
-goog.require('ol.format.filter.LessThan');
-goog.require('ol.format.filter.LessThanOrEqualTo');
-goog.require('ol.format.filter.Not');
-goog.require('ol.format.filter.NotEqualTo');
-goog.require('ol.format.filter.Or');
-goog.require('ol.format.filter.Within');
+ol.require('ol');
+ol.require('ol.format.filter.And');
+ol.require('ol.format.filter.Bbox');
+ol.require('ol.format.filter.EqualTo');
+ol.require('ol.format.filter.GreaterThan');
+ol.require('ol.format.filter.GreaterThanOrEqualTo');
+ol.require('ol.format.filter.Intersects');
+ol.require('ol.format.filter.IsBetween');
+ol.require('ol.format.filter.IsLike');
+ol.require('ol.format.filter.IsNull');
+ol.require('ol.format.filter.LessThan');
+ol.require('ol.format.filter.LessThanOrEqualTo');
+ol.require('ol.format.filter.Not');
+ol.require('ol.format.filter.NotEqualTo');
+ol.require('ol.format.filter.Or');
+ol.require('ol.format.filter.Within');
 
 
 /**

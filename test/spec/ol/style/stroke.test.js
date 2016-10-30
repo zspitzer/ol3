@@ -1,6 +1,6 @@
-goog.provide('ol.test.style.Stroke');
+ol.provide('ol.test.style.Stroke');
 
-goog.require('ol.style.Stroke');
+ol.require('ol.style.Stroke');
 
 describe('ol.style.Stroke', function() {
 

@@ -1,24 +1,24 @@
-goog.provide('ol.source.Raster');
-goog.provide('ol.RasterOperationType');
+ol.provide('ol.source.Raster');
+ol.provide('ol.RasterOperationType');
 
-goog.require('ol');
-goog.require('ol.transform');
-goog.require('ol.ImageCanvas');
-goog.require('ol.TileQueue');
-goog.require('ol.dom');
-goog.require('ol.events');
-goog.require('ol.events.Event');
-goog.require('ol.events.EventType');
-goog.require('ol.ext.pixelworks');
-goog.require('ol.extent');
-goog.require('ol.layer.Image');
-goog.require('ol.layer.Tile');
-goog.require('ol.obj');
-goog.require('ol.renderer.canvas.ImageLayer');
-goog.require('ol.renderer.canvas.TileLayer');
-goog.require('ol.source.Image');
-goog.require('ol.source.State');
-goog.require('ol.source.Tile');
+ol.require('ol');
+ol.require('ol.transform');
+ol.require('ol.ImageCanvas');
+ol.require('ol.TileQueue');
+ol.require('ol.dom');
+ol.require('ol.events');
+ol.require('ol.events.Event');
+ol.require('ol.events.EventType');
+ol.require('ol.ext.pixelworks');
+ol.require('ol.extent');
+ol.require('ol.layer.Image');
+ol.require('ol.layer.Tile');
+ol.require('ol.obj');
+ol.require('ol.renderer.canvas.ImageLayer');
+ol.require('ol.renderer.canvas.TileLayer');
+ol.require('ol.source.Image');
+ol.require('ol.source.State');
+ol.require('ol.source.Tile');
 
 
 /**

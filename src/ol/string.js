@@ -1,4 +1,4 @@
-goog.provide('ol.string');
+ol.provide('ol.string');
 
 /**
  * @param {number} number Number to be formatted

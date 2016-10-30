@@ -1,9 +1,9 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control.ScaleLine');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.source.OSM');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control.ScaleLine');
+ol.require('ol.layer.Tile');
+ol.require('ol.proj');
+ol.require('ol.source.OSM');
 
 proj4.defs('Indiana-East', 'PROJCS["IN83-EF",GEOGCS["LL83",DATUM["NAD83",' +
     'SPHEROID["GRS1980",6378137.000,298.25722210]],PRIMEM["Greenwich",0],' +

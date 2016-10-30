@@ -1,12 +1,12 @@
-goog.provide('ol.test.rendering.layer.Image');
+ol.provide('ol.test.rendering.layer.Image');
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Image');
-goog.require('ol.obj');
-goog.require('ol.proj');
-goog.require('ol.source.ImageStatic');
-goog.require('ol.tilegrid');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Image');
+ol.require('ol.obj');
+ol.require('ol.proj');
+ol.require('ol.source.ImageStatic');
+ol.require('ol.tilegrid');
 
 
 describe('ol.rendering.layer.Image', function() {

@@ -1,22 +1,22 @@
 //FIXME Implement projection handling
 
-goog.provide('ol.format.MVT');
+ol.provide('ol.format.MVT');
 
-goog.require('ol');
-goog.require('ol.ext.pbf');
-goog.require('ol.ext.vectortile');
-goog.require('ol.format.Feature');
-goog.require('ol.format.FormatType');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.proj.Projection');
-goog.require('ol.proj.Units');
-goog.require('ol.render.Feature');
+ol.require('ol');
+ol.require('ol.ext.pbf');
+ol.require('ol.ext.vectortile');
+ol.require('ol.format.Feature');
+ol.require('ol.format.FormatType');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.proj.Projection');
+ol.require('ol.proj.Units');
+ol.require('ol.render.Feature');
 
 
 /**

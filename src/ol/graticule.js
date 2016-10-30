@@ -1,14 +1,14 @@
-goog.provide('ol.Graticule');
+ol.provide('ol.Graticule');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.flat.geodesic');
-goog.require('ol.math');
-goog.require('ol.proj');
-goog.require('ol.render.Event');
-goog.require('ol.style.Stroke');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.flat.geodesic');
+ol.require('ol.math');
+ol.require('ol.proj');
+ol.require('ol.render.Event');
+ol.require('ol.style.Stroke');
 
 
 /**

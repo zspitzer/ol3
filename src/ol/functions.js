@@ -1,4 +1,4 @@
-goog.provide('ol.functions');
+ol.provide('ol.functions');
 
 /**
  * Always returns true.

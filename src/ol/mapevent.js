@@ -1,7 +1,7 @@
-goog.provide('ol.MapEvent');
+ol.provide('ol.MapEvent');
 
-goog.require('ol');
-goog.require('ol.events.Event');
+ol.require('ol');
+ol.require('ol.events.Event');
 
 
 /**

@@ -1,4 +1,4 @@
-goog.provide('ol.size');
+ol.provide('ol.size');
 
 
 /**

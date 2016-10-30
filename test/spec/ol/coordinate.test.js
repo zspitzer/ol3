@@ -1,6 +1,6 @@
-goog.provide('ol.test.coordinate');
+ol.provide('ol.test.coordinate');
 
-goog.require('ol.coordinate');
+ol.require('ol.coordinate');
 
 
 describe('ol.coordinate', function() {

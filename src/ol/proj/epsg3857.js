@@ -1,10 +1,10 @@
-goog.provide('ol.proj.EPSG3857');
+ol.provide('ol.proj.EPSG3857');
 
-goog.require('ol');
-goog.require('ol.math');
-goog.require('ol.proj');
-goog.require('ol.proj.Projection');
-goog.require('ol.proj.Units');
+ol.require('ol');
+ol.require('ol.math');
+ol.require('ol.proj');
+ol.require('ol.proj.Projection');
+ol.require('ol.proj.Units');
 
 
 /**

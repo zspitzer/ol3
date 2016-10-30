@@ -1,9 +1,9 @@
-goog.provide('ol.extent');
-goog.provide('ol.extent.Corner');
-goog.provide('ol.extent.Relationship');
+ol.provide('ol.extent');
+ol.provide('ol.extent.Corner');
+ol.provide('ol.extent.Relationship');
 
-goog.require('ol');
-goog.require('ol.asserts');
+ol.require('ol');
+ol.require('ol.asserts');
 
 
 /**

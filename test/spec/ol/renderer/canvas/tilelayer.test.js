@@ -1,10 +1,10 @@
-goog.provide('ol.test.renderer.canvas.TileLayer');
+ol.provide('ol.test.renderer.canvas.TileLayer');
 
-goog.require('ol.transform');
-goog.require('ol.layer.Tile');
-goog.require('ol.renderer.Map');
-goog.require('ol.renderer.canvas.TileLayer');
-goog.require('ol.source.XYZ');
+ol.require('ol.transform');
+ol.require('ol.layer.Tile');
+ol.require('ol.renderer.Map');
+ol.require('ol.renderer.canvas.TileLayer');
+ol.require('ol.source.XYZ');
 
 
 describe('ol.renderer.canvas.TileLayer', function() {

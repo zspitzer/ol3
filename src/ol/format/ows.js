@@ -1,10 +1,10 @@
-goog.provide('ol.format.OWS');
+ol.provide('ol.format.OWS');
 
-goog.require('ol');
-goog.require('ol.format.XLink');
-goog.require('ol.format.XML');
-goog.require('ol.format.XSD');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.format.XLink');
+ol.require('ol.format.XML');
+ol.require('ol.format.XSD');
+ol.require('ol.xml');
 
 
 /**

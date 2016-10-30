@@ -1,12 +1,12 @@
 // NOCOMPILE
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.format.WKT');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.OSM');
-goog.require('ol.source.Vector');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control');
+ol.require('ol.format.WKT');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.OSM');
+ol.require('ol.source.Vector');
 
 var raster = new ol.layer.Tile({
   source: new ol.source.OSM()

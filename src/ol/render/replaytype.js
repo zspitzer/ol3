@@ -1,4 +1,4 @@
-goog.provide('ol.render.ReplayType');
+ol.provide('ol.render.ReplayType');
 
 
 /**

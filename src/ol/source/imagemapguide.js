@@ -1,13 +1,13 @@
-goog.provide('ol.source.ImageMapGuide');
+ol.provide('ol.source.ImageMapGuide');
 
-goog.require('ol');
-goog.require('ol.Image');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.obj');
-goog.require('ol.source.Image');
-goog.require('ol.uri');
+ol.require('ol');
+ol.require('ol.Image');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.obj');
+ol.require('ol.source.Image');
+ol.require('ol.uri');
 
 
 /**

@@ -1,8 +1,8 @@
-goog.provide('ol.test.source.Source');
+ol.provide('ol.test.source.Source');
 
-goog.require('ol.Attribution');
-goog.require('ol.proj');
-goog.require('ol.source.Source');
+ol.require('ol.Attribution');
+ol.require('ol.proj');
+ol.require('ol.source.Source');
 
 
 describe('ol.source.Source', function() {

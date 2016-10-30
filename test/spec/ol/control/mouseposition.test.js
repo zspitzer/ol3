@@ -1,6 +1,6 @@
-goog.provide('ol.test.control.MousePosition');
+ol.provide('ol.test.control.MousePosition');
 
-goog.require('ol.control.MousePosition');
+ol.require('ol.control.MousePosition');
 
 describe('ol.control.MousePosition', function() {
 

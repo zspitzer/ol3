@@ -1,6 +1,6 @@
-goog.provide('ol.test.RotationConstraint');
+ol.provide('ol.test.RotationConstraint');
 
-goog.require('ol.RotationConstraint');
+ol.require('ol.RotationConstraint');
 
 
 describe('ol.RotationConstraint', function() {

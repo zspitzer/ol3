@@ -1,13 +1,13 @@
-goog.provide('ol.style.Circle');
+ol.provide('ol.style.Circle');
 
-goog.require('ol');
-goog.require('ol.color');
-goog.require('ol.colorlike');
-goog.require('ol.dom');
-goog.require('ol.has');
-goog.require('ol.Image');
-goog.require('ol.render.canvas');
-goog.require('ol.style.Image');
+ol.require('ol');
+ol.require('ol.color');
+ol.require('ol.colorlike');
+ol.require('ol.dom');
+ol.require('ol.has');
+ol.require('ol.Image');
+ol.require('ol.render.canvas');
+ol.require('ol.style.Image');
 
 
 /**

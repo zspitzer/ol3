@@ -1,11 +1,11 @@
-goog.provide('ol.interaction.Pointer');
+ol.provide('ol.interaction.Pointer');
 
-goog.require('ol');
-goog.require('ol.functions');
-goog.require('ol.MapBrowserEvent.EventType');
-goog.require('ol.MapBrowserPointerEvent');
-goog.require('ol.interaction.Interaction');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.functions');
+ol.require('ol.MapBrowserEvent.EventType');
+ol.require('ol.MapBrowserPointerEvent');
+ol.require('ol.interaction.Interaction');
+ol.require('ol.obj');
 
 
 /**

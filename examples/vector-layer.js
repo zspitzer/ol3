@@ -1,14 +1,14 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.GeoJSON');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.OSM');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
-goog.require('ol.style.Text');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.GeoJSON');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.OSM');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
+ol.require('ol.style.Text');
 
 
 var style = new ol.style.Style({

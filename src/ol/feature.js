@@ -1,12 +1,12 @@
-goog.provide('ol.Feature');
+ol.provide('ol.Feature');
 
-goog.require('ol.asserts');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol');
-goog.require('ol.Object');
-goog.require('ol.geom.Geometry');
-goog.require('ol.style.Style');
+ol.require('ol.asserts');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol');
+ol.require('ol.Object');
+ol.require('ol.geom.Geometry');
+ol.require('ol.style.Style');
 
 
 /**

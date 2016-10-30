@@ -1,10 +1,10 @@
-goog.provide('ol.render.canvas.TextReplay');
+ol.provide('ol.render.canvas.TextReplay');
 
-goog.require('ol');
-goog.require('ol.colorlike');
-goog.require('ol.render.canvas');
-goog.require('ol.render.canvas.Instruction');
-goog.require('ol.render.canvas.Replay');
+ol.require('ol');
+ol.require('ol.colorlike');
+ol.require('ol.render.canvas');
+ol.require('ol.render.canvas.Instruction');
+ol.require('ol.render.canvas.Replay');
 
 
 /**

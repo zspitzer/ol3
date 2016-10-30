@@ -1,15 +1,15 @@
-goog.provide('ol.renderer.Layer');
+ol.provide('ol.renderer.Layer');
 
-goog.require('ol');
-goog.require('ol.Image');
-goog.require('ol.Observable');
-goog.require('ol.Tile');
-goog.require('ol.asserts');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.functions');
-goog.require('ol.source.State');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.Image');
+ol.require('ol.Observable');
+ol.require('ol.Tile');
+ol.require('ol.asserts');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.functions');
+ol.require('ol.source.State');
+ol.require('ol.transform');
 
 
 /**

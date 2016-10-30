@@ -1,13 +1,13 @@
 // NOCOMPILE
 // this example uses FileSaver.js for which we don't have an externs file.
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.format.GeoJSON');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.OSM');
-goog.require('ol.source.Vector');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control');
+ol.require('ol.format.GeoJSON');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.OSM');
+ol.require('ol.source.Vector');
 
 var map = new ol.Map({
   layers: [

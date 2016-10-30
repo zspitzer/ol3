@@ -1,11 +1,11 @@
 // FIXME factor out key precondition (shift et. al)
 
-goog.provide('ol.interaction.Interaction');
+ol.provide('ol.interaction.Interaction');
 
-goog.require('ol');
-goog.require('ol.Object');
-goog.require('ol.animation');
-goog.require('ol.easing');
+ol.require('ol');
+ol.require('ol.Object');
+ol.require('ol.animation');
+ol.require('ol.easing');
 
 
 /**

@@ -1,11 +1,11 @@
-goog.provide('ol.Image');
+ol.provide('ol.Image');
 
-goog.require('ol');
-goog.require('ol.ImageBase');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.ImageBase');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.obj');
 
 
 /**

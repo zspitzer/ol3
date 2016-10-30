@@ -1,20 +1,20 @@
-goog.provide('ol.View');
+ol.provide('ol.View');
 
-goog.require('ol');
-goog.require('ol.CenterConstraint');
-goog.require('ol.Constraints');
-goog.require('ol.Object');
-goog.require('ol.ResolutionConstraint');
-goog.require('ol.RotationConstraint');
-goog.require('ol.array');
-goog.require('ol.asserts');
-goog.require('ol.coordinate');
-goog.require('ol.extent');
-goog.require('ol.geom.Polygon');
-goog.require('ol.geom.SimpleGeometry');
-goog.require('ol.proj');
-goog.require('ol.proj.METERS_PER_UNIT');
-goog.require('ol.proj.Units');
+ol.require('ol');
+ol.require('ol.CenterConstraint');
+ol.require('ol.Constraints');
+ol.require('ol.Object');
+ol.require('ol.ResolutionConstraint');
+ol.require('ol.RotationConstraint');
+ol.require('ol.array');
+ol.require('ol.asserts');
+ol.require('ol.coordinate');
+ol.require('ol.extent');
+ol.require('ol.geom.Polygon');
+ol.require('ol.geom.SimpleGeometry');
+ol.require('ol.proj');
+ol.require('ol.proj.METERS_PER_UNIT');
+ol.require('ol.proj.Units');
 
 
 /**

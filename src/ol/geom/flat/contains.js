@@ -1,7 +1,7 @@
-goog.provide('ol.geom.flat.contains');
+ol.provide('ol.geom.flat.contains');
 
-goog.require('ol');
-goog.require('ol.extent');
+ol.require('ol');
+ol.require('ol.extent');
 
 
 /**

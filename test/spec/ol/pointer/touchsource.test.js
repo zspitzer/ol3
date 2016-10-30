@@ -1,11 +1,11 @@
-goog.provide('ol.test.pointer.TouchSource');
+ol.provide('ol.test.pointer.TouchSource');
 
-goog.require('ol.events');
-goog.require('ol.events.Event');
-goog.require('ol.events.EventTarget');
-goog.require('ol.has');
-goog.require('ol.obj');
-goog.require('ol.pointer.PointerEventHandler');
+ol.require('ol.events');
+ol.require('ol.events.Event');
+ol.require('ol.events.EventTarget');
+ol.require('ol.has');
+ol.require('ol.obj');
+ol.require('ol.pointer.PointerEventHandler');
 describe('ol.pointer.TouchSource', function() {
   var handler;
   var target;

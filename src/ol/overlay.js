@@ -1,12 +1,12 @@
-goog.provide('ol.Overlay');
+ol.provide('ol.Overlay');
 
-goog.require('ol');
-goog.require('ol.MapEvent');
-goog.require('ol.Object');
-goog.require('ol.animation');
-goog.require('ol.dom');
-goog.require('ol.events');
-goog.require('ol.extent');
+ol.require('ol');
+ol.require('ol.MapEvent');
+ol.require('ol.Object');
+ol.require('ol.animation');
+ol.require('ol.dom');
+ol.require('ol.events');
+ol.require('ol.extent');
 
 
 /**

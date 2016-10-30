@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.intersectsextent');
+ol.provide('ol.test.geom.flat.intersectsextent');
 
-goog.require('ol.geom.flat.intersectsextent');
+ol.require('ol.geom.flat.intersectsextent');
 
 
 describe('ol.geom.flat.intersectsextent', function() {

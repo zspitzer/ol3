@@ -1,8 +1,8 @@
-goog.provide('ol.source.OSM');
+ol.provide('ol.source.OSM');
 
-goog.require('ol');
-goog.require('ol.Attribution');
-goog.require('ol.source.XYZ');
+ol.require('ol');
+ol.require('ol.Attribution');
+ol.require('ol.source.XYZ');
 
 
 /**

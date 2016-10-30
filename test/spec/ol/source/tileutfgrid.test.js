@@ -1,9 +1,9 @@
-goog.provide('ol.test.source.TileUTFGrid');
+ol.provide('ol.test.source.TileUTFGrid');
 
-goog.require('ol.proj');
-goog.require('ol.source.Tile');
-goog.require('ol.source.TileUTFGrid');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol.proj');
+ol.require('ol.source.Tile');
+ol.require('ol.source.TileUTFGrid');
+ol.require('ol.tilegrid.TileGrid');
 
 
 describe('ol.source.TileUTFGrid', function() {

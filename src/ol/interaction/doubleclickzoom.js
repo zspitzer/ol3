@@ -1,8 +1,8 @@
-goog.provide('ol.interaction.DoubleClickZoom');
+ol.provide('ol.interaction.DoubleClickZoom');
 
-goog.require('ol');
-goog.require('ol.MapBrowserEvent.EventType');
-goog.require('ol.interaction.Interaction');
+ol.require('ol');
+ol.require('ol.MapBrowserEvent.EventType');
+ol.require('ol.interaction.Interaction');
 
 
 /**

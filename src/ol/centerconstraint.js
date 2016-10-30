@@ -1,6 +1,6 @@
-goog.provide('ol.CenterConstraint');
+ol.provide('ol.CenterConstraint');
 
-goog.require('ol.math');
+ol.require('ol.math');
 
 
 /**

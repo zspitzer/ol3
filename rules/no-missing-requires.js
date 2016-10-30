@@ -20,7 +20,7 @@ const CLASS_RE = /^(ol(\.[a-z]\w*)*\.[A-Z]\w*)(\.\w+)*$/;
 exports.rule = {
   meta: {
     docs: {
-      description: 'ensure there are goog.require() calls for all used symbols'
+      description: 'ensure there are ol.require() calls for all used symbols'
     },
     fixable: 'code'
   },
@@ -50,7 +50,7 @@ exports.rule = {
             let match = name.match(CONST_RE);
             if (match) {
               if (!defined[match[1]]) {
-                context.report(expression, `Missing goog.require('${match[1]}')`);
+                context.report(expression, `Missing ol.require('${match[1]}')`);
               }
               return;
             }
@@ -66,12 +66,12 @@ exports.rule = {
                 // ol.source.XYZ -> require('ol.source.XYZ')
                 const objectName = parts.slice(0, -1).join('.');
                 if (!defined[className] && !defined[objectName]) {
-                  context.report(expression, `Missing goog.require('${className}') or goog.require('${objectName}')`);
+                  context.report(expression, `Missing ol.require('${className}') or ol.require('${objectName}')`);
                 }
                 return;
               }
               if (!defined[className]) {
-                context.report(expression, `Missing goog.require('${className}')`);
+                context.report(expression, `Missing ol.require('${className}')`);
               }
               return;
             }
@@ -83,7 +83,7 @@ exports.rule = {
             }
             const objectName = parts.join('.');
             if (!defined[objectName]) {
-              context.report(expression, `Missing goog.require('${objectName}')`);
+              context.report(expression, `Missing ol.require('${objectName}')`);
             }
           }
         }

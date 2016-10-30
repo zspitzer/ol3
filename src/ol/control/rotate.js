@@ -1,12 +1,12 @@
-goog.provide('ol.control.Rotate');
+ol.provide('ol.control.Rotate');
 
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol');
-goog.require('ol.animation');
-goog.require('ol.control.Control');
-goog.require('ol.css');
-goog.require('ol.easing');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol');
+ol.require('ol.animation');
+ol.require('ol.control.Control');
+ol.require('ol.css');
+ol.require('ol.easing');
 
 
 /**

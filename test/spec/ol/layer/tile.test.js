@@ -1,7 +1,7 @@
-goog.provide('ol.test.layer.Tile');
+ol.provide('ol.test.layer.Tile');
 
-goog.require('ol.layer.Tile');
-goog.require('ol.source.OSM');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.OSM');
 
 
 describe('ol.layer.Tile', function() {

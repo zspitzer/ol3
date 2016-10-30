@@ -1,16 +1,16 @@
 /* eslint-disable openlayers-internal/no-unused-requires */
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.MVT');
-goog.require('ol.layer.VectorTile');
-goog.require('ol.source.VectorTile');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Icon');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
-goog.require('ol.style.Text');
-goog.require('ol.tilegrid');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.MVT');
+ol.require('ol.layer.VectorTile');
+ol.require('ol.source.VectorTile');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Icon');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
+ol.require('ol.style.Text');
+ol.require('ol.tilegrid');
 
 
 var key = 'pk.eyJ1IjoiYWhvY2V2YXIiLCJhIjoiRk1kMWZaSSJ9.E5BkluenyWQMsBLsuByrmg';

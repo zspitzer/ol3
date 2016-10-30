@@ -1,9 +1,9 @@
-goog.provide('ol.animation');
+ol.provide('ol.animation');
 
-goog.require('ol');
-goog.require('ol.View');
-goog.require('ol.coordinate');
-goog.require('ol.easing');
+ol.require('ol');
+ol.require('ol.View');
+ol.require('ol.coordinate');
+ol.require('ol.easing');
 
 
 /**

@@ -1,8 +1,8 @@
-goog.provide('ol.test.geom.MultiLineString');
+ol.provide('ol.test.geom.MultiLineString');
 
-goog.require('ol.extent');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.MultiLineString');
+ol.require('ol.extent');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.MultiLineString');
 
 
 describe('ol.geom.MultiLineString', function() {

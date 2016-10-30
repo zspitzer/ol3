@@ -1,16 +1,16 @@
-goog.provide('ol.test.Map');
+ol.provide('ol.test.Map');
 
-goog.require('ol.Map');
-goog.require('ol.MapEvent');
-goog.require('ol.Overlay');
-goog.require('ol.View');
-goog.require('ol.has');
-goog.require('ol.interaction');
-goog.require('ol.interaction.DoubleClickZoom');
-goog.require('ol.interaction.Interaction');
-goog.require('ol.interaction.MouseWheelZoom');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.XYZ');
+ol.require('ol.Map');
+ol.require('ol.MapEvent');
+ol.require('ol.Overlay');
+ol.require('ol.View');
+ol.require('ol.has');
+ol.require('ol.interaction');
+ol.require('ol.interaction.DoubleClickZoom');
+ol.require('ol.interaction.Interaction');
+ol.require('ol.interaction.MouseWheelZoom');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.XYZ');
 
 
 describe('ol.Map', function() {

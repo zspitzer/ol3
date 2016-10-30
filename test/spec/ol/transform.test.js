@@ -1,6 +1,6 @@
-goog.provide('ol.test.transform');
+ol.provide('ol.test.transform');
 
-goog.require('ol.transform');
+ol.require('ol.transform');
 
 
 describe('ol.transform', function() {

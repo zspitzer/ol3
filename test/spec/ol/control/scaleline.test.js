@@ -1,9 +1,9 @@
-goog.provide('ol.test.control.ScaleLine');
+ol.provide('ol.test.control.ScaleLine');
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control.ScaleLine');
-goog.require('ol.proj');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control.ScaleLine');
+ol.require('ol.proj');
 
 describe('ol.control.ScaleLine', function() {
   var mapDiv;

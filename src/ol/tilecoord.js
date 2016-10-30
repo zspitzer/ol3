@@ -1,4 +1,4 @@
-goog.provide('ol.tilecoord');
+ol.provide('ol.tilecoord');
 
 
 /**

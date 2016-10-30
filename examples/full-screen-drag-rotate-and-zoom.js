@@ -1,11 +1,11 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.control.FullScreen');
-goog.require('ol.interaction');
-goog.require('ol.interaction.DragRotateAndZoom');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.BingMaps');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control');
+ol.require('ol.control.FullScreen');
+ol.require('ol.interaction');
+ol.require('ol.interaction.DragRotateAndZoom');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.BingMaps');
 
 
 var map = new ol.Map({

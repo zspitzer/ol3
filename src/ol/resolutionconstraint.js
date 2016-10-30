@@ -1,7 +1,7 @@
-goog.provide('ol.ResolutionConstraint');
+ol.provide('ol.ResolutionConstraint');
 
-goog.require('ol.array');
-goog.require('ol.math');
+ol.require('ol.array');
+ol.require('ol.math');
 
 
 /**

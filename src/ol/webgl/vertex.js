@@ -1,8 +1,8 @@
-goog.provide('ol.webgl.Vertex');
+ol.provide('ol.webgl.Vertex');
 
-goog.require('ol');
-goog.require('ol.webgl');
-goog.require('ol.webgl.Shader');
+ol.require('ol');
+ol.require('ol.webgl');
+ol.require('ol.webgl.Shader');
 
 
 /**

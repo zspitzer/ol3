@@ -1,10 +1,10 @@
-goog.provide('ol.style.Style');
+ol.provide('ol.style.Style');
 
-goog.require('ol.asserts');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
+ol.require('ol.asserts');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
 
 
 /**

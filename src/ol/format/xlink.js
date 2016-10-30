@@ -1,4 +1,4 @@
-goog.provide('ol.format.XLink');
+ol.provide('ol.format.XLink');
 
 
 /**

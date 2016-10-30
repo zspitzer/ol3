@@ -1,8 +1,8 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj.Projection');
-goog.require('ol.source.Zoomify');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Tile');
+ol.require('ol.proj.Projection');
+ol.require('ol.source.Zoomify');
 
 var imgWidth = 9911;
 var imgHeight = 6100;

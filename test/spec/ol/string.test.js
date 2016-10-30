@@ -1,6 +1,6 @@
-goog.provide('ol.test.string');
+ol.provide('ol.test.string');
 
-goog.require('ol.string');
+ol.require('ol.string');
 
 
 describe('ol.string', function() {

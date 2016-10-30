@@ -1,18 +1,18 @@
-goog.provide('ol.render.canvas.ReplayGroup');
+ol.provide('ol.render.canvas.ReplayGroup');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.dom');
-goog.require('ol.extent');
-goog.require('ol.geom.flat.transform');
-goog.require('ol.obj');
-goog.require('ol.render.ReplayGroup');
-goog.require('ol.render.canvas.ImageReplay');
-goog.require('ol.render.canvas.LineStringReplay');
-goog.require('ol.render.canvas.PolygonReplay');
-goog.require('ol.render.canvas.TextReplay');
-goog.require('ol.render.replay');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.dom');
+ol.require('ol.extent');
+ol.require('ol.geom.flat.transform');
+ol.require('ol.obj');
+ol.require('ol.render.ReplayGroup');
+ol.require('ol.render.canvas.ImageReplay');
+ol.require('ol.render.canvas.LineStringReplay');
+ol.require('ol.render.canvas.PolygonReplay');
+ol.require('ol.render.canvas.TextReplay');
+ol.require('ol.render.replay');
+ol.require('ol.transform');
 
 
 /**

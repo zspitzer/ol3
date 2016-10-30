@@ -1,8 +1,8 @@
-goog.provide('ol.structs.PriorityQueue');
+ol.provide('ol.structs.PriorityQueue');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.obj');
 
 
 /**

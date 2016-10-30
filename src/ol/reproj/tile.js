@@ -1,13 +1,13 @@
-goog.provide('ol.reproj.Tile');
+ol.provide('ol.reproj.Tile');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.math');
-goog.require('ol.reproj');
-goog.require('ol.reproj.Triangulation');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.math');
+ol.require('ol.reproj');
+ol.require('ol.reproj.Triangulation');
 
 
 /**

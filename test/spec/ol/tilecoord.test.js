@@ -1,7 +1,7 @@
-goog.provide('ol.test.TileCoord');
+ol.provide('ol.test.TileCoord');
 
-goog.require('ol.tilecoord');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol.tilecoord');
+ol.require('ol.tilegrid.TileGrid');
 
 
 describe('ol.TileCoord', function() {

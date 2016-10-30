@@ -1,8 +1,8 @@
-goog.provide('ol.test.TileUrlFunction');
+ol.provide('ol.test.TileUrlFunction');
 
-goog.require('ol.TileUrlFunction');
-goog.require('ol.tilegrid');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol.TileUrlFunction');
+ol.require('ol.tilegrid');
+ol.require('ol.tilegrid.TileGrid');
 
 
 describe('ol.TileUrlFunction', function() {

@@ -1,11 +1,11 @@
-goog.provide('ol.interaction.KeyboardPan');
+ol.provide('ol.interaction.KeyboardPan');
 
-goog.require('ol');
-goog.require('ol.coordinate');
-goog.require('ol.events.EventType');
-goog.require('ol.events.KeyCode');
-goog.require('ol.events.condition');
-goog.require('ol.interaction.Interaction');
+ol.require('ol');
+ol.require('ol.coordinate');
+ol.require('ol.events.EventType');
+ol.require('ol.events.KeyCode');
+ol.require('ol.events.condition');
+ol.require('ol.interaction.Interaction');
 
 
 /**

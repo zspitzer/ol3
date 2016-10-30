@@ -1,6 +1,6 @@
-goog.provide('ol.test.uri');
+ol.provide('ol.test.uri');
 
-goog.require('ol.uri');
+ol.require('ol.uri');
 
 
 describe('ol.uri.appendParams()', function() {

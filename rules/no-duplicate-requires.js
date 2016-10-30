@@ -5,7 +5,7 @@ const util = require('./util');
 exports.rule = {
   meta: {
     docs: {
-      description: 'disallow duplicate goog.require() calls'
+      description: 'disallow duplicate ol.require() calls'
     },
     fixable: 'code'
   },
@@ -28,7 +28,7 @@ exports.rule = {
 
             return context.report({
               node: statement,
-              message: `Duplicate goog.require('${name}')`,
+              message: `Duplicate ol.require('${name}')`,
               fix: function(fixer) {
                 const afterToken = source.getTokenAfter(statement);
                 const range = [

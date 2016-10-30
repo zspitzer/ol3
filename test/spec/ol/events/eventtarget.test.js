@@ -1,9 +1,9 @@
-goog.provide('ol.test.events.EventTarget');
+ol.provide('ol.test.events.EventTarget');
 
-goog.require('ol.Disposable');
-goog.require('ol.events');
-goog.require('ol.events.Event');
-goog.require('ol.events.EventTarget');
+ol.require('ol.Disposable');
+ol.require('ol.events');
+ol.require('ol.events.Event');
+ol.require('ol.events.EventTarget');
 
 
 describe('ol.events.EventTarget', function() {

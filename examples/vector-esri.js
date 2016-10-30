@@ -1,16 +1,16 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.EsriJSON');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.loadingstrategy');
-goog.require('ol.proj');
-goog.require('ol.source.Vector');
-goog.require('ol.source.XYZ');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
-goog.require('ol.tilegrid');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.EsriJSON');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.loadingstrategy');
+ol.require('ol.proj');
+ol.require('ol.source.Vector');
+ol.require('ol.source.XYZ');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
+ol.require('ol.tilegrid');
 
 
 var serviceUrl = 'https://sampleserver3.arcgisonline.com/ArcGIS/rest/services/' +

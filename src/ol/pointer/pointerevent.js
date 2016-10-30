@@ -28,11 +28,11 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-goog.provide('ol.pointer.PointerEvent');
+ol.provide('ol.pointer.PointerEvent');
 
 
-goog.require('ol');
-goog.require('ol.events.Event');
+ol.require('ol');
+ol.require('ol.events.Event');
 
 
 /**

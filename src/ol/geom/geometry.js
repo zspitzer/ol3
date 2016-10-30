@@ -1,13 +1,13 @@
-goog.provide('ol.geom.Geometry');
-goog.provide('ol.geom.GeometryLayout');
-goog.provide('ol.geom.GeometryType');
+ol.provide('ol.geom.Geometry');
+ol.provide('ol.geom.GeometryLayout');
+ol.provide('ol.geom.GeometryType');
 
-goog.require('ol');
-goog.require('ol.functions');
-goog.require('ol.Object');
-goog.require('ol.extent');
-goog.require('ol.proj');
-goog.require('ol.proj.Units');
+ol.require('ol');
+ol.require('ol.functions');
+ol.require('ol.Object');
+ol.require('ol.extent');
+ol.require('ol.proj');
+ol.require('ol.proj.Units');
 
 
 /**

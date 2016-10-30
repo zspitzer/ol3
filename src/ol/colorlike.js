@@ -1,6 +1,6 @@
-goog.provide('ol.colorlike');
+ol.provide('ol.colorlike');
 
-goog.require('ol.color');
+ol.require('ol.color');
 
 
 /**

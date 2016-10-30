@@ -1,13 +1,13 @@
-goog.provide('ol.test.format.GPX');
+ol.provide('ol.test.format.GPX');
 
-goog.require('ol.Feature');
-goog.require('ol.format.GPX');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.proj');
-goog.require('ol.xml');
+ol.require('ol.Feature');
+ol.require('ol.format.GPX');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.proj');
+ol.require('ol.xml');
 
 describe('ol.format.GPX', function() {
 

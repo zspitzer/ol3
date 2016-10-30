@@ -1,26 +1,26 @@
-goog.provide('ol.test.format.KML');
+ol.provide('ol.test.format.KML');
 
-goog.require('ol.array');
-goog.require('ol.Feature');
-goog.require('ol.format.GeoJSON');
-goog.require('ol.format.KML');
-goog.require('ol.geom.GeometryCollection');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.LinearRing');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Icon');
-goog.require('ol.proj');
-goog.require('ol.proj.Projection');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
-goog.require('ol.style.Text');
-goog.require('ol.xml');
+ol.require('ol.array');
+ol.require('ol.Feature');
+ol.require('ol.format.GeoJSON');
+ol.require('ol.format.KML');
+ol.require('ol.geom.GeometryCollection');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.LinearRing');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Icon');
+ol.require('ol.proj');
+ol.require('ol.proj.Projection');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
+ol.require('ol.style.Text');
+ol.require('ol.xml');
 
 
 describe('ol.format.KML', function() {

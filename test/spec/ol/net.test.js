@@ -1,7 +1,7 @@
-goog.provide('ol.test.net');
+ol.provide('ol.test.net');
 
-goog.require('ol');
-goog.require('ol.net');
+ol.require('ol');
+ol.require('ol.net');
 
 describe('ol.net', function() {
 

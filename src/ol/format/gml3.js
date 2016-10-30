@@ -1,20 +1,20 @@
-goog.provide('ol.format.GML3');
+ol.provide('ol.format.GML3');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.extent');
-goog.require('ol.format.Feature');
-goog.require('ol.format.GMLBase');
-goog.require('ol.format.XSD');
-goog.require('ol.geom.Geometry');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Polygon');
-goog.require('ol.obj');
-goog.require('ol.proj');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.extent');
+ol.require('ol.format.Feature');
+ol.require('ol.format.GMLBase');
+ol.require('ol.format.XSD');
+ol.require('ol.geom.Geometry');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Polygon');
+ol.require('ol.obj');
+ol.require('ol.proj');
+ol.require('ol.xml');
 
 
 /**

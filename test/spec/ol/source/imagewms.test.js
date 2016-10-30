@@ -1,7 +1,7 @@
-goog.provide('ol.test.source.ImageWMS');
+ol.provide('ol.test.source.ImageWMS');
 
-goog.require('ol.source.ImageWMS');
-goog.require('ol.proj');
+ol.require('ol.source.ImageWMS');
+ol.require('ol.proj');
 
 
 describe('ol.source.ImageWMS', function() {

@@ -1,8 +1,8 @@
-goog.provide('ol.Attribution');
+ol.provide('ol.Attribution');
 
-goog.require('ol.TileRange');
-goog.require('ol.math');
-goog.require('ol.tilegrid');
+ol.require('ol.TileRange');
+ol.require('ol.math');
+ol.require('ol.tilegrid');
 
 
 /**

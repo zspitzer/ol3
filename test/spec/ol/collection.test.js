@@ -1,7 +1,7 @@
-goog.provide('ol.test.Collection');
+ol.provide('ol.test.Collection');
 
-goog.require('ol.events');
-goog.require('ol.Collection');
+ol.require('ol.events');
+ol.require('ol.Collection');
 
 
 describe('ol.collection', function() {

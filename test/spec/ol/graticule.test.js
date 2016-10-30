@@ -1,9 +1,9 @@
-goog.provide('ol.test.Graticule');
+ol.provide('ol.test.Graticule');
 
-goog.require('ol.Graticule');
-goog.require('ol.Map');
-goog.require('ol.proj');
-goog.require('ol.style.Stroke');
+ol.require('ol.Graticule');
+ol.require('ol.Map');
+ol.require('ol.proj');
+ol.require('ol.style.Stroke');
 
 
 describe('ol.Graticule', function() {

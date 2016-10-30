@@ -1,4 +1,4 @@
-goog.provide('ol.events.EventType');
+ol.provide('ol.events.EventType');
 
 /**
  * @enum {string}

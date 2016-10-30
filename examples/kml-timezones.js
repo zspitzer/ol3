@@ -1,13 +1,13 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.KML');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.Stamen');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.KML');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.Stamen');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
 
 
 /*

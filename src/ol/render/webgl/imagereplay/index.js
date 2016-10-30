@@ -1,18 +1,18 @@
-goog.provide('ol.render.webgl.ImageReplay');
-goog.provide('ol.render.webgl.ReplayGroup');
+ol.provide('ol.render.webgl.ImageReplay');
+ol.provide('ol.render.webgl.ReplayGroup');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.obj');
-goog.require('ol.render.ReplayGroup');
-goog.require('ol.render.VectorContext');
-goog.require('ol.render.replay');
-goog.require('ol.render.webgl.imagereplay.defaultshader');
-goog.require('ol.transform');
-goog.require('ol.vec.Mat4');
-goog.require('ol.webgl');
-goog.require('ol.webgl.Buffer');
-goog.require('ol.webgl.Context');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.obj');
+ol.require('ol.render.ReplayGroup');
+ol.require('ol.render.VectorContext');
+ol.require('ol.render.replay');
+ol.require('ol.render.webgl.imagereplay.defaultshader');
+ol.require('ol.transform');
+ol.require('ol.vec.Mat4');
+ol.require('ol.webgl');
+ol.require('ol.webgl.Buffer');
+ol.require('ol.webgl.Context');
 
 
 /**

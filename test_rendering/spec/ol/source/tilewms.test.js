@@ -1,9 +1,9 @@
-goog.provide('ol.test.rendering.source.TileWMS');
+ol.provide('ol.test.rendering.source.TileWMS');
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.TileWMS');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.TileWMS');
 
 describe('ol.rendering.source.TileWMS', function() {
 

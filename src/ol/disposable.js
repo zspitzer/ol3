@@ -1,6 +1,6 @@
-goog.provide('ol.Disposable');
+ol.provide('ol.Disposable');
 
-goog.require('ol');
+ol.require('ol');
 
 /**
  * Objects that need to clean up after themselves.

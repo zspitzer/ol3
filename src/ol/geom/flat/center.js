@@ -1,6 +1,6 @@
-goog.provide('ol.geom.flat.center');
+ol.provide('ol.geom.flat.center');
 
-goog.require('ol.extent');
+ol.require('ol.extent');
 
 
 /**

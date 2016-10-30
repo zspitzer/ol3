@@ -20,7 +20,7 @@ function longestCommonPrefix(path1, path2) {
 exports.rule = {
   meta: {
     docs: {
-      description: 'require the first goog.provide() has an arg named like the file path'
+      description: 'require the first ol.provide() has an arg named like the file path'
     }
   },
 
@@ -35,20 +35,20 @@ exports.rule = {
           gotFirst = true;
           const parent = expression.parent;
           if (parent.type !== 'ExpressionStatement') {
-            return context.report(expression, 'Expected goog.provide() to in an expression statement');
+            return context.report(expression, 'Expected ol.provide() to in an expression statement');
           }
 
           if (parent.parent.type !== 'Program') {
-            return context.report(expression, 'Expected goog.provide() to be at the top level');
+            return context.report(expression, 'Expected ol.provide() to be at the top level');
           }
 
           if (expression.arguments.length !== 1) {
-            return context.report(expression, 'Expected one argument for goog.require()');
+            return context.report(expression, 'Expected one argument for ol.require()');
           }
 
           const arg = expression.arguments[0];
           if (arg.type !== 'Literal' || !arg.value || typeof arg.value !== 'string') {
-            return context.report(expression, 'Expected goog.require() to be called with a string');
+            return context.report(expression, 'Expected ol.require() to be called with a string');
           }
 
           const filePath = context.getFilename();
@@ -63,7 +63,7 @@ exports.rule = {
           const name = arg.value;
           const expectedPath = name.split('.').join(path.sep) + ext;
           if (expectedPath.toLowerCase() !== requirePath.toLowerCase()) {
-            return context.report(expression, `Expected goog.provide('${name}') to be like ${requirePath}`);
+            return context.report(expression, `Expected ol.provide('${name}') to be like ${requirePath}`);
           }
         }
       }

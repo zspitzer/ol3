@@ -1,15 +1,15 @@
-goog.provide('ol.test.rendering.style.Text');
+ol.provide('ol.test.rendering.style.Text');
 
-goog.require('ol.Feature');
-goog.require('ol.geom.Point');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Text');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Style');
-goog.require('ol.style.Stroke');
+ol.require('ol.Feature');
+ol.require('ol.geom.Point');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Text');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Style');
+ol.require('ol.style.Stroke');
 
 describe('ol.rendering.style.Text', function() {
 

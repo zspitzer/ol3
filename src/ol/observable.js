@@ -1,9 +1,9 @@
-goog.provide('ol.Observable');
+ol.provide('ol.Observable');
 
-goog.require('ol');
-goog.require('ol.events');
-goog.require('ol.events.EventTarget');
-goog.require('ol.events.EventType');
+ol.require('ol');
+ol.require('ol.events');
+ol.require('ol.events.EventTarget');
+ol.require('ol.events.EventType');
 
 
 /**

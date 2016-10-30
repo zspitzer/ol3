@@ -1,7 +1,7 @@
-goog.provide('ol.test.layer.VectorTile');
+ol.provide('ol.test.layer.VectorTile');
 
-goog.require('ol.layer.VectorTile');
-goog.require('ol.source.VectorTile');
+ol.require('ol.layer.VectorTile');
+ol.require('ol.source.VectorTile');
 
 
 describe('ol.layer.VectorTile', function() {

@@ -1,7 +1,7 @@
-goog.provide('ol.test.format.OWS');
+ol.provide('ol.test.format.OWS');
 
-goog.require('ol.format.OWS');
-goog.require('ol.xml');
+ol.require('ol.format.OWS');
+ol.require('ol.xml');
 
 
 describe('ol.format.OWS 1.1', function() {

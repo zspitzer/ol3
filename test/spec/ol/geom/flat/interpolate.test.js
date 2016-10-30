@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.interpolate');
+ol.provide('ol.test.geom.flat.interpolate');
 
-goog.require('ol.geom.flat.interpolate');
+ol.require('ol.geom.flat.interpolate');
 
 
 describe('ol.geom.flat.interpolate', function() {

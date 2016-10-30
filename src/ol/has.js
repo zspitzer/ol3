@@ -1,7 +1,7 @@
-goog.provide('ol.has');
+ol.provide('ol.has');
 
-goog.require('ol');
-goog.require('ol.webgl');
+ol.require('ol');
+ol.require('ol.webgl');
 
 var ua = typeof navigator !== 'undefined' ?
     navigator.userAgent.toLowerCase() : '';

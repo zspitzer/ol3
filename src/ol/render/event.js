@@ -1,7 +1,7 @@
-goog.provide('ol.render.Event');
+ol.provide('ol.render.Event');
 
-goog.require('ol');
-goog.require('ol.events.Event');
+ol.require('ol');
+ol.require('ol.events.Event');
 
 
 /**

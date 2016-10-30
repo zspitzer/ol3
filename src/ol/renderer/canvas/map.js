@@ -1,27 +1,27 @@
 // FIXME offset panning
 
-goog.provide('ol.renderer.canvas.Map');
+ol.provide('ol.renderer.canvas.Map');
 
-goog.require('ol.transform');
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.css');
-goog.require('ol.dom');
-goog.require('ol.layer.Image');
-goog.require('ol.layer.Layer');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.layer.VectorTile');
-goog.require('ol.render.Event');
-goog.require('ol.render.canvas');
-goog.require('ol.render.canvas.Immediate');
-goog.require('ol.renderer.Map');
-goog.require('ol.renderer.Type');
-goog.require('ol.renderer.canvas.ImageLayer');
-goog.require('ol.renderer.canvas.TileLayer');
-goog.require('ol.renderer.canvas.VectorLayer');
-goog.require('ol.renderer.canvas.VectorTileLayer');
-goog.require('ol.source.State');
+ol.require('ol.transform');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.css');
+ol.require('ol.dom');
+ol.require('ol.layer.Image');
+ol.require('ol.layer.Layer');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.layer.VectorTile');
+ol.require('ol.render.Event');
+ol.require('ol.render.canvas');
+ol.require('ol.render.canvas.Immediate');
+ol.require('ol.renderer.Map');
+ol.require('ol.renderer.Type');
+ol.require('ol.renderer.canvas.ImageLayer');
+ol.require('ol.renderer.canvas.TileLayer');
+ol.require('ol.renderer.canvas.VectorLayer');
+ol.require('ol.renderer.canvas.VectorTileLayer');
+ol.require('ol.source.State');
 
 
 /**

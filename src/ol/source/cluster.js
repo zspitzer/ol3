@@ -1,16 +1,16 @@
 // FIXME keep cluster cache by resolution ?
 // FIXME distance not respected because of the centroid
 
-goog.provide('ol.source.Cluster');
+ol.provide('ol.source.Cluster');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.Feature');
-goog.require('ol.coordinate');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.geom.Point');
-goog.require('ol.source.Vector');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.Feature');
+ol.require('ol.coordinate');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.geom.Point');
+ol.require('ol.source.Vector');
 
 
 /**

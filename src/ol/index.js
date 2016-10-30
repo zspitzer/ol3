@@ -1,4 +1,6 @@
-goog.provide('ol');
+/* eslint-disable openlayers-internal/no-missing-requires */
+
+var ol = {}; // this syntax is required by closure-util
 
 
 /**

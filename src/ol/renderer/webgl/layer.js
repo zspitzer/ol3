@@ -1,15 +1,15 @@
-goog.provide('ol.renderer.webgl.Layer');
+ol.provide('ol.renderer.webgl.Layer');
 
-goog.require('ol');
-goog.require('ol.render.Event');
-goog.require('ol.render.webgl.Immediate');
-goog.require('ol.renderer.Layer');
-goog.require('ol.renderer.webgl.defaultmapshader');
-goog.require('ol.transform');
-goog.require('ol.vec.Mat4');
-goog.require('ol.webgl');
-goog.require('ol.webgl.Buffer');
-goog.require('ol.webgl.Context');
+ol.require('ol');
+ol.require('ol.render.Event');
+ol.require('ol.render.webgl.Immediate');
+ol.require('ol.renderer.Layer');
+ol.require('ol.renderer.webgl.defaultmapshader');
+ol.require('ol.transform');
+ol.require('ol.vec.Mat4');
+ol.require('ol.webgl');
+ol.require('ol.webgl.Buffer');
+ol.require('ol.webgl.Context');
 
 
 /**

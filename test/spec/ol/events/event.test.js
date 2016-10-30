@@ -1,6 +1,6 @@
-goog.provide('ol.test.events.Event');
+ol.provide('ol.test.events.Event');
 
-goog.require('ol.events.Event');
+ol.require('ol.events.Event');
 
 describe('ol.events.Event', function() {
 

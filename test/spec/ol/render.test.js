@@ -1,10 +1,10 @@
-goog.provide('ol.test.render');
+ol.provide('ol.test.render');
 
-goog.require('ol.array');
-goog.require('ol.has');
-goog.require('ol.render');
-goog.require('ol.render.canvas.Immediate');
-goog.require('ol.transform');
+ol.require('ol.array');
+ol.require('ol.has');
+ol.require('ol.render');
+ol.require('ol.render.canvas.Immediate');
+ol.require('ol.transform');
 
 
 describe('ol.render', function() {

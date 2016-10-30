@@ -1,7 +1,7 @@
-goog.provide('ol.test.source.ImageStatic');
+ol.provide('ol.test.source.ImageStatic');
 
-goog.require('ol.source.ImageStatic');
-goog.require('ol.proj');
+ol.require('ol.source.ImageStatic');
+ol.require('ol.proj');
 
 
 describe('ol.source.ImageStatic', function() {

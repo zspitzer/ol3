@@ -1,10 +1,10 @@
-goog.provide('ol.test.ImageTile');
+ol.provide('ol.test.ImageTile');
 
-goog.require('ol.ImageTile');
-goog.require('ol.Tile');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.source.Image');
+ol.require('ol.ImageTile');
+ol.require('ol.Tile');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.source.Image');
 
 
 describe('ol.ImageTile', function() {

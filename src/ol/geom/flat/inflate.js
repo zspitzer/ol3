@@ -1,4 +1,4 @@
-goog.provide('ol.geom.flat.inflate');
+ol.provide('ol.geom.flat.inflate');
 
 
 /**

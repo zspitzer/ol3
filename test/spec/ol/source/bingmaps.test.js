@@ -1,9 +1,9 @@
-goog.provide('ol.test.source.BingMaps');
+ol.provide('ol.test.source.BingMaps');
 
-goog.require('ol.net');
-goog.require('ol.source.BingMaps');
-goog.require('ol.tilecoord');
-goog.require('ol.Observable');
+ol.require('ol.net');
+ol.require('ol.source.BingMaps');
+ol.require('ol.tilecoord');
+ol.require('ol.Observable');
 
 
 describe('ol.source.BingMaps', function() {

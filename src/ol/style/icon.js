@@ -1,13 +1,13 @@
-goog.provide('ol.style.Icon');
+ol.provide('ol.style.Icon');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.color');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.Image');
-goog.require('ol.style.IconImage');
-goog.require('ol.style.Image');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.color');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.Image');
+ol.require('ol.style.IconImage');
+ol.require('ol.style.Image');
 
 
 /**

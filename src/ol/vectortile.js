@@ -1,8 +1,8 @@
-goog.provide('ol.VectorTile');
+ol.provide('ol.VectorTile');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.dom');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.dom');
 
 
 /**

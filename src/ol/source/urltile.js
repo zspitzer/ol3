@@ -1,9 +1,9 @@
-goog.provide('ol.source.UrlTile');
+ol.provide('ol.source.UrlTile');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.TileUrlFunction');
-goog.require('ol.source.Tile');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.TileUrlFunction');
+ol.require('ol.source.Tile');
 
 
 /**

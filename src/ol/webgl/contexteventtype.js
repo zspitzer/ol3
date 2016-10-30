@@ -1,4 +1,4 @@
-goog.provide('ol.webgl.ContextEventType');
+ol.provide('ol.webgl.ContextEventType');
 
 
 /**

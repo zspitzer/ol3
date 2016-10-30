@@ -1,17 +1,17 @@
-goog.provide('ol.interaction');
+ol.provide('ol.interaction');
 
-goog.require('ol');
-goog.require('ol.Collection');
-goog.require('ol.Kinetic');
-goog.require('ol.interaction.DoubleClickZoom');
-goog.require('ol.interaction.DragPan');
-goog.require('ol.interaction.DragRotate');
-goog.require('ol.interaction.DragZoom');
-goog.require('ol.interaction.KeyboardPan');
-goog.require('ol.interaction.KeyboardZoom');
-goog.require('ol.interaction.MouseWheelZoom');
-goog.require('ol.interaction.PinchRotate');
-goog.require('ol.interaction.PinchZoom');
+ol.require('ol');
+ol.require('ol.Collection');
+ol.require('ol.Kinetic');
+ol.require('ol.interaction.DoubleClickZoom');
+ol.require('ol.interaction.DragPan');
+ol.require('ol.interaction.DragRotate');
+ol.require('ol.interaction.DragZoom');
+ol.require('ol.interaction.KeyboardPan');
+ol.require('ol.interaction.KeyboardZoom');
+ol.require('ol.interaction.MouseWheelZoom');
+ol.require('ol.interaction.PinchRotate');
+ol.require('ol.interaction.PinchZoom');
 
 
 /**

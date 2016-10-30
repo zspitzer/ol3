@@ -1,11 +1,11 @@
 // FIXME draw drag box
-goog.provide('ol.interaction.DragBox');
+ol.provide('ol.interaction.DragBox');
 
-goog.require('ol.events.Event');
-goog.require('ol');
-goog.require('ol.events.condition');
-goog.require('ol.interaction.Pointer');
-goog.require('ol.render.Box');
+ol.require('ol.events.Event');
+ol.require('ol');
+ol.require('ol.events.condition');
+ol.require('ol.interaction.Pointer');
+ol.require('ol.render.Box');
 
 
 /**

@@ -1,4 +1,4 @@
-goog.provide('ol.events.KeyCode');
+ol.provide('ol.events.KeyCode');
 
 /**
  * @enum {number}

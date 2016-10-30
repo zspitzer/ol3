@@ -1,13 +1,13 @@
-goog.provide('ol.source.VectorTile');
+ol.provide('ol.source.VectorTile');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.VectorTile');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.featureloader');
-goog.require('ol.size');
-goog.require('ol.source.UrlTile');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.VectorTile');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.featureloader');
+ol.require('ol.size');
+ol.require('ol.source.UrlTile');
 
 
 /**

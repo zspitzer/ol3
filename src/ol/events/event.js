@@ -1,4 +1,4 @@
-goog.provide('ol.events.Event');
+ol.provide('ol.events.Event');
 
 
 /**

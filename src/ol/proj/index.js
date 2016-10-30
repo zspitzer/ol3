@@ -1,12 +1,12 @@
-goog.provide('ol.proj');
-goog.provide('ol.proj.METERS_PER_UNIT');
-goog.provide('ol.proj.Projection');
-goog.provide('ol.proj.Units');
+ol.provide('ol.proj');
+ol.provide('ol.proj.METERS_PER_UNIT');
+ol.provide('ol.proj.Projection');
+ol.provide('ol.proj.Units');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.obj');
-goog.require('ol.sphere.NORMAL');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.obj');
+ol.require('ol.sphere.NORMAL');
 
 
 /**

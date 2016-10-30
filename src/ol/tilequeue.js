@@ -1,10 +1,10 @@
-goog.provide('ol.TileQueue');
+ol.provide('ol.TileQueue');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.structs.PriorityQueue');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.structs.PriorityQueue');
 
 
 /**

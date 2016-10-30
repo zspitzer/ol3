@@ -2,39 +2,39 @@
 // FIXME layer renderers should skip when they can't reproject
 // FIXME add tilt and height?
 
-goog.provide('ol.Map');
+ol.provide('ol.Map');
 
-goog.require('ol');
-goog.require('ol.Collection');
-goog.require('ol.MapBrowserEvent');
-goog.require('ol.MapBrowserEvent.EventType');
-goog.require('ol.MapBrowserEventHandler');
-goog.require('ol.MapEvent');
-goog.require('ol.Object');
-goog.require('ol.ObjectEventType');
-goog.require('ol.TileQueue');
-goog.require('ol.View');
-goog.require('ol.array');
-goog.require('ol.asserts');
-goog.require('ol.control');
-goog.require('ol.dom');
-goog.require('ol.events');
-goog.require('ol.events.Event');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.functions');
-goog.require('ol.has');
-goog.require('ol.interaction');
-goog.require('ol.layer.Group');
-goog.require('ol.obj');
-goog.require('ol.proj.common');
-goog.require('ol.renderer.Type');
-goog.require('ol.renderer.Map');
-goog.require('ol.renderer.canvas.Map');
-goog.require('ol.renderer.webgl.Map');
-goog.require('ol.size');
-goog.require('ol.structs.PriorityQueue');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.Collection');
+ol.require('ol.MapBrowserEvent');
+ol.require('ol.MapBrowserEvent.EventType');
+ol.require('ol.MapBrowserEventHandler');
+ol.require('ol.MapEvent');
+ol.require('ol.Object');
+ol.require('ol.ObjectEventType');
+ol.require('ol.TileQueue');
+ol.require('ol.View');
+ol.require('ol.array');
+ol.require('ol.asserts');
+ol.require('ol.control');
+ol.require('ol.dom');
+ol.require('ol.events');
+ol.require('ol.events.Event');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.functions');
+ol.require('ol.has');
+ol.require('ol.interaction');
+ol.require('ol.layer.Group');
+ol.require('ol.obj');
+ol.require('ol.proj.common');
+ol.require('ol.renderer.Type');
+ol.require('ol.renderer.Map');
+ol.require('ol.renderer.canvas.Map');
+ol.require('ol.renderer.webgl.Map');
+ol.require('ol.size');
+ol.require('ol.structs.PriorityQueue');
+ol.require('ol.transform');
 
 
 /**

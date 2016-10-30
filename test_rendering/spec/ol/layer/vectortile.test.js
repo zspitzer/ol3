@@ -1,12 +1,12 @@
-goog.provide('ol.test.rendering.layer.VectorTile');
+ol.provide('ol.test.rendering.layer.VectorTile');
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.MVT');
-goog.require('ol.layer.VectorTile');
-goog.require('ol.obj');
-goog.require('ol.source.VectorTile');
-goog.require('ol.tilegrid');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.MVT');
+ol.require('ol.layer.VectorTile');
+ol.require('ol.obj');
+ol.require('ol.source.VectorTile');
+ol.require('ol.tilegrid');
 
 
 describe('ol.rendering.layer.VectorTile', function() {

@@ -1,6 +1,6 @@
-goog.provide('ol.test.format.WMSGetFeatureInfo');
+ol.provide('ol.test.format.WMSGetFeatureInfo');
 
-goog.require('ol.format.WMSGetFeatureInfo');
+ol.require('ol.format.WMSGetFeatureInfo');
 
 
 describe('ol.format.WMSGetFeatureInfo', function() {

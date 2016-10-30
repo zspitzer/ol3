@@ -1,6 +1,6 @@
-goog.provide('ol.Kinetic');
+ol.provide('ol.Kinetic');
 
-goog.require('ol.animation');
+ol.require('ol.animation');
 
 
 /**

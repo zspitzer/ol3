@@ -1,7 +1,7 @@
-goog.provide('ol.webgl.Shader');
+ol.provide('ol.webgl.Shader');
 
-goog.require('ol.functions');
-goog.require('ol.webgl');
+ol.require('ol.functions');
+ol.require('ol.webgl');
 
 
 /**

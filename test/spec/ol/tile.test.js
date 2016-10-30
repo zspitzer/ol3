@@ -1,6 +1,6 @@
-goog.provide('ol.test.Tile');
+ol.provide('ol.test.Tile');
 
-goog.require('ol.Tile');
+ol.require('ol.Tile');
 
 describe('ol.Tile', function() {
   describe('interimChain', function() {

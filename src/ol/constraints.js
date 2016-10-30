@@ -1,4 +1,4 @@
-goog.provide('ol.Constraints');
+ol.provide('ol.Constraints');
 
 
 /**

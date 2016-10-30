@@ -1,20 +1,20 @@
-goog.provide('ol.renderer.canvas.VectorTileLayer');
+ol.provide('ol.renderer.canvas.VectorTileLayer');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.extent');
-goog.require('ol.proj');
-goog.require('ol.proj.Units');
-goog.require('ol.layer.VectorTile');
-goog.require('ol.render.Event');
-goog.require('ol.render.ReplayType');
-goog.require('ol.render.canvas');
-goog.require('ol.render.canvas.ReplayGroup');
-goog.require('ol.render.replay');
-goog.require('ol.renderer.canvas.TileLayer');
-goog.require('ol.renderer.vector');
-goog.require('ol.size');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.extent');
+ol.require('ol.proj');
+ol.require('ol.proj.Units');
+ol.require('ol.layer.VectorTile');
+ol.require('ol.render.Event');
+ol.require('ol.render.ReplayType');
+ol.require('ol.render.canvas');
+ol.require('ol.render.canvas.ReplayGroup');
+ol.require('ol.render.replay');
+ol.require('ol.renderer.canvas.TileLayer');
+ol.require('ol.renderer.vector');
+ol.require('ol.size');
+ol.require('ol.transform');
 
 
 /**

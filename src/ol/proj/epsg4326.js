@@ -1,10 +1,10 @@
-goog.provide('ol.proj.EPSG4326');
+ol.provide('ol.proj.EPSG4326');
 
-goog.require('ol');
-goog.require('ol.proj');
-goog.require('ol.proj.Projection');
-goog.require('ol.proj.Units');
-goog.require('ol.sphere.WGS84');
+ol.require('ol');
+ol.require('ol.proj');
+ol.require('ol.proj.Projection');
+ol.require('ol.proj.Units');
+ol.require('ol.sphere.WGS84');
 
 
 /**

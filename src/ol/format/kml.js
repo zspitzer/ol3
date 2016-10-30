@@ -3,34 +3,34 @@
 // FIXME serialize arbitrary feature properties
 // FIXME don't parse style if extractStyles is false
 
-goog.provide('ol.format.KML');
+ol.provide('ol.format.KML');
 
-goog.require('ol');
-goog.require('ol.Feature');
-goog.require('ol.array');
-goog.require('ol.asserts');
-goog.require('ol.color');
-goog.require('ol.format.Feature');
-goog.require('ol.format.XMLFeature');
-goog.require('ol.format.XSD');
-goog.require('ol.geom.GeometryCollection');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.LinearRing');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.math');
-goog.require('ol.proj');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Icon');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
-goog.require('ol.style.Text');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.Feature');
+ol.require('ol.array');
+ol.require('ol.asserts');
+ol.require('ol.color');
+ol.require('ol.format.Feature');
+ol.require('ol.format.XMLFeature');
+ol.require('ol.format.XSD');
+ol.require('ol.geom.GeometryCollection');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.LinearRing');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.math');
+ol.require('ol.proj');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Icon');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
+ol.require('ol.style.Text');
+ol.require('ol.xml');
 
 
 /**

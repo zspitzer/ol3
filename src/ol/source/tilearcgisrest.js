@@ -1,14 +1,14 @@
-goog.provide('ol.source.TileArcGISRest');
+ol.provide('ol.source.TileArcGISRest');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.extent');
-goog.require('ol.math');
-goog.require('ol.obj');
-goog.require('ol.size');
-goog.require('ol.source.TileImage');
-goog.require('ol.tilecoord');
-goog.require('ol.uri');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.extent');
+ol.require('ol.math');
+ol.require('ol.obj');
+ol.require('ol.size');
+ol.require('ol.source.TileImage');
+ol.require('ol.tilecoord');
+ol.require('ol.uri');
 
 
 /**

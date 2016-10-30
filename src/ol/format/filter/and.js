@@ -1,7 +1,7 @@
-goog.provide('ol.format.filter.And');
+ol.provide('ol.format.filter.And');
 
-goog.require('ol');
-goog.require('ol.format.filter.LogicalBinary');
+ol.require('ol');
+ol.require('ol.format.filter.LogicalBinary');
 
 /**
  * @classdesc

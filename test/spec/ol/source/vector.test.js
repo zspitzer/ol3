@@ -1,12 +1,12 @@
-goog.provide('ol.test.source.Vector');
+ol.provide('ol.test.source.Vector');
 
-goog.require('ol.events');
-goog.require('ol.Collection');
-goog.require('ol.Feature');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.LineString');
-goog.require('ol.proj');
-goog.require('ol.source.Vector');
+ol.require('ol.events');
+ol.require('ol.Collection');
+ol.require('ol.Feature');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.LineString');
+ol.require('ol.proj');
+ol.require('ol.source.Vector');
 
 
 describe('ol.source.Vector', function() {

@@ -1,12 +1,12 @@
-goog.provide('ol.format.WMTSCapabilities');
+ol.provide('ol.format.WMTSCapabilities');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.format.OWS');
-goog.require('ol.format.XLink');
-goog.require('ol.format.XML');
-goog.require('ol.format.XSD');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.format.OWS');
+ol.require('ol.format.XLink');
+ol.require('ol.format.XML');
+ol.require('ol.format.XSD');
+ol.require('ol.xml');
 
 
 /**

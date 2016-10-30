@@ -1,9 +1,9 @@
-goog.provide('ol.test.style.IconImageCache');
+ol.provide('ol.test.style.IconImageCache');
 
-goog.require('ol');
-goog.require('ol.events');
-goog.require('ol.style');
-goog.require('ol.style.IconImage');
+ol.require('ol');
+ol.require('ol.events');
+ol.require('ol.style');
+ol.require('ol.style.IconImage');
 
 describe('ol.style.IconImageCache', function() {
   var originalMaxCacheSize;

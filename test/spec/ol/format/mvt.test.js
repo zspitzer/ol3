@@ -1,10 +1,10 @@
-goog.provide('ol.test.format.MVT');
+ol.provide('ol.test.format.MVT');
 
-goog.require('ol.Feature');
-goog.require('ol.ext.pbf');
-goog.require('ol.ext.vectortile');
-goog.require('ol.format.MVT');
-goog.require('ol.render.Feature');
+ol.require('ol.Feature');
+ol.require('ol.ext.pbf');
+ol.require('ol.ext.vectortile');
+ol.require('ol.format.MVT');
+ol.require('ol.render.Feature');
 
 where('ArrayBuffer.isView').describe('ol.format.MVT', function() {
 

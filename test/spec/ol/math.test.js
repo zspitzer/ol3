@@ -1,6 +1,6 @@
-goog.provide('ol.test.math');
+ol.provide('ol.test.math');
 
-goog.require('ol.math');
+ol.require('ol.math');
 
 
 describe('ol.math.clamp', function() {

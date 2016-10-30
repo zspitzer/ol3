@@ -1,14 +1,14 @@
-goog.provide('ol.renderer.canvas.VectorLayer');
+ol.provide('ol.renderer.canvas.VectorLayer');
 
-goog.require('ol');
-goog.require('ol.View');
-goog.require('ol.dom');
-goog.require('ol.extent');
-goog.require('ol.render.Event');
-goog.require('ol.render.canvas');
-goog.require('ol.render.canvas.ReplayGroup');
-goog.require('ol.renderer.canvas.Layer');
-goog.require('ol.renderer.vector');
+ol.require('ol');
+ol.require('ol.View');
+ol.require('ol.dom');
+ol.require('ol.extent');
+ol.require('ol.render.Event');
+ol.require('ol.render.canvas');
+ol.require('ol.render.canvas.ReplayGroup');
+ol.require('ol.renderer.canvas.Layer');
+ol.require('ol.renderer.vector');
 
 
 /**

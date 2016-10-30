@@ -1,10 +1,10 @@
-goog.provide('ol.DeviceOrientation');
+ol.provide('ol.DeviceOrientation');
 
-goog.require('ol.events');
-goog.require('ol');
-goog.require('ol.Object');
-goog.require('ol.has');
-goog.require('ol.math');
+ol.require('ol.events');
+ol.require('ol');
+ol.require('ol.Object');
+ol.require('ol.has');
+ol.require('ol.math');
 
 
 /**

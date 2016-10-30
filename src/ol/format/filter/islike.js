@@ -1,7 +1,7 @@
-goog.provide('ol.format.filter.IsLike');
+ol.provide('ol.format.filter.IsLike');
 
-goog.require('ol');
-goog.require('ol.format.filter.Comparison');
+ol.require('ol');
+ol.require('ol.format.filter.Comparison');
 
 
 /**

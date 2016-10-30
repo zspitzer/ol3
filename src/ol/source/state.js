@@ -1,4 +1,4 @@
-goog.provide('ol.source.State');
+ol.provide('ol.source.State');
 
 
 /**

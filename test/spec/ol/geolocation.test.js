@@ -1,6 +1,6 @@
-goog.provide('ol.test.Geolocation');
+ol.provide('ol.test.Geolocation');
 
-goog.require('ol.Geolocation');
+ol.require('ol.Geolocation');
 
 
 describe('ol.Geolocation', function() {

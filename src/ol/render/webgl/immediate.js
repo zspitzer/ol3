@@ -1,11 +1,11 @@
-goog.provide('ol.render.webgl.Immediate');
+ol.provide('ol.render.webgl.Immediate');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.render.ReplayType');
-goog.require('ol.render.VectorContext');
-goog.require('ol.render.webgl.ReplayGroup');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.render.ReplayType');
+ol.require('ol.render.VectorContext');
+ol.require('ol.render.webgl.ReplayGroup');
 
 
 /**

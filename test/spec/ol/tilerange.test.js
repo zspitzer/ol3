@@ -1,6 +1,6 @@
-goog.provide('ol.test.TileRange');
+ol.provide('ol.test.TileRange');
 
-goog.require('ol.TileRange');
+ol.require('ol.TileRange');
 
 
 describe('ol.TileRange', function() {

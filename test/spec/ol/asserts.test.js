@@ -1,6 +1,6 @@
-goog.provide('ol.asserts.asserts.test');
+ol.provide('ol.asserts.asserts.test');
 
-goog.require('ol.asserts');
+ol.require('ol.asserts');
 
 
 describe('ol.asserts', function() {

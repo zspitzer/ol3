@@ -1,7 +1,7 @@
-goog.provide('ol.AssertionError.test');
+ol.provide('ol.AssertionError.test');
 
-goog.require('ol');
-goog.require('ol.AssertionError');
+ol.require('ol');
+ol.require('ol.AssertionError');
 
 describe('ol.AssertionError', function() {
   it('generates a message', function() {

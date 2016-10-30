@@ -1,9 +1,9 @@
-goog.provide('ol.interaction.KeyboardZoom');
+ol.provide('ol.interaction.KeyboardZoom');
 
-goog.require('ol');
-goog.require('ol.events.EventType');
-goog.require('ol.events.condition');
-goog.require('ol.interaction.Interaction');
+ol.require('ol');
+ol.require('ol.events.EventType');
+ol.require('ol.events.condition');
+ol.require('ol.interaction.Interaction');
 
 
 /**

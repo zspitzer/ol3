@@ -1,19 +1,19 @@
-goog.provide('ol.test.interaction.Modify');
+ol.provide('ol.test.interaction.Modify');
 
-goog.require('ol.events');
-goog.require('ol.Collection');
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.MapBrowserPointerEvent');
-goog.require('ol.View');
-goog.require('ol.events.condition');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.interaction.Modify');
-goog.require('ol.layer.Vector');
-goog.require('ol.pointer.PointerEvent');
-goog.require('ol.source.Vector');
+ol.require('ol.events');
+ol.require('ol.Collection');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.MapBrowserPointerEvent');
+ol.require('ol.View');
+ol.require('ol.events.condition');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.interaction.Modify');
+ol.require('ol.layer.Vector');
+ol.require('ol.pointer.PointerEvent');
+ol.require('ol.source.Vector');
 
 
 describe('ol.interaction.Modify', function() {

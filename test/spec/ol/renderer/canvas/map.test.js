@@ -1,15 +1,15 @@
-goog.provide('ol.test.renderer.canvas.Map');
+ol.provide('ol.test.renderer.canvas.Map');
 
-goog.require('ol');
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.geom.Point');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.renderer.canvas.Layer');
-goog.require('ol.renderer.canvas.Map');
-goog.require('ol.source.Vector');
+ol.require('ol');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.geom.Point');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.renderer.canvas.Layer');
+ol.require('ol.renderer.canvas.Map');
+ol.require('ol.source.Vector');
 
 
 describe('ol.renderer.canvas.Map', function() {

@@ -1,16 +1,16 @@
-goog.provide('ol.test.interaction.Translate');
+ol.provide('ol.test.interaction.Translate');
 
-goog.require('ol.Collection');
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.MapBrowserPointerEvent');
-goog.require('ol.View');
-goog.require('ol.geom.Point');
-goog.require('ol.interaction.Translate');
-goog.require('ol.interaction.Interaction');
-goog.require('ol.layer.Vector');
-goog.require('ol.pointer.PointerEvent');
-goog.require('ol.source.Vector');
+ol.require('ol.Collection');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.MapBrowserPointerEvent');
+ol.require('ol.View');
+ol.require('ol.geom.Point');
+ol.require('ol.interaction.Translate');
+ol.require('ol.interaction.Interaction');
+ol.require('ol.layer.Vector');
+ol.require('ol.pointer.PointerEvent');
+ol.require('ol.source.Vector');
 
 
 describe('ol.interaction.Translate', function() {

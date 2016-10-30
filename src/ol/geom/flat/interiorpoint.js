@@ -1,8 +1,8 @@
-goog.provide('ol.geom.flat.interiorpoint');
+ol.provide('ol.geom.flat.interiorpoint');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.geom.flat.contains');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.geom.flat.contains');
 
 
 /**

@@ -168,7 +168,7 @@ function generateExports(symbols, namespace) {
   });
   blocks.unshift('\n');
   Object.keys(requires).sort().reverse().forEach(function(name) {
-    blocks.unshift('goog.require(\'' + name + '\');');
+    blocks.unshift('ol.require(\'' + name + '\');');
   });
   blocks.unshift(
       '/**\n' +

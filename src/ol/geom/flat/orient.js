@@ -1,7 +1,7 @@
-goog.provide('ol.geom.flat.orient');
+ol.provide('ol.geom.flat.orient');
 
-goog.require('ol');
-goog.require('ol.geom.flat.reverse');
+ol.require('ol');
+ol.require('ol.geom.flat.reverse');
 
 
 /**

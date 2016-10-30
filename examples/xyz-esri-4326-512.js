@@ -1,9 +1,9 @@
-goog.require('ol.Attribution');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.source.XYZ');
+ol.require('ol.Attribution');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Tile');
+ol.require('ol.proj');
+ol.require('ol.source.XYZ');
 
 var attribution = new ol.Attribution({
   html: 'Copyright:© 2013 ESRI, i-cubed, GeoEye'

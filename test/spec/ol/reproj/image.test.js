@@ -1,9 +1,9 @@
-goog.provide('ol.test.reproj.Image');
+ol.provide('ol.test.reproj.Image');
 
-goog.require('ol.Image');
-goog.require('ol.events');
-goog.require('ol.proj');
-goog.require('ol.reproj.Image');
+ol.require('ol.Image');
+ol.require('ol.events');
+ol.require('ol.proj');
+ol.require('ol.reproj.Image');
 
 
 describe('ol.reproj.Image', function() {

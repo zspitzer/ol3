@@ -1,6 +1,6 @@
-goog.provide('ol.asserts');
+ol.provide('ol.asserts');
 
-goog.require('ol.AssertionError');
+ol.require('ol.AssertionError');
 
 
 /**

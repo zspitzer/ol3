@@ -1,4 +1,4 @@
-goog.require('ol.format.WMTSCapabilities');
+ol.require('ol.format.WMTSCapabilities');
 
 var parser = new ol.format.WMTSCapabilities();
 

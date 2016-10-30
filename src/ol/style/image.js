@@ -1,4 +1,4 @@
-goog.provide('ol.style.Image');
+ol.provide('ol.style.Image');
 
 
 /**

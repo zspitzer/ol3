@@ -1,15 +1,15 @@
-goog.provide('ol.source.BingMaps');
+ol.provide('ol.source.BingMaps');
 
-goog.require('ol');
-goog.require('ol.Attribution');
-goog.require('ol.TileUrlFunction');
-goog.require('ol.extent');
-goog.require('ol.net');
-goog.require('ol.proj');
-goog.require('ol.source.State');
-goog.require('ol.source.TileImage');
-goog.require('ol.tilecoord');
-goog.require('ol.tilegrid');
+ol.require('ol');
+ol.require('ol.Attribution');
+ol.require('ol.TileUrlFunction');
+ol.require('ol.extent');
+ol.require('ol.net');
+ol.require('ol.proj');
+ol.require('ol.source.State');
+ol.require('ol.source.TileImage');
+ol.require('ol.tilecoord');
+ol.require('ol.tilegrid');
 
 
 /**

@@ -1,5 +1,5 @@
-goog.provide('ol.test');
-goog.require('ol');
+ol.provide('ol.test');
+ol.require('ol');
 
 describe('getUid()', function() {
   it('is constant once generated', function() {

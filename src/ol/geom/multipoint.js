@@ -1,15 +1,15 @@
-goog.provide('ol.geom.MultiPoint');
+ol.provide('ol.geom.MultiPoint');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.SimpleGeometry');
-goog.require('ol.geom.flat.deflate');
-goog.require('ol.geom.flat.inflate');
-goog.require('ol.math');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.SimpleGeometry');
+ol.require('ol.geom.flat.deflate');
+ol.require('ol.geom.flat.inflate');
+ol.require('ol.math');
 
 
 /**

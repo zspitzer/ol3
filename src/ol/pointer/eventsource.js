@@ -1,4 +1,4 @@
-goog.provide('ol.pointer.EventSource');
+ol.provide('ol.pointer.EventSource');
 
 
 /**

@@ -1,9 +1,9 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.control.OverviewMap');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.OSM');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control');
+ol.require('ol.control.OverviewMap');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.OSM');
 
 var map = new ol.Map({
   controls: ol.control.defaults().extend([

@@ -1,11 +1,11 @@
-goog.provide('ol.interaction.DragPan');
+ol.provide('ol.interaction.DragPan');
 
-goog.require('ol');
-goog.require('ol.View');
-goog.require('ol.coordinate');
-goog.require('ol.events.condition');
-goog.require('ol.functions');
-goog.require('ol.interaction.Pointer');
+ol.require('ol');
+ol.require('ol.View');
+ol.require('ol.coordinate');
+ol.require('ol.events.condition');
+ol.require('ol.functions');
+ol.require('ol.interaction.Pointer');
 
 
 /**

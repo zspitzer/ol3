@@ -1,14 +1,14 @@
-goog.provide('ol.source.Tile');
+ol.provide('ol.source.Tile');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.TileCache');
-goog.require('ol.events.Event');
-goog.require('ol.proj');
-goog.require('ol.size');
-goog.require('ol.source.Source');
-goog.require('ol.tilecoord');
-goog.require('ol.tilegrid');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.TileCache');
+ol.require('ol.events.Event');
+ol.require('ol.proj');
+ol.require('ol.size');
+ol.require('ol.source.Source');
+ol.require('ol.tilecoord');
+ol.require('ol.tilegrid');
 
 
 /**

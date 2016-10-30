@@ -1,12 +1,12 @@
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.Sphere');
-goog.require('ol.View');
-goog.require('ol.geom.Polygon');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.TileWMS');
-goog.require('ol.source.Vector');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.Sphere');
+ol.require('ol.View');
+ol.require('ol.geom.Polygon');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.TileWMS');
+ol.require('ol.source.Vector');
 
 var vectorLayer4326 = new ol.layer.Vector({
   source: new ol.source.Vector()

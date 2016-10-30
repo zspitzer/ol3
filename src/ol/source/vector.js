@@ -1,24 +1,24 @@
 // FIXME bulk feature upload - suppress events
 // FIXME make change-detection more refined (notably, geometry hint)
 
-goog.provide('ol.source.Vector');
+ol.provide('ol.source.Vector');
 
-goog.require('ol');
-goog.require('ol.Collection');
-goog.require('ol.ObjectEventType');
-goog.require('ol.array');
-goog.require('ol.asserts');
-goog.require('ol.events');
-goog.require('ol.events.Event');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.featureloader');
-goog.require('ol.functions');
-goog.require('ol.loadingstrategy');
-goog.require('ol.obj');
-goog.require('ol.source.Source');
-goog.require('ol.source.State');
-goog.require('ol.structs.RBush');
+ol.require('ol');
+ol.require('ol.Collection');
+ol.require('ol.ObjectEventType');
+ol.require('ol.array');
+ol.require('ol.asserts');
+ol.require('ol.events');
+ol.require('ol.events.Event');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.featureloader');
+ol.require('ol.functions');
+ol.require('ol.loadingstrategy');
+ol.require('ol.obj');
+ol.require('ol.source.Source');
+ol.require('ol.source.State');
+ol.require('ol.structs.RBush');
 
 
 /**

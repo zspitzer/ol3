@@ -1,8 +1,8 @@
-goog.provide('ol.render.Feature');
+ol.provide('ol.render.Feature');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryType');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryType');
 
 
 /**

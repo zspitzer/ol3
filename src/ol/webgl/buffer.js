@@ -1,7 +1,7 @@
-goog.provide('ol.webgl.Buffer');
+ol.provide('ol.webgl.Buffer');
 
-goog.require('ol');
-goog.require('ol.webgl');
+ol.require('ol');
+ol.require('ol.webgl');
 
 
 /**

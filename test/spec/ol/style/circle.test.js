@@ -1,9 +1,9 @@
-goog.provide('ol.test.style.Circle');
+ol.provide('ol.test.style.Circle');
 
-goog.require('ol.style.AtlasManager');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
+ol.require('ol.style.AtlasManager');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
 
 
 describe('ol.style.Circle', function() {

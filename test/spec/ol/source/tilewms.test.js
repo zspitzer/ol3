@@ -1,10 +1,10 @@
-goog.provide('ol.test.source.TileWMS');
+ol.provide('ol.test.source.TileWMS');
 
-goog.require('ol.ImageTile');
-goog.require('ol.proj');
-goog.require('ol.source.TileWMS');
-goog.require('ol.tilegrid');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol.ImageTile');
+ol.require('ol.proj');
+ol.require('ol.source.TileWMS');
+ol.require('ol.tilegrid');
+ol.require('ol.tilegrid.TileGrid');
 
 
 describe('ol.source.TileWMS', function() {

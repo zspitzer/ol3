@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.orient');
+ol.provide('ol.test.geom.flat.orient');
 
-goog.require('ol.geom.flat.orient');
+ol.require('ol.geom.flat.orient');
 
 
 describe('ol.geom.flat.orient', function() {

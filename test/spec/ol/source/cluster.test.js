@@ -1,13 +1,13 @@
-goog.provide('ol.test.source.ClusterSource');
+ol.provide('ol.test.source.ClusterSource');
 
-goog.require('ol.Feature');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.proj');
-goog.require('ol.source.Cluster');
-goog.require('ol.source.Source');
-goog.require('ol.source.Vector');
+ol.require('ol.Feature');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.proj');
+ol.require('ol.source.Cluster');
+ol.require('ol.source.Source');
+ol.require('ol.source.Vector');
 
 describe('ol.source.Cluster', function() {
 

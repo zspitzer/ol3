@@ -1,15 +1,15 @@
-goog.provide('ol.test.format.WFS');
+ol.provide('ol.test.format.WFS');
 
-goog.require('ol.Feature');
-goog.require('ol.format.GML2');
-goog.require('ol.format.WFS');
-goog.require('ol.format.filter');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Polygon');
-goog.require('ol.proj');
-goog.require('ol.xml');
+ol.require('ol.Feature');
+ol.require('ol.format.GML2');
+ol.require('ol.format.WFS');
+ol.require('ol.format.filter');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Polygon');
+ol.require('ol.proj');
+ol.require('ol.xml');
 
 describe('ol.format.WFS', function() {
 

@@ -1,4 +1,4 @@
-goog.provide('ol.renderer.Type');
+ol.provide('ol.renderer.Type');
 
 
 /**

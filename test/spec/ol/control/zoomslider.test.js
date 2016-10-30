@@ -1,10 +1,10 @@
 /*global createMapDiv, disposeMap*/
-goog.provide('ol.test.control.ZoomSlider');
+ol.provide('ol.test.control.ZoomSlider');
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control.ZoomSlider');
-goog.require('ol.pointer.PointerEvent');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control.ZoomSlider');
+ol.require('ol.pointer.PointerEvent');
 
 describe('ol.control.ZoomSlider', function() {
   var map, target, zoomslider;

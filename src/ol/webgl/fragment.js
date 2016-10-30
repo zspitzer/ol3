@@ -1,8 +1,8 @@
-goog.provide('ol.webgl.Fragment');
+ol.provide('ol.webgl.Fragment');
 
-goog.require('ol');
-goog.require('ol.webgl');
-goog.require('ol.webgl.Shader');
+ol.require('ol');
+ol.require('ol.webgl');
+ol.require('ol.webgl.Shader');
 
 
 /**

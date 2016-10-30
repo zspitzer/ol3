@@ -1,14 +1,14 @@
 // FIXME handle date line wrap
 
-goog.provide('ol.control.Attribution');
+ol.provide('ol.control.Attribution');
 
-goog.require('ol');
-goog.require('ol.dom');
-goog.require('ol.control.Control');
-goog.require('ol.css');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.dom');
+ol.require('ol.control.Control');
+ol.require('ol.css');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.obj');
 
 
 /**

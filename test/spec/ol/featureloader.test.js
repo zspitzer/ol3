@@ -1,13 +1,13 @@
-goog.provide('ol.test.featureloader');
+ol.provide('ol.test.featureloader');
 
-goog.require('ol.events');
-goog.require('ol.VectorTile');
-goog.require('ol.Feature');
-goog.require('ol.featureloader');
-goog.require('ol.format.GeoJSON');
-goog.require('ol.format.TextFeature');
-goog.require('ol.proj');
-goog.require('ol.source.Vector');
+ol.require('ol.events');
+ol.require('ol.VectorTile');
+ol.require('ol.Feature');
+ol.require('ol.featureloader');
+ol.require('ol.format.GeoJSON');
+ol.require('ol.format.TextFeature');
+ol.require('ol.proj');
+ol.require('ol.source.Vector');
 
 
 describe('ol.featureloader', function() {

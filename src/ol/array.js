@@ -1,6 +1,6 @@
-goog.provide('ol.array');
+ol.provide('ol.array');
 
-goog.require('ol');
+ol.require('ol');
 
 
 /**

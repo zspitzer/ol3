@@ -1,10 +1,10 @@
-goog.provide('ol.source.TileDebug');
+ol.provide('ol.source.TileDebug');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.dom');
-goog.require('ol.size');
-goog.require('ol.source.Tile');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.dom');
+ol.require('ol.size');
+ol.require('ol.source.Tile');
 
 
 /**

@@ -1,10 +1,10 @@
-goog.provide('ol.test.geom.GeometryCollection');
+ol.provide('ol.test.geom.GeometryCollection');
 
-goog.require('ol.geom.Geometry');
-goog.require('ol.geom.GeometryCollection');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
+ol.require('ol.geom.Geometry');
+ol.require('ol.geom.GeometryCollection');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
 
 describe('ol.geom.GeometryCollection', function() {
 

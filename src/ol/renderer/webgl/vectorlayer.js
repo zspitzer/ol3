@@ -1,12 +1,12 @@
-goog.provide('ol.renderer.webgl.VectorLayer');
+ol.provide('ol.renderer.webgl.VectorLayer');
 
-goog.require('ol');
-goog.require('ol.View');
-goog.require('ol.extent');
-goog.require('ol.render.webgl.ReplayGroup');
-goog.require('ol.renderer.vector');
-goog.require('ol.renderer.webgl.Layer');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.View');
+ol.require('ol.extent');
+ol.require('ol.render.webgl.ReplayGroup');
+ol.require('ol.renderer.vector');
+ol.require('ol.renderer.webgl.Layer');
+ol.require('ol.transform');
 
 
 /**

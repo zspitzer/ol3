@@ -1,15 +1,15 @@
-goog.provide('ol.geom.LinearRing');
+ol.provide('ol.geom.LinearRing');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.SimpleGeometry');
-goog.require('ol.geom.flat.area');
-goog.require('ol.geom.flat.closest');
-goog.require('ol.geom.flat.deflate');
-goog.require('ol.geom.flat.inflate');
-goog.require('ol.geom.flat.simplify');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.SimpleGeometry');
+ol.require('ol.geom.flat.area');
+ol.require('ol.geom.flat.closest');
+ol.require('ol.geom.flat.deflate');
+ol.require('ol.geom.flat.inflate');
+ol.require('ol.geom.flat.simplify');
 
 
 /**

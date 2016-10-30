@@ -1,11 +1,11 @@
-goog.provide('ol.test.rendering.reproj.Tile');
+ol.provide('ol.test.rendering.reproj.Tile');
 
-goog.require('ol.Tile');
-goog.require('ol.events');
-goog.require('ol.proj');
-goog.require('ol.reproj.Tile');
-goog.require('ol.source.XYZ');
-goog.require('ol.tilegrid');
+ol.require('ol.Tile');
+ol.require('ol.events');
+ol.require('ol.proj');
+ol.require('ol.reproj.Tile');
+ol.require('ol.source.XYZ');
+ol.require('ol.tilegrid');
 
 
 describe('ol.rendering.reproj.Tile', function() {

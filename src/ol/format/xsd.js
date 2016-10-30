@@ -1,8 +1,8 @@
-goog.provide('ol.format.XSD');
+ol.provide('ol.format.XSD');
 
-goog.require('ol');
-goog.require('ol.xml');
-goog.require('ol.string');
+ol.require('ol');
+ol.require('ol.xml');
+ol.require('ol.string');
 
 
 /**

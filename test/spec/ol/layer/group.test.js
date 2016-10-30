@@ -1,14 +1,14 @@
-goog.provide('ol.test.layer.Group');
+ol.provide('ol.test.layer.Group');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.Collection');
-goog.require('ol.extent');
-goog.require('ol.layer.Group');
-goog.require('ol.layer.Layer');
-goog.require('ol.obj');
-goog.require('ol.renderer.Map');
-goog.require('ol.source.Source');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.Collection');
+ol.require('ol.extent');
+ol.require('ol.layer.Group');
+ol.require('ol.layer.Layer');
+ol.require('ol.obj');
+ol.require('ol.renderer.Map');
+ol.require('ol.source.Source');
 
 
 describe('ol.layer.Group', function() {

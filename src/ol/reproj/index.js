@@ -1,10 +1,10 @@
-goog.provide('ol.reproj');
+ol.provide('ol.reproj');
 
-goog.require('ol');
-goog.require('ol.dom');
-goog.require('ol.extent');
-goog.require('ol.math');
-goog.require('ol.proj');
+ol.require('ol');
+ol.require('ol.dom');
+ol.require('ol.extent');
+ol.require('ol.math');
+ol.require('ol.proj');
 
 
 /**

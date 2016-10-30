@@ -1,7 +1,7 @@
-goog.provide('ol.format.filter.Within');
+ol.provide('ol.format.filter.Within');
 
-goog.require('ol');
-goog.require('ol.format.filter.Spatial');
+ol.require('ol');
+ol.require('ol.format.filter.Spatial');
 
 
 /**

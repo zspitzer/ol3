@@ -1,4 +1,4 @@
-goog.provide('ol.loadingstrategy');
+ol.provide('ol.loadingstrategy');
 
 
 /**

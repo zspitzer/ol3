@@ -1,9 +1,9 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Image');
-goog.require('ol.source.OSM');
-goog.require('ol.source.ImageArcGISRest');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Image');
+ol.require('ol.source.OSM');
+ol.require('ol.source.ImageArcGISRest');
 
 var url = 'https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/' +
     'Specialty/ESRI_StateCityHighway_USA/MapServer';

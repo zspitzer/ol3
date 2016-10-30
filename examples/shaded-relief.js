@@ -1,11 +1,11 @@
 // NOCOMPILE
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Image');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.OSM');
-goog.require('ol.source.Raster');
-goog.require('ol.source.XYZ');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Image');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.OSM');
+ol.require('ol.source.Raster');
+ol.require('ol.source.XYZ');
 
 
 /**

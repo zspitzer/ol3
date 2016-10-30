@@ -1,7 +1,7 @@
-goog.provide('ol.geom.flat.closest');
+ol.provide('ol.geom.flat.closest');
 
-goog.require('ol');
-goog.require('ol.math');
+ol.require('ol');
+ol.require('ol.math');
 
 
 /**

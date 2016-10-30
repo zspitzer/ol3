@@ -1,12 +1,12 @@
-goog.provide('ol.geom.GeometryCollection');
+ol.provide('ol.geom.GeometryCollection');
 
-goog.require('ol');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.geom.Geometry');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.geom.Geometry');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.obj');
 
 
 /**

@@ -1,16 +1,16 @@
-goog.provide('ol.test.format.GML');
+ol.provide('ol.test.format.GML');
 
-goog.require('ol.format.GML');
-goog.require('ol.format.GML2');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.LinearRing');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.xml');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.proj');
+ol.require('ol.format.GML');
+ol.require('ol.format.GML2');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.LinearRing');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.xml');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.proj');
 
 var readGeometry = function(format, text, opt_options) {
   var doc = ol.xml.parse(text);

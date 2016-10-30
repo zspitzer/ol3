@@ -1,19 +1,19 @@
 // FIXME cannot be shared between maps with different projections
 
-goog.provide('ol.source.ImageWMS');
+ol.provide('ol.source.ImageWMS');
 
-goog.require('ol');
-goog.require('ol.Image');
-goog.require('ol.asserts');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.obj');
-goog.require('ol.proj');
-goog.require('ol.source.Image');
-goog.require('ol.source.WMSServerType');
-goog.require('ol.string');
-goog.require('ol.uri');
+ol.require('ol');
+ol.require('ol.Image');
+ol.require('ol.asserts');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.obj');
+ol.require('ol.proj');
+ol.require('ol.source.Image');
+ol.require('ol.source.WMSServerType');
+ol.require('ol.string');
+ol.require('ol.uri');
 
 
 /**

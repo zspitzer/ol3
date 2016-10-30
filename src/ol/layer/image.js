@@ -1,7 +1,7 @@
-goog.provide('ol.layer.Image');
+ol.provide('ol.layer.Image');
 
-goog.require('ol');
-goog.require('ol.layer.Layer');
+ol.require('ol');
+ol.require('ol.layer.Layer');
 
 
 /**

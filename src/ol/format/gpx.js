@@ -1,17 +1,17 @@
-goog.provide('ol.format.GPX');
+ol.provide('ol.format.GPX');
 
-goog.require('ol');
-goog.require('ol.Feature');
-goog.require('ol.array');
-goog.require('ol.format.Feature');
-goog.require('ol.format.XMLFeature');
-goog.require('ol.format.XSD');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.Point');
-goog.require('ol.proj');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.Feature');
+ol.require('ol.array');
+ol.require('ol.format.Feature');
+ol.require('ol.format.XMLFeature');
+ol.require('ol.format.XSD');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.Point');
+ol.require('ol.proj');
+ol.require('ol.xml');
 
 
 /**

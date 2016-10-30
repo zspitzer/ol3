@@ -1,6 +1,6 @@
-goog.provide('ol.test.control.ZoomToExtent');
+ol.provide('ol.test.control.ZoomToExtent');
 
-goog.require('ol.control.ZoomToExtent');
+ol.require('ol.control.ZoomToExtent');
 
 describe('ol.control.ZoomToExtent', function() {
 

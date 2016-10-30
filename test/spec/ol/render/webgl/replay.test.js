@@ -1,9 +1,9 @@
-goog.provide('ol.test.render.webgl.Replay');
+ol.provide('ol.test.render.webgl.Replay');
 
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.Point');
-goog.require('ol.render.webgl.ImageReplay');
-goog.require('ol.style.Image');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.Point');
+ol.require('ol.render.webgl.ImageReplay');
+ol.require('ol.style.Image');
 
 
 describe('ol.render.webgl.ImageReplay', function() {

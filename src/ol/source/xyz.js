@@ -1,8 +1,8 @@
-goog.provide('ol.source.XYZ');
+ol.provide('ol.source.XYZ');
 
-goog.require('ol');
-goog.require('ol.source.TileImage');
-goog.require('ol.tilegrid');
+ol.require('ol');
+ol.require('ol.source.TileImage');
+ol.require('ol.tilegrid');
 
 
 /**

@@ -1,7 +1,7 @@
-goog.provide('ol.test.source.CartoDBSource');
+ol.provide('ol.test.source.CartoDBSource');
 
-goog.require('ol.source.CartoDB');
-goog.require('ol.source.XYZ');
+ol.require('ol.source.CartoDB');
+ol.require('ol.source.XYZ');
 
 describe('ol.source.CartoDB', function() {
 

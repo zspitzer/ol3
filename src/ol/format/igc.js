@@ -1,12 +1,12 @@
-goog.provide('ol.format.IGC');
+ol.provide('ol.format.IGC');
 
-goog.require('ol');
-goog.require('ol.Feature');
-goog.require('ol.format.Feature');
-goog.require('ol.format.TextFeature');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.LineString');
-goog.require('ol.proj');
+ol.require('ol');
+ol.require('ol.Feature');
+ol.require('ol.format.Feature');
+ol.require('ol.format.TextFeature');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.LineString');
+ol.require('ol.proj');
 
 
 /**

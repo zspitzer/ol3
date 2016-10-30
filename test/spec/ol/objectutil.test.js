@@ -1,6 +1,6 @@
-goog.provide('ol.test.object');
+ol.provide('ol.test.object');
 
-goog.require('ol.obj');
+ol.require('ol.obj');
 
 
 describe('ol.obj.assign()', function() {

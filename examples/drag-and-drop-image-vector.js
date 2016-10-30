@@ -1,21 +1,21 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.GPX');
-goog.require('ol.format.GeoJSON');
-goog.require('ol.format.IGC');
-goog.require('ol.format.KML');
-goog.require('ol.format.TopoJSON');
-goog.require('ol.interaction');
-goog.require('ol.interaction.DragAndDrop');
-goog.require('ol.layer.Image');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.BingMaps');
-goog.require('ol.source.ImageVector');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.GPX');
+ol.require('ol.format.GeoJSON');
+ol.require('ol.format.IGC');
+ol.require('ol.format.KML');
+ol.require('ol.format.TopoJSON');
+ol.require('ol.interaction');
+ol.require('ol.interaction.DragAndDrop');
+ol.require('ol.layer.Image');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.BingMaps');
+ol.require('ol.source.ImageVector');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
 
 
 var defaultStyle = {

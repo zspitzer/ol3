@@ -1,15 +1,15 @@
-goog.provide('ol.layer.Heatmap');
+ol.provide('ol.layer.Heatmap');
 
-goog.require('ol.events');
-goog.require('ol');
-goog.require('ol.Object');
-goog.require('ol.dom');
-goog.require('ol.layer.Vector');
-goog.require('ol.math');
-goog.require('ol.obj');
-goog.require('ol.render.Event');
-goog.require('ol.style.Icon');
-goog.require('ol.style.Style');
+ol.require('ol.events');
+ol.require('ol');
+ol.require('ol.Object');
+ol.require('ol.dom');
+ol.require('ol.layer.Vector');
+ol.require('ol.math');
+ol.require('ol.obj');
+ol.require('ol.render.Event');
+ol.require('ol.style.Icon');
+ol.require('ol.style.Style');
 
 
 /**

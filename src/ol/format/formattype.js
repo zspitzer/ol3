@@ -1,4 +1,4 @@
-goog.provide('ol.format.FormatType');
+ol.provide('ol.format.FormatType');
 
 
 /**

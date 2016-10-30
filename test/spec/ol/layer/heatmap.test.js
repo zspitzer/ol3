@@ -1,6 +1,6 @@
-goog.provide('ol.test.layer.Heatmap');
+ol.provide('ol.test.layer.Heatmap');
 
-goog.require('ol.layer.Heatmap');
+ol.require('ol.layer.Heatmap');
 
 
 describe('ol.layer.Heatmap', function() {

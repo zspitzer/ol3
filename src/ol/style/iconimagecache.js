@@ -1,7 +1,7 @@
-goog.provide('ol.style.IconImageCache');
+ol.provide('ol.style.IconImageCache');
 
-goog.require('ol');
-goog.require('ol.color');
+ol.require('ol');
+ol.require('ol.color');
 
 
 /**

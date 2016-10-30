@@ -1,8 +1,8 @@
-goog.provide('ol.test.geom.flat.transform');
+ol.provide('ol.test.geom.flat.transform');
 
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.SimpleGeometry');
-goog.require('ol.geom.flat.transform');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.SimpleGeometry');
+ol.require('ol.geom.flat.transform');
 
 
 describe('ol.geom.flat.transform', function() {

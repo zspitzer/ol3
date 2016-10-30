@@ -1,10 +1,10 @@
-goog.provide('ol.test.source.Zoomify');
+ol.provide('ol.test.source.Zoomify');
 
-goog.require('ol.dom');
-goog.require('ol.events');
-goog.require('ol.proj.Projection');
-goog.require('ol.source.Zoomify');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol.dom');
+ol.require('ol.events');
+ol.require('ol.proj.Projection');
+ol.require('ol.source.Zoomify');
+ol.require('ol.tilegrid.TileGrid');
 
 
 describe('ol.source.Zoomify', function() {

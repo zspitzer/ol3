@@ -1,10 +1,10 @@
-goog.provide('ol.format.XMLFeature');
+ol.provide('ol.format.XMLFeature');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.format.Feature');
-goog.require('ol.format.FormatType');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.format.Feature');
+ol.require('ol.format.FormatType');
+ol.require('ol.xml');
 
 
 /**

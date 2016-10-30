@@ -1,10 +1,10 @@
-goog.provide('ol.test.View');
+ol.provide('ol.test.View');
 
-goog.require('ol');
-goog.require('ol.View');
-goog.require('ol.extent');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.Point');
+ol.require('ol');
+ol.require('ol.View');
+ol.require('ol.extent');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.Point');
 
 
 describe('ol.View', function() {

@@ -1,10 +1,10 @@
-goog.provide('ol.layer.Base');
-goog.provide('ol.layer.LayerProperty');
+ol.provide('ol.layer.Base');
+ol.provide('ol.layer.LayerProperty');
 
-goog.require('ol');
-goog.require('ol.Object');
-goog.require('ol.math');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.Object');
+ol.require('ol.math');
+ol.require('ol.obj');
 
 
 /**

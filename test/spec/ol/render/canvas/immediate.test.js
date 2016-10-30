@@ -1,20 +1,20 @@
-goog.provide('ol.test.render.canvas.Immediate');
+ol.provide('ol.test.render.canvas.Immediate');
 
-goog.require('ol.geom.Circle');
-goog.require('ol.geom.GeometryCollection');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.render.VectorContext');
-goog.require('ol.render.canvas.Immediate');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
-goog.require('ol.style.Text');
+ol.require('ol.geom.Circle');
+ol.require('ol.geom.GeometryCollection');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.render.VectorContext');
+ol.require('ol.render.canvas.Immediate');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
+ol.require('ol.style.Text');
 
 
 describe('ol.render.canvas.Immediate', function() {

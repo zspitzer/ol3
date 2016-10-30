@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.closest');
+ol.provide('ol.test.geom.flat.closest');
 
-goog.require('ol.geom.flat.closest');
+ol.require('ol.geom.flat.closest');
 
 
 describe('ol.geom.flat.closest', function() {

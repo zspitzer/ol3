@@ -1,9 +1,9 @@
-goog.provide('ol.test.geom.Polygon');
+ol.provide('ol.test.geom.Polygon');
 
-goog.require('ol.extent');
-goog.require('ol.geom.Circle');
-goog.require('ol.geom.LinearRing');
-goog.require('ol.geom.Polygon');
+ol.require('ol.extent');
+ol.require('ol.geom.Circle');
+ol.require('ol.geom.LinearRing');
+ol.require('ol.geom.Polygon');
 
 
 describe('ol.geom.Polygon', function() {

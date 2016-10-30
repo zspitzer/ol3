@@ -1,8 +1,8 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.OSM');
-goog.require('ol.source.TileArcGISRest');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.OSM');
+ol.require('ol.source.TileArcGISRest');
 
 var url = 'https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/' +
     'Specialty/ESRI_StateCityHighway_USA/MapServer';

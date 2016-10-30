@@ -1,6 +1,6 @@
-goog.provide('ol.test.webgl.Buffer');
+ol.provide('ol.test.webgl.Buffer');
 
-goog.require('ol.webgl.Buffer');
+ol.require('ol.webgl.Buffer');
 
 
 describe('ol.webgl.Buffer', function() {

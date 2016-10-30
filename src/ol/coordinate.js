@@ -1,7 +1,7 @@
-goog.provide('ol.coordinate');
+ol.provide('ol.coordinate');
 
-goog.require('ol.math');
-goog.require('ol.string');
+ol.require('ol.math');
+ol.require('ol.string');
 
 
 /**

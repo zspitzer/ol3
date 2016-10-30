@@ -1,7 +1,7 @@
-goog.provide('ol.math');
+ol.provide('ol.math');
 
-goog.require('ol');
-goog.require('ol.asserts');
+ol.require('ol');
+ol.require('ol.asserts');
 
 
 /**

@@ -1,11 +1,11 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.control.ScaleLine');
-goog.require('ol.layer.Image');
-goog.require('ol.proj');
-goog.require('ol.proj.Projection');
-goog.require('ol.source.ImageWMS');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control');
+ol.require('ol.control.ScaleLine');
+ol.require('ol.layer.Image');
+ol.require('ol.proj');
+ol.require('ol.proj.Projection');
+ol.require('ol.source.ImageWMS');
 
 
 // Transparent Proj4js support:

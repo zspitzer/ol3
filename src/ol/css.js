@@ -1,4 +1,4 @@
-goog.provide('ol.css');
+ol.provide('ol.css');
 
 
 /**

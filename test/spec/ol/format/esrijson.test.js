@@ -1,16 +1,16 @@
-goog.provide('ol.test.reader.EsriJSON');
+ol.provide('ol.test.reader.EsriJSON');
 
-goog.require('ol.Feature');
-goog.require('ol.extent');
-goog.require('ol.format.EsriJSON');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.LinearRing');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.proj');
+ol.require('ol.Feature');
+ol.require('ol.extent');
+ol.require('ol.format.EsriJSON');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.LinearRing');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.proj');
 
 
 describe('ol.format.EsriJSON', function() {

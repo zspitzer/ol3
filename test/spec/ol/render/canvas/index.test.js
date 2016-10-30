@@ -1,6 +1,6 @@
-goog.provide('ol.test.render.canvas');
+ol.provide('ol.test.render.canvas');
 
-goog.require('ol.render.canvas');
+ol.require('ol.render.canvas');
 
 
 describe('ol.render.canvas', function() {

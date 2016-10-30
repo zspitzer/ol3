@@ -1,6 +1,6 @@
-goog.provide('ol.test.control.Rotate');
+ol.provide('ol.test.control.Rotate');
 
-goog.require('ol.control.Rotate');
+ol.require('ol.control.Rotate');
 
 describe('ol.control.Rotate', function() {
 

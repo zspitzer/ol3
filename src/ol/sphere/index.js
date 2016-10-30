@@ -5,9 +5,9 @@
  * Licensed under CC-BY-3.0.
  */
 
-goog.provide('ol.Sphere');
+ol.provide('ol.Sphere');
 
-goog.require('ol.math');
+ol.require('ol.math');
 
 
 /**

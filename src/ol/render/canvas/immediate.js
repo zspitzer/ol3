@@ -2,19 +2,19 @@
 // FIXME need to handle large thick features (where pixel size matters)
 // FIXME add offset and end to ol.geom.flat.transform.transform2D?
 
-goog.provide('ol.render.canvas.Immediate');
+ol.provide('ol.render.canvas.Immediate');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.colorlike');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.SimpleGeometry');
-goog.require('ol.geom.flat.transform');
-goog.require('ol.has');
-goog.require('ol.render.VectorContext');
-goog.require('ol.render.canvas');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.colorlike');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.SimpleGeometry');
+ol.require('ol.geom.flat.transform');
+ol.require('ol.has');
+ol.require('ol.render.VectorContext');
+ol.require('ol.render.canvas');
+ol.require('ol.transform');
 
 
 /**

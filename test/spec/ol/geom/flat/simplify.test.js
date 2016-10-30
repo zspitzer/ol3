@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.simplify');
+ol.provide('ol.test.geom.simplify');
 
-goog.require('ol.geom.flat.simplify');
+ol.require('ol.geom.flat.simplify');
 
 
 describe('ol.geom.flat.simplify', function() {

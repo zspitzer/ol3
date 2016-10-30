@@ -1,6 +1,6 @@
-goog.provide('ol.test.control.Zoom');
+ol.provide('ol.test.control.Zoom');
 
-goog.require('ol.control.Zoom');
+ol.require('ol.control.Zoom');
 
 describe('ol.control.Zoom', function() {
 

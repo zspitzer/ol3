@@ -1,10 +1,10 @@
-goog.provide('ol.source.Source');
+ol.provide('ol.source.Source');
 
-goog.require('ol');
-goog.require('ol.Attribution');
-goog.require('ol.Object');
-goog.require('ol.proj');
-goog.require('ol.source.State');
+ol.require('ol');
+ol.require('ol.Attribution');
+ol.require('ol.Object');
+ol.require('ol.proj');
+ol.require('ol.source.State');
 
 
 /**

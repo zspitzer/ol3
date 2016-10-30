@@ -1,7 +1,7 @@
-goog.provide('ol.format.filter.Not');
+ol.provide('ol.format.filter.Not');
 
-goog.require('ol');
-goog.require('ol.format.filter.Logical');
+ol.require('ol');
+ol.require('ol.format.filter.Logical');
 
 
 /**

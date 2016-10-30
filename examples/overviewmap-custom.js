@@ -1,11 +1,11 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control');
-goog.require('ol.control.OverviewMap');
-goog.require('ol.interaction');
-goog.require('ol.interaction.DragRotateAndZoom');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.OSM');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control');
+ol.require('ol.control.OverviewMap');
+ol.require('ol.interaction');
+ol.require('ol.interaction.DragRotateAndZoom');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.OSM');
 
 
 var overviewMapControl = new ol.control.OverviewMap({

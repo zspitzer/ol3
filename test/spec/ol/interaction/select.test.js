@@ -1,17 +1,17 @@
-goog.provide('ol.test.interaction.Select');
+ol.provide('ol.test.interaction.Select');
 
-goog.require('ol.Collection');
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.MapBrowserEvent');
-goog.require('ol.MapBrowserPointerEvent');
-goog.require('ol.View');
-goog.require('ol.geom.Polygon');
-goog.require('ol.interaction.Interaction');
-goog.require('ol.interaction.Select');
-goog.require('ol.layer.Vector');
-goog.require('ol.pointer.PointerEvent');
-goog.require('ol.source.Vector');
+ol.require('ol.Collection');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.MapBrowserEvent');
+ol.require('ol.MapBrowserPointerEvent');
+ol.require('ol.View');
+ol.require('ol.geom.Polygon');
+ol.require('ol.interaction.Interaction');
+ol.require('ol.interaction.Select');
+ol.require('ol.layer.Vector');
+ol.require('ol.pointer.PointerEvent');
+ol.require('ol.source.Vector');
 
 
 describe('ol.interaction.Select', function() {

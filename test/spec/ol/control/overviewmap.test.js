@@ -1,9 +1,9 @@
-goog.provide('ol.test.control.OverviewMap');
+ol.provide('ol.test.control.OverviewMap');
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.control.Control');
-goog.require('ol.control.OverviewMap');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.control.Control');
+ol.require('ol.control.OverviewMap');
 
 describe('ol.control.OverviewMap', function() {
   var map, target;

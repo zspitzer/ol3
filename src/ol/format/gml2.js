@@ -1,11 +1,11 @@
-goog.provide('ol.format.GML2');
+ol.provide('ol.format.GML2');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.format.GMLBase');
-goog.require('ol.format.XSD');
-goog.require('ol.proj');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.format.GMLBase');
+ol.require('ol.format.XSD');
+ol.require('ol.proj');
+ol.require('ol.xml');
 
 
 /**

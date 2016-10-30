@@ -1,6 +1,6 @@
-goog.provide('ol.test.render.Feature');
+ol.provide('ol.test.render.Feature');
 
-goog.require('ol.render.Feature');
+ol.require('ol.render.Feature');
 
 
 describe('ol.render.Feature', function() {

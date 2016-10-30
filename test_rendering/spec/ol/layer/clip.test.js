@@ -1,12 +1,12 @@
-goog.provide('layer clipping');
+ol.provide('layer clipping');
 
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.XYZ');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.XYZ');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
 
 
 describe('layer clipping', function() {

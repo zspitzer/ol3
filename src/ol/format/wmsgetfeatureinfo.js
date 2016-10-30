@@ -1,11 +1,11 @@
-goog.provide('ol.format.WMSGetFeatureInfo');
+ol.provide('ol.format.WMSGetFeatureInfo');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.format.GML2');
-goog.require('ol.format.XMLFeature');
-goog.require('ol.obj');
-goog.require('ol.xml');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.format.GML2');
+ol.require('ol.format.XMLFeature');
+ol.require('ol.obj');
+ol.require('ol.xml');
 
 
 /**

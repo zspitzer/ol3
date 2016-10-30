@@ -1,10 +1,10 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.format.KML');
-goog.require('ol.layer.Heatmap');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.Stamen');
-goog.require('ol.source.Vector');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.format.KML');
+ol.require('ol.layer.Heatmap');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.Stamen');
+ol.require('ol.source.Vector');
 
 var blur = document.getElementById('blur');
 var radius = document.getElementById('radius');

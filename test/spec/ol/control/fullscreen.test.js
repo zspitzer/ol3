@@ -1,6 +1,6 @@
-goog.provide('ol.test.control.FullScreen');
+ol.provide('ol.test.control.FullScreen');
 
-goog.require('ol.control.FullScreen');
+ol.require('ol.control.FullScreen');
 
 describe('ol.control.FullScreen', function() {
 

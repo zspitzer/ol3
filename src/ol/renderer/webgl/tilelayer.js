@@ -1,20 +1,20 @@
 // FIXME large resolutions lead to too large framebuffers :-(
 // FIXME animated shaders! check in redraw
 
-goog.provide('ol.renderer.webgl.TileLayer');
+ol.provide('ol.renderer.webgl.TileLayer');
 
-goog.require('ol');
-goog.require('ol.Tile');
-goog.require('ol.TileRange');
-goog.require('ol.array');
-goog.require('ol.extent');
-goog.require('ol.math');
-goog.require('ol.renderer.webgl.Layer');
-goog.require('ol.renderer.webgl.tilelayershader');
-goog.require('ol.size');
-goog.require('ol.transform');
-goog.require('ol.webgl');
-goog.require('ol.webgl.Buffer');
+ol.require('ol');
+ol.require('ol.Tile');
+ol.require('ol.TileRange');
+ol.require('ol.array');
+ol.require('ol.extent');
+ol.require('ol.math');
+ol.require('ol.renderer.webgl.Layer');
+ol.require('ol.renderer.webgl.tilelayershader');
+ol.require('ol.size');
+ol.require('ol.transform');
+ol.require('ol.webgl');
+ol.require('ol.webgl.Buffer');
 
 
 /**

@@ -1,13 +1,13 @@
-goog.provide('ol.test.rendering.style.Icon');
+ol.provide('ol.test.rendering.style.Icon');
 
-goog.require('ol.Feature');
-goog.require('ol.geom.Point');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Icon');
-goog.require('ol.style.Style');
+ol.require('ol.Feature');
+ol.require('ol.geom.Point');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Icon');
+ol.require('ol.style.Style');
 
 
 describe('ol.rendering.style.Icon', function() {

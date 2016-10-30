@@ -1,10 +1,10 @@
-goog.provide('ol.control.ZoomToExtent');
+ol.provide('ol.control.ZoomToExtent');
 
-goog.require('ol');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.control.Control');
-goog.require('ol.css');
+ol.require('ol');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.control.Control');
+ol.require('ol.css');
 
 
 /**

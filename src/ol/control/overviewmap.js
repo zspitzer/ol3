@@ -1,20 +1,20 @@
-goog.provide('ol.control.OverviewMap');
+ol.provide('ol.control.OverviewMap');
 
-goog.require('ol');
-goog.require('ol.Collection');
-goog.require('ol.Map');
-goog.require('ol.MapEvent');
-goog.require('ol.Object');
-goog.require('ol.ObjectEventType');
-goog.require('ol.Overlay');
-goog.require('ol.View');
-goog.require('ol.control.Control');
-goog.require('ol.coordinate');
-goog.require('ol.css');
-goog.require('ol.dom');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
+ol.require('ol');
+ol.require('ol.Collection');
+ol.require('ol.Map');
+ol.require('ol.MapEvent');
+ol.require('ol.Object');
+ol.require('ol.ObjectEventType');
+ol.require('ol.Overlay');
+ol.require('ol.View');
+ol.require('ol.control.Control');
+ol.require('ol.coordinate');
+ol.require('ol.css');
+ol.require('ol.dom');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
 
 
 /**

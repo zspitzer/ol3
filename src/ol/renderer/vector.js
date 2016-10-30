@@ -1,8 +1,8 @@
-goog.provide('ol.renderer.vector');
+ol.provide('ol.renderer.vector');
 
-goog.require('ol');
-goog.require('ol.Image');
-goog.require('ol.render.ReplayType');
+ol.require('ol');
+ol.require('ol.Image');
+ol.require('ol.render.ReplayType');
 
 
 /**

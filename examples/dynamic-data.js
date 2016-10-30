@@ -1,13 +1,13 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.Point');
-goog.require('ol.layer.Tile');
-goog.require('ol.source.OSM');
-goog.require('ol.style.Circle');
-goog.require('ol.style.Fill');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.Point');
+ol.require('ol.layer.Tile');
+ol.require('ol.source.OSM');
+ol.require('ol.style.Circle');
+ol.require('ol.style.Fill');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
 
 
 var map = new ol.Map({

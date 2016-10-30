@@ -1,20 +1,20 @@
-goog.provide('ol.test.renderer.canvas.VectorTileLayer');
+ol.provide('ol.test.renderer.canvas.VectorTileLayer');
 
-goog.require('ol');
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.VectorTile');
-goog.require('ol.View');
-goog.require('ol.format.MVT');
-goog.require('ol.geom.Point');
-goog.require('ol.layer.VectorTile');
-goog.require('ol.proj');
-goog.require('ol.proj.Projection');
-goog.require('ol.renderer.canvas.VectorTileLayer');
-goog.require('ol.source.VectorTile');
-goog.require('ol.style.Style');
-goog.require('ol.style.Text');
-goog.require('ol.tilegrid');
+ol.require('ol');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.VectorTile');
+ol.require('ol.View');
+ol.require('ol.format.MVT');
+ol.require('ol.geom.Point');
+ol.require('ol.layer.VectorTile');
+ol.require('ol.proj');
+ol.require('ol.proj.Projection');
+ol.require('ol.renderer.canvas.VectorTileLayer');
+ol.require('ol.source.VectorTile');
+ol.require('ol.style.Style');
+ol.require('ol.style.Text');
+ol.require('ol.tilegrid');
 
 
 describe('ol.renderer.canvas.VectorTileLayer', function() {

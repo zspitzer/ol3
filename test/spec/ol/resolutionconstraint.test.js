@@ -1,6 +1,6 @@
-goog.provide('ol.test.ResolutionConstraint');
+ol.provide('ol.test.ResolutionConstraint');
 
-goog.require('ol.ResolutionConstraint');
+ol.require('ol.ResolutionConstraint');
 
 
 describe('ol.ResolutionConstraint', function() {

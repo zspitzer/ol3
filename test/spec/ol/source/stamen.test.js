@@ -1,6 +1,6 @@
-goog.provide('ol.test.source.Stamen');
+ol.provide('ol.test.source.Stamen');
 
-goog.require('ol.source.Stamen');
+ol.require('ol.source.Stamen');
 
 
 describe('ol.source.Stamen', function() {

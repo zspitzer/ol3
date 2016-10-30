@@ -1,11 +1,11 @@
-goog.provide('ol.test.interaction.DragAndDrop');
+ol.provide('ol.test.interaction.DragAndDrop');
 
-goog.require('ol');
-goog.require('ol.View');
-goog.require('ol.events.Event');
-goog.require('ol.events.EventTarget');
-goog.require('ol.format.GeoJSON');
-goog.require('ol.interaction.DragAndDrop');
+ol.require('ol');
+ol.require('ol.View');
+ol.require('ol.events.Event');
+ol.require('ol.events.EventTarget');
+ol.require('ol.format.GeoJSON');
+ol.require('ol.interaction.DragAndDrop');
 
 
 describe('ol.interaction.DragAndDrop', function() {

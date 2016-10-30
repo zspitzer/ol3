@@ -1,12 +1,12 @@
-goog.provide('ol.geom.Point');
+ol.provide('ol.geom.Point');
 
-goog.require('ol');
-goog.require('ol.extent');
-goog.require('ol.geom.GeometryLayout');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.SimpleGeometry');
-goog.require('ol.geom.flat.deflate');
-goog.require('ol.math');
+ol.require('ol');
+ol.require('ol.extent');
+ol.require('ol.geom.GeometryLayout');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.SimpleGeometry');
+ol.require('ol.geom.flat.deflate');
+ol.require('ol.math');
 
 
 /**

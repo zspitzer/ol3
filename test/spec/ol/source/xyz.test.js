@@ -1,10 +1,10 @@
-goog.provide('ol.test.source.XYZ');
+ol.provide('ol.test.source.XYZ');
 
-goog.require('ol.source.Tile');
-goog.require('ol.source.TileImage');
-goog.require('ol.source.UrlTile');
-goog.require('ol.source.XYZ');
-goog.require('ol.tilegrid');
+ol.require('ol.source.Tile');
+ol.require('ol.source.TileImage');
+ol.require('ol.source.UrlTile');
+ol.require('ol.source.XYZ');
+ol.require('ol.tilegrid');
 
 
 describe('ol.source.XYZ', function() {

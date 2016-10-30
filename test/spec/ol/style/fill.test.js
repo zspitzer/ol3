@@ -1,6 +1,6 @@
-goog.provide('ol.test.style.Fill');
+ol.provide('ol.test.style.Fill');
 
-goog.require('ol.style.Fill');
+ol.require('ol.style.Fill');
 
 describe('ol.style.Fill', function() {
 

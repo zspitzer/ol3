@@ -1,10 +1,10 @@
-goog.provide('ol.test.reproj.Tile');
+ol.provide('ol.test.reproj.Tile');
 
-goog.require('ol.ImageTile');
-goog.require('ol.events');
-goog.require('ol.proj');
-goog.require('ol.reproj.Tile');
-goog.require('ol.tilegrid');
+ol.require('ol.ImageTile');
+ol.require('ol.events');
+ol.require('ol.proj');
+ol.require('ol.reproj.Tile');
+ol.require('ol.tilegrid');
 
 
 describe('ol.reproj.Tile', function() {

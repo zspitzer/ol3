@@ -1,6 +1,6 @@
-goog.provide('ol.format.GML');
+ol.provide('ol.format.GML');
 
-goog.require('ol.format.GML3');
+ol.require('ol.format.GML3');
 
 
 /**

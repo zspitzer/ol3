@@ -1,14 +1,14 @@
-goog.provide('ol.source.WMTS');
+ol.provide('ol.source.WMTS');
 
-goog.require('ol');
-goog.require('ol.TileUrlFunction');
-goog.require('ol.array');
-goog.require('ol.extent');
-goog.require('ol.obj');
-goog.require('ol.proj');
-goog.require('ol.source.TileImage');
-goog.require('ol.tilegrid.WMTS');
-goog.require('ol.uri');
+ol.require('ol');
+ol.require('ol.TileUrlFunction');
+ol.require('ol.array');
+ol.require('ol.extent');
+ol.require('ol.obj');
+ol.require('ol.proj');
+ol.require('ol.source.TileImage');
+ol.require('ol.tilegrid.WMTS');
+ol.require('ol.uri');
 
 
 /**

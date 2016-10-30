@@ -1,8 +1,8 @@
-goog.provide('ol.ImageCanvas');
+ol.provide('ol.ImageCanvas');
 
-goog.require('ol');
-goog.require('ol.Image');
-goog.require('ol.ImageBase');
+ol.require('ol');
+ol.require('ol.Image');
+ol.require('ol.ImageBase');
 
 
 /**

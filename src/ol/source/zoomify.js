@@ -1,13 +1,13 @@
-goog.provide('ol.source.Zoomify');
+ol.provide('ol.source.Zoomify');
 
-goog.require('ol');
-goog.require('ol.ImageTile');
-goog.require('ol.Tile');
-goog.require('ol.asserts');
-goog.require('ol.dom');
-goog.require('ol.extent');
-goog.require('ol.source.TileImage');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol');
+ol.require('ol.ImageTile');
+ol.require('ol.Tile');
+ol.require('ol.asserts');
+ol.require('ol.dom');
+ol.require('ol.extent');
+ol.require('ol.source.TileImage');
+ol.require('ol.tilegrid.TileGrid');
 
 
 /**

@@ -1,10 +1,10 @@
 // FIXME add rotation
 
-goog.provide('ol.render.Box');
+ol.provide('ol.render.Box');
 
-goog.require('ol');
-goog.require('ol.Disposable');
-goog.require('ol.geom.Polygon');
+ol.require('ol');
+ol.require('ol.Disposable');
+ol.require('ol.geom.Polygon');
 
 
 /**

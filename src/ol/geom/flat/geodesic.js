@@ -1,8 +1,8 @@
-goog.provide('ol.geom.flat.geodesic');
+ol.provide('ol.geom.flat.geodesic');
 
-goog.require('ol');
-goog.require('ol.math');
-goog.require('ol.proj');
+ol.require('ol');
+ol.require('ol.math');
+ol.require('ol.proj');
 
 
 /**

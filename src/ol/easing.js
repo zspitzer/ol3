@@ -1,4 +1,4 @@
-goog.provide('ol.easing');
+ol.provide('ol.easing');
 
 
 /**

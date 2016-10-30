@@ -1,17 +1,17 @@
 // FIXME find correct globalCompositeOperation
 
-goog.provide('ol.renderer.canvas.TileLayer');
+ol.provide('ol.renderer.canvas.TileLayer');
 
-goog.require('ol');
-goog.require('ol.transform');
-goog.require('ol.TileRange');
-goog.require('ol.Tile');
-goog.require('ol.array');
-goog.require('ol.dom');
-goog.require('ol.extent');
-goog.require('ol.render.canvas');
-goog.require('ol.render.Event');
-goog.require('ol.renderer.canvas.Layer');
+ol.require('ol');
+ol.require('ol.transform');
+ol.require('ol.TileRange');
+ol.require('ol.Tile');
+ol.require('ol.array');
+ol.require('ol.dom');
+ol.require('ol.extent');
+ol.require('ol.render.canvas');
+ol.require('ol.render.Event');
+ol.require('ol.renderer.canvas.Layer');
 
 
 /**

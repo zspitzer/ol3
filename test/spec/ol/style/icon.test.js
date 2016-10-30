@@ -1,9 +1,9 @@
-goog.provide('ol.test.style.Icon');
+ol.provide('ol.test.style.Icon');
 
-goog.require('ol');
-goog.require('ol.style');
-goog.require('ol.style.Icon');
-goog.require('ol.style.IconImage');
+ol.require('ol');
+ol.require('ol.style');
+ol.require('ol.style.Icon');
+ol.require('ol.style.IconImage');
 
 
 describe('ol.style.Icon', function() {

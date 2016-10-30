@@ -1,6 +1,6 @@
-goog.provide('ol.AssertionError');
+ol.provide('ol.AssertionError');
 
-goog.require('ol');
+ol.require('ol');
 
 /**
  * Error object thrown when an assertion failed. This is an ECMA-262 Error,

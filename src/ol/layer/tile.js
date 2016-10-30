@@ -1,8 +1,8 @@
-goog.provide('ol.layer.Tile');
+ol.provide('ol.layer.Tile');
 
-goog.require('ol');
-goog.require('ol.layer.Layer');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.layer.Layer');
+ol.require('ol.obj');
 
 
 /**

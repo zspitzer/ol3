@@ -1,7 +1,7 @@
-goog.provide('ol.test.Observable');
+ol.provide('ol.test.Observable');
 
-goog.require('ol.events.EventTarget');
-goog.require('ol.Observable');
+ol.require('ol.events.EventTarget');
+ol.require('ol.Observable');
 
 
 describe('ol.Observable', function() {

@@ -1,4 +1,4 @@
-goog.provide('ol.webgl');
+ol.provide('ol.webgl');
 
 
 /** Constants taken from goog.webgl

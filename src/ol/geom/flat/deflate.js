@@ -1,6 +1,6 @@
-goog.provide('ol.geom.flat.deflate');
+ol.provide('ol.geom.flat.deflate');
 
-goog.require('ol');
+ol.require('ol');
 
 
 /**

@@ -1,6 +1,6 @@
-goog.provide('ol.test.LRUCache');
+ol.provide('ol.test.LRUCache');
 
-goog.require('ol.structs.LRUCache');
+ol.require('ol.structs.LRUCache');
 
 
 describe('ol.structs.LRUCache', function() {

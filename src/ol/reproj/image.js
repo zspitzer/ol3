@@ -1,13 +1,13 @@
-goog.provide('ol.reproj.Image');
+ol.provide('ol.reproj.Image');
 
-goog.require('ol');
-goog.require('ol.Image');
-goog.require('ol.ImageBase');
-goog.require('ol.events');
-goog.require('ol.events.EventType');
-goog.require('ol.extent');
-goog.require('ol.reproj');
-goog.require('ol.reproj.Triangulation');
+ol.require('ol');
+ol.require('ol.Image');
+ol.require('ol.ImageBase');
+ol.require('ol.events');
+ol.require('ol.events.EventType');
+ol.require('ol.extent');
+ol.require('ol.reproj');
+ol.require('ol.reproj.Triangulation');
 
 
 /**

@@ -1,6 +1,6 @@
-goog.provide('ol.test.format.WMSCapabilities');
+ol.provide('ol.test.format.WMSCapabilities');
 
-goog.require('ol.format.WMSCapabilities');
+ol.require('ol.format.WMSCapabilities');
 
 describe('ol.format.WMSCapabilities', function() {
 

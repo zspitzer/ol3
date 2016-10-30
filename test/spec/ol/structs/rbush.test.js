@@ -1,6 +1,6 @@
-goog.provide('ol.test.structs.RBush');
+ol.provide('ol.test.structs.RBush');
 
-goog.require('ol.structs.RBush');
+ol.require('ol.structs.RBush');
 
 
 describe('ol.structs.RBush', function() {

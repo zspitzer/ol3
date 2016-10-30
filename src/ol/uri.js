@@ -1,4 +1,4 @@
-goog.provide('ol.uri');
+ol.provide('ol.uri');
 
 
 /**

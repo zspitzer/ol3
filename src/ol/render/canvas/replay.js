@@ -1,17 +1,17 @@
-goog.provide('ol.render.canvas.Replay');
+ol.provide('ol.render.canvas.Replay');
 
-goog.require('ol');
-goog.require('ol.array');
-goog.require('ol.colorlike');
-goog.require('ol.extent');
-goog.require('ol.extent.Relationship');
-goog.require('ol.geom.flat.transform');
-goog.require('ol.has');
-goog.require('ol.obj');
-goog.require('ol.render.VectorContext');
-goog.require('ol.render.canvas');
-goog.require('ol.render.canvas.Instruction');
-goog.require('ol.transform');
+ol.require('ol');
+ol.require('ol.array');
+ol.require('ol.colorlike');
+ol.require('ol.extent');
+ol.require('ol.extent.Relationship');
+ol.require('ol.geom.flat.transform');
+ol.require('ol.has');
+ol.require('ol.obj');
+ol.require('ol.render.VectorContext');
+ol.require('ol.render.canvas');
+ol.require('ol.render.canvas.Instruction');
+ol.require('ol.transform');
 
 
 /**

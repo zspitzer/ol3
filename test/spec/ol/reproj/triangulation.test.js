@@ -1,7 +1,7 @@
-goog.provide('ol.test.reproj.Triangulation');
+ol.provide('ol.test.reproj.Triangulation');
 
-goog.require('ol.proj');
-goog.require('ol.reproj.Triangulation');
+ol.require('ol.proj');
+ol.require('ol.reproj.Triangulation');
 
 
 describe('ol.reproj.Triangulation', function() {

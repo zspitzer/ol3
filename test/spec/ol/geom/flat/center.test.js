@@ -1,7 +1,7 @@
-goog.provide('ol.test.geom.flat.center');
+ol.provide('ol.test.geom.flat.center');
 
-goog.require('ol.geom.flat.center');
-goog.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.flat.center');
+ol.require('ol.geom.MultiPolygon');
 
 
 describe('ol.geom.flat.center', function() {

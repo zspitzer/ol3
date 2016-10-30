@@ -1,10 +1,10 @@
-goog.provide('ol.control');
+ol.provide('ol.control');
 
-goog.require('ol');
-goog.require('ol.Collection');
-goog.require('ol.control.Attribution');
-goog.require('ol.control.Rotate');
-goog.require('ol.control.Zoom');
+ol.require('ol');
+ol.require('ol.Collection');
+ol.require('ol.control.Attribution');
+ol.require('ol.control.Rotate');
+ol.require('ol.control.Zoom');
 
 
 /**

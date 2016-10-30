@@ -1,9 +1,9 @@
-goog.provide('ol.test.format.Polyline');
+ol.provide('ol.test.format.Polyline');
 
-goog.require('ol.Feature');
-goog.require('ol.format.Polyline');
-goog.require('ol.geom.LineString');
-goog.require('ol.proj');
+ol.require('ol.Feature');
+ol.require('ol.format.Polyline');
+ol.require('ol.geom.LineString');
+ol.require('ol.proj');
 
 describe('ol.format.Polyline', function() {
 

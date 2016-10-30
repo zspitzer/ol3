@@ -1,4 +1,4 @@
-goog.require('ol.format.WMSGetFeatureInfo');
+ol.require('ol.format.WMSGetFeatureInfo');
 
 fetch('data/wmsgetfeatureinfo/osm-restaurant-hotel.xml').then(function(response) {
   return response.text();

@@ -1,19 +1,19 @@
 // FIXME should possibly show tooltip when dragging?
 
-goog.provide('ol.control.ZoomSlider');
+ol.provide('ol.control.ZoomSlider');
 
-goog.require('ol');
-goog.require('ol.View');
-goog.require('ol.animation');
-goog.require('ol.control.Control');
-goog.require('ol.css');
-goog.require('ol.easing');
-goog.require('ol.events');
-goog.require('ol.events.Event');
-goog.require('ol.events.EventType');
-goog.require('ol.math');
-goog.require('ol.pointer.EventType');
-goog.require('ol.pointer.PointerEventHandler');
+ol.require('ol');
+ol.require('ol.View');
+ol.require('ol.animation');
+ol.require('ol.control.Control');
+ol.require('ol.css');
+ol.require('ol.easing');
+ol.require('ol.events');
+ol.require('ol.events.Event');
+ol.require('ol.events.EventType');
+ol.require('ol.math');
+ol.require('ol.pointer.EventType');
+ol.require('ol.pointer.PointerEventHandler');
 
 
 /**

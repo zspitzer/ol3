@@ -1,8 +1,8 @@
-goog.provide('ol.proj.common');
+ol.provide('ol.proj.common');
 
-goog.require('ol.proj');
-goog.require('ol.proj.EPSG3857');
-goog.require('ol.proj.EPSG4326');
+ol.require('ol.proj');
+ol.require('ol.proj.EPSG3857');
+ol.require('ol.proj.EPSG4326');
 
 
 /**

@@ -1,7 +1,7 @@
-goog.provide('ol.test.control.Control');
+ol.provide('ol.test.control.Control');
 
-goog.require('ol.Map');
-goog.require('ol.control.Control');
+ol.require('ol.Map');
+ol.require('ol.control.Control');
 
 describe('ol.control.Control', function() {
   var map, control;

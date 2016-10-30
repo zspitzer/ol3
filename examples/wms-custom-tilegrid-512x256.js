@@ -1,11 +1,11 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.extent');
-goog.require('ol.layer.Tile');
-goog.require('ol.proj');
-goog.require('ol.source.OSM');
-goog.require('ol.source.TileWMS');
-goog.require('ol.tilegrid.TileGrid');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.extent');
+ol.require('ol.layer.Tile');
+ol.require('ol.proj');
+ol.require('ol.source.OSM');
+ol.require('ol.source.TileWMS');
+ol.require('ol.tilegrid.TileGrid');
 
 
 var projExtent = ol.proj.get('EPSG:3857').getExtent();

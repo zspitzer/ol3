@@ -1,6 +1,6 @@
-goog.provide('ol.RotationConstraint');
+ol.provide('ol.RotationConstraint');
 
-goog.require('ol.math');
+ol.require('ol.math');
 
 
 /**

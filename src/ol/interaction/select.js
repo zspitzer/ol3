@@ -1,18 +1,18 @@
-goog.provide('ol.interaction.Select');
+ol.provide('ol.interaction.Select');
 
-goog.require('ol');
-goog.require('ol.functions');
-goog.require('ol.Collection');
-goog.require('ol.array');
-goog.require('ol.events');
-goog.require('ol.events.Event');
-goog.require('ol.events.condition');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.interaction.Interaction');
-goog.require('ol.layer.Vector');
-goog.require('ol.obj');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Style');
+ol.require('ol');
+ol.require('ol.functions');
+ol.require('ol.Collection');
+ol.require('ol.array');
+ol.require('ol.events');
+ol.require('ol.events.Event');
+ol.require('ol.events.condition');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.interaction.Interaction');
+ol.require('ol.layer.Vector');
+ol.require('ol.obj');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Style');
 
 
 /**

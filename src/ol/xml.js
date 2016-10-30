@@ -1,7 +1,7 @@
-goog.provide('ol.xml');
+ol.provide('ol.xml');
 
-goog.require('ol');
-goog.require('ol.array');
+ol.require('ol');
+ol.require('ol.array');
 
 
 /**

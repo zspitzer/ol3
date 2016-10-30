@@ -1,17 +1,17 @@
-goog.provide('ol.format.WKT');
+ol.provide('ol.format.WKT');
 
-goog.require('ol');
-goog.require('ol.Feature');
-goog.require('ol.format.Feature');
-goog.require('ol.format.TextFeature');
-goog.require('ol.geom.GeometryCollection');
-goog.require('ol.geom.GeometryType');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.MultiLineString');
-goog.require('ol.geom.MultiPoint');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
+ol.require('ol');
+ol.require('ol.Feature');
+ol.require('ol.format.Feature');
+ol.require('ol.format.TextFeature');
+ol.require('ol.geom.GeometryCollection');
+ol.require('ol.geom.GeometryType');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.MultiLineString');
+ol.require('ol.geom.MultiPoint');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
 
 
 /**

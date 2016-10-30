@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.flat.segments');
+ol.provide('ol.test.geom.flat.segments');
 
-goog.require('ol.geom.flat.segments');
+ol.require('ol.geom.flat.segments');
 
 
 describe('ol.geom.flat.segments', function() {

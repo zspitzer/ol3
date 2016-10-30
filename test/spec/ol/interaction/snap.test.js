@@ -1,12 +1,12 @@
-goog.provide('ol.test.interaction.Snap');
+ol.provide('ol.test.interaction.Snap');
 
-goog.require('ol.Collection');
-goog.require('ol.Feature');
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.LineString');
-goog.require('ol.interaction.Snap');
+ol.require('ol.Collection');
+ol.require('ol.Feature');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.LineString');
+ol.require('ol.interaction.Snap');
 
 
 describe('ol.interaction.Snap', function() {

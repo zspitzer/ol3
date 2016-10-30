@@ -1,14 +1,14 @@
-goog.require('ol.Map');
-goog.require('ol.View');
-goog.require('ol.geom.Point');
-goog.require('ol.interaction.Draw');
-goog.require('ol.layer.Tile');
-goog.require('ol.layer.Vector');
-goog.require('ol.source.OSM');
-goog.require('ol.source.Vector');
-goog.require('ol.style.Icon');
-goog.require('ol.style.Stroke');
-goog.require('ol.style.Style');
+ol.require('ol.Map');
+ol.require('ol.View');
+ol.require('ol.geom.Point');
+ol.require('ol.interaction.Draw');
+ol.require('ol.layer.Tile');
+ol.require('ol.layer.Vector');
+ol.require('ol.source.OSM');
+ol.require('ol.source.Vector');
+ol.require('ol.style.Icon');
+ol.require('ol.style.Stroke');
+ol.require('ol.style.Style');
 
 var raster = new ol.layer.Tile({
   source: new ol.source.OSM()

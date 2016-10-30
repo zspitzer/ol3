@@ -1,6 +1,6 @@
-goog.provide('ol.test.geom.Circle');
+ol.provide('ol.test.geom.Circle');
 
-goog.require('ol.geom.Circle');
+ol.require('ol.geom.Circle');
 
 
 describe('ol.geom.Circle', function() {

@@ -1,7 +1,7 @@
-goog.provide('ol.test.reproj');
+ol.provide('ol.test.reproj');
 
-goog.require('ol.reproj');
-goog.require('ol.proj');
+ol.require('ol.reproj');
+ol.require('ol.proj');
 
 
 describe('ol.reproj', function() {

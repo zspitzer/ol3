@@ -1,6 +1,6 @@
-goog.provide('ol.test.XSD');
+ol.provide('ol.test.XSD');
 
-goog.require('ol.format.XSD');
+ol.require('ol.format.XSD');
 
 
 describe('ol.format.XSD', function() {

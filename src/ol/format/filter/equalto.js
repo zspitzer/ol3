@@ -1,7 +1,7 @@
-goog.provide('ol.format.filter.EqualTo');
+ol.provide('ol.format.filter.EqualTo');
 
-goog.require('ol');
-goog.require('ol.format.filter.ComparisonBinary');
+ol.require('ol');
+ol.require('ol.format.filter.ComparisonBinary');
 
 
 /**

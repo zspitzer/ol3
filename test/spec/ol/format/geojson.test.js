@@ -1,16 +1,16 @@
-goog.provide('ol.test.reader.GeoJSON');
+ol.provide('ol.test.reader.GeoJSON');
 
-goog.require('ol.Feature');
-goog.require('ol.extent');
-goog.require('ol.format.GeoJSON');
-goog.require('ol.geom.Circle');
-goog.require('ol.geom.GeometryCollection');
-goog.require('ol.geom.LineString');
-goog.require('ol.geom.LinearRing');
-goog.require('ol.geom.MultiPolygon');
-goog.require('ol.geom.Point');
-goog.require('ol.geom.Polygon');
-goog.require('ol.proj');
+ol.require('ol.Feature');
+ol.require('ol.extent');
+ol.require('ol.format.GeoJSON');
+ol.require('ol.geom.Circle');
+ol.require('ol.geom.GeometryCollection');
+ol.require('ol.geom.LineString');
+ol.require('ol.geom.LinearRing');
+ol.require('ol.geom.MultiPolygon');
+ol.require('ol.geom.Point');
+ol.require('ol.geom.Polygon');
+ol.require('ol.proj');
 
 
 describe('ol.format.GeoJSON', function() {

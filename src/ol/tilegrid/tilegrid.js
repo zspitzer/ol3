@@ -1,13 +1,13 @@
-goog.provide('ol.tilegrid.TileGrid');
+ol.provide('ol.tilegrid.TileGrid');
 
-goog.require('ol');
-goog.require('ol.asserts');
-goog.require('ol.TileRange');
-goog.require('ol.array');
-goog.require('ol.extent');
-goog.require('ol.math');
-goog.require('ol.size');
-goog.require('ol.tilecoord');
+ol.require('ol');
+ol.require('ol.asserts');
+ol.require('ol.TileRange');
+ol.require('ol.array');
+ol.require('ol.extent');
+ol.require('ol.math');
+ol.require('ol.size');
+ol.require('ol.tilecoord');
 
 
 /**

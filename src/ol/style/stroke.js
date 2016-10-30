@@ -1,6 +1,6 @@
-goog.provide('ol.style.Stroke');
+ol.provide('ol.style.Stroke');
 
-goog.require('ol');
+ol.require('ol');
 
 
 /**

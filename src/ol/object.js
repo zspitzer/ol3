@@ -1,11 +1,11 @@
-goog.provide('ol.Object');
-goog.provide('ol.ObjectEvent');
-goog.provide('ol.ObjectEventType');
+ol.provide('ol.Object');
+ol.provide('ol.ObjectEvent');
+ol.provide('ol.ObjectEventType');
 
-goog.require('ol');
-goog.require('ol.Observable');
-goog.require('ol.events.Event');
-goog.require('ol.obj');
+ol.require('ol');
+ol.require('ol.Observable');
+ol.require('ol.events.Event');
+ol.require('ol.obj');
 
 
 /**

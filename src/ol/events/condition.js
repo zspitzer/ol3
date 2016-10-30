@@ -1,9 +1,9 @@
-goog.provide('ol.events.condition');
+ol.provide('ol.events.condition');
 
-goog.require('ol.MapBrowserEvent.EventType');
-goog.require('ol.asserts');
-goog.require('ol.functions');
-goog.require('ol.has');
+ol.require('ol.MapBrowserEvent.EventType');
+ol.require('ol.asserts');
+ol.require('ol.functions');
+ol.require('ol.has');
 
 
 /**

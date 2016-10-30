@@ -1,8 +1,8 @@
-goog.provide('ol.test.renderer.Layer');
+ol.provide('ol.test.renderer.Layer');
 
-goog.require('ol.Image');
-goog.require('ol.layer.Layer');
-goog.require('ol.renderer.Layer');
+ol.require('ol.Image');
+ol.require('ol.layer.Layer');
+ol.require('ol.renderer.Layer');
 
 
 describe('ol.renderer.Layer', function() {
