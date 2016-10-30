@@ -16,8 +16,8 @@ Build configuration files are JSON files that are used to determine what should 
 **Required configuration properties**
 
   * **exports** - `Array.<string>` An array of symbol names or patterns to be exported (names that are used in your application).  For example, including `"ol.Map"` will export the map namespace including the constructor.  Method names are prefixed with `#`.  So `"ol.Map#getViewport"` will export the map's `getViewport` method.  You can use a `*` at the end to match multiple names.  The pattern `"ol.Map#*"` will export all exportable map methods.  
-   Note that only the 'exportable' names can be listed here, that is, those that are part of the supported API (see apidoc/readme.md for more details). If you want to include a property or method that is not part of the API (and be aware that these may change or be removed), you will have to specifically export these yourself, for example, with `goog.exportProperty`.  
-   Note too that the supplied observable properties together with their accessors, like `getView` in `ol.Map`, are always exported (with `goog.exportProperty` in the source). You do not have to include these, though it does not harm if you do.
+   Note that only the 'exportable' names can be listed here, that is, those that are part of the supported API (see apidoc/readme.md for more details). If you want to include a property or method that is not part of the API (and be aware that these may change or be removed), you will have to specifically export these yourself, for example, with `ol.exportProperty`.
+   Note too that the supplied observable properties together with their accessors, like `getView` in `ol.Map`, are always exported (with `ol.exportProperty` in the source). You do not have to include these, though it does not harm if you do.
    Finally, although the term 'exports' is not relevant for simple and whitespace builds, you should still list the names you use as you would with advanced. A build will be created with those classes/namespaces that contain these exported methods.
 
 **Optional configuration properties**

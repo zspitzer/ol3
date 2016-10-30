@@ -321,3 +321,36 @@ ol.require = function(name) {
     }
   }
 };
+
+
+/**
+ * Make a property value available by a known name.
+ * @param {Object} object The object.
+ * @param {string} name The property name.
+ * @param {*} value The property value.
+ */
+ol.exportProperty = function(object, name, value) {
+  object[name] = value;
+};
+
+
+/**
+ * [exportSymbol description]
+ * @param {string} name Unobfuscated name to export.
+ * @param {*} object Object the name should point to.
+ * @param {Object=} opt_target The object to add the name to (defaults to window).
+ */
+ol.exportSymbol = function(name, object, opt_target) {
+  var target = opt_target || window;
+  var parts = name.split('.');
+  for (var i = 0, ii = parts.length; i < ii; ++i) {
+    var part = parts[i];
+    if (!(part in target)) {
+      target[part] = {};
+    }
+    target = target[part];
+    if (i === ii - 1) {
+      target[part] = object;
+    }
+  }
+};

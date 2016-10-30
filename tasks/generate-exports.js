@@ -123,7 +123,7 @@ function filterSymbols(patterns, symbols, callback) {
  * @return {string} Export code.
  */
 function formatSymbolExport(name, namespace) {
-  return 'goog.exportSymbol(\n' +
+  return 'ol.exportSymbol(\n' +
       '    \'' + name + '\',\n' +
       '    ' + name +
       (namespace ? ',\n    ' + namespace : '') + ');\n';
@@ -139,7 +139,7 @@ function formatPropertyExport(name) {
   var parts = name.split('#');
   var prototype = parts[0] + '.prototype';
   var property = parts[1];
-  return 'goog.exportProperty(\n' +
+  return 'ol.exportProperty(\n' +
       '    ' + prototype + ',\n' +
       '    \'' + property + '\',\n' +
       '    ' + prototype + '.' + property + ');\n';
