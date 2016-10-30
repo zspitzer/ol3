@@ -45,7 +45,7 @@ exports.rule = {
         const parent = expression.parent;
         if (parent.type !== 'MemberExpression') {
           const name = util.getName(expression);
-          if (name && name.startsWith('ol.')) {
+          if (name && name.startsWith('ol.') && name !== 'ol.provide') {
             // check if the name looks like a const
             let match = name.match(CONST_RE);
             if (match) {
