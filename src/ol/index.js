@@ -298,14 +298,15 @@ ol.provide = function(name) {
   if (ol.DEBUG && (length < 2 || parts[0] !== 'ol')) {
     throw new Error('ol.provide only works for ol.* names');
   }
-  var object = ol;
-  for (var i = 1; i < length; ++i) {
+  var object = window;
+  for (var i = 0; i < length; ++i) {
     var property = parts[i];
     if (!object[property]) {
       object[property] = {};
     }
     object = object[property];
   }
+  ol.exportSymbol(name, object);
 };
 
 
