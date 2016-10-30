@@ -305,3 +305,17 @@ ol.provide = function(name) {
     object = object[property];
   }
 };
+
+
+/**
+ * Declare a dependency.
+ * @param {string} name A dot delimited name.
+ */
+ol.require = function(name) {
+  if (ol.DEBUG) {
+    var parts = name.split('.');
+    if (parts[0] !== 'ol') {
+      throw new Error('ol.require only works for ol.* names');
+    }
+  }
+};
