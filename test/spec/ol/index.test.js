@@ -28,13 +28,13 @@ describe('ol.provide()', function() {
   it('creates objects that do not already exist', function() {
     expect(ol._test).to.be(undefined);
 
-    ol.provide('ol._test.namespace.Foo');
+    ol.provide('ol._test.namespace.Foo'); // eslint-disable-line
     expect(ol._test.namespace).to.eql({});
     expect(ol._test.namespace.Foo).to.eql({});
 
     ol._test.namespace.Foo = {};
 
-    ol.provide('ol._test.namespace.bar.Bam');
+    ol.provide('ol._test.namespace.bar.Bam'); // eslint-disable-line
     expect(ol._test.namespace.bar).to.eql({});
     expect(ol._test.namespace.bar.Bam).to.eql({});
     expect(ol._test.namespace.Foo).to.eql({});
@@ -42,7 +42,7 @@ describe('ol.provide()', function() {
 
   it('throws for names outside the ol namespace', function() {
     var call = function() {
-      ol.provide('foo.bar.Bam');
+      ol.provide('foo.bar.Bam'); // eslint-disable-line
     };
     expect(call).to.throwException();
   });
