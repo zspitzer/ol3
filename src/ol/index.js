@@ -293,20 +293,7 @@ ol.uidCounter_ = 0;
  * @param {string} name A dot delimited name.
  */
 ol.provide = function(name) {
-  var parts = name.split('.');
-  var length = parts.length;
-  if (ol.DEBUG && (length < 2 || parts[0] !== 'ol')) {
-    throw new Error('ol.provide only works for ol.* names');
-  }
-  var object = window;
-  for (var i = 0; i < length; ++i) {
-    var property = parts[i];
-    if (!object[property]) {
-      object[property] = {};
-    }
-    object = object[property];
-  }
-  ol.exportSymbol(name, object);
+  ol.exportSymbol(name, {});
 };
 
 
