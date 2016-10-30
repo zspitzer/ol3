@@ -17,18 +17,10 @@
     "define": [
       "ol.DEBUG=false"
     ],
-    "jscomp_error": [
-      "*"
-    ],
-    "jscomp_off": [
-      "lintChecks",
-      "analyzerChecks"
-    ],
     "extra_annotation_name": [
       "api", "observable"
     ],
     "compilation_level": "ADVANCED",
-    "warning_level": "VERBOSE",
     "use_types_for_optimization": true,
     "manage_closure_dependencies": true,
     "create_source_map": "build/ol.js.map",
