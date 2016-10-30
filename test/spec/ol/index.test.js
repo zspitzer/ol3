@@ -30,11 +30,13 @@ describe('ol.provide()', function() {
 
     ol.provide('ol._test.namespace.Foo');
     expect(ol._test.namespace).to.eql({});
+    expect(ol._test.namespace.Foo).to.eql({});
 
     ol._test.namespace.Foo = {};
 
     ol.provide('ol._test.namespace.bar.Bam');
     expect(ol._test.namespace.bar).to.eql({});
+    expect(ol._test.namespace.bar.Bam).to.eql({});
     expect(ol._test.namespace.Foo).to.eql({});
   });
 
